@@ -21,8 +21,9 @@ from django.views.generic import RedirectView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/', include('accounts.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
     path('gimkana/', include('gimkana.urls')),
     path('', RedirectView.as_view(url='/gimkana/', permanent=True)),
-    path('accounts/', include('django.contrib.auth.urls')),
 ]
 urlpatterns+= static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
