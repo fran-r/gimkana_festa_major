@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>Lista de usuarios</h1>
+
+    {% if usertest_list %}
+    <ul>
+
+      {% for usertest in usertest_list %}
+      <li>
+        <a href="{{ usertest.get_absolute_url }}">{{ usertest.name }}</a> ({{usertest.email}})
+      </li>
+      {% endfor %}
+
+    </ul>
+    {% else %}
+      <p>Aún no hay usuarios.</p>
+    {% endif %} 
+{% endblock %}

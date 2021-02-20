@@ -1,0 +1,19 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Gimkana FreeStayl</h1>
+
+  <p>Bienvenid@ a la <em>Gimkana FreeStayl</em> de la Festa Major de la Prospe.</p>
+  <p>¡Sigue las pistas y escanea tantos QRs como puedas!</p>
+
+<h2>Dynamic content</h2>
+
+  <p>Actualmente tenemos:</p>
+  <ul>
+    <li><strong>Usuarios:</strong> {{ num_users }}</li>
+    <li><strong>QRs:</strong> {{ num_qrs }}</li>
+  </ul>
+
+  <p>Has visitado esta página {{ num_visits }}{% if num_visits == 1 %} vez{% else %} veces{% endif %}.</p>
+
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>QR: {{ qr.name }}</h1>
+
+  <p><strong>Id:</strong> {{ qr.id }}</p>
+  <p><strong>Name:</strong> {{ qr.name }}</p>
+  <p><strong>Descripción:</strong> {{ qr.description }}</p>
+  <p><strong>Ayuda:</strong> {{ qr.hint }}</p>
+{% endblock %}
