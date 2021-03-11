@@ -14,8 +14,9 @@ QR_STATUS = (
 
 
 class QrScan(models.Model):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4,
-                          help_text="Unique ID for this particular QR scan")
+    id = models.TextField(primary_key=True)
+    #id = models.UUIDField(primary_key=True, default=uuid.uuid4,
+    #                      help_text="Unique ID for this particular QR scan")
     qr = models.ForeignKey(Qr, on_delete=models.RESTRICT)
     scan_date = models.DateField(null=True, blank=True)
     scanned_by = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
