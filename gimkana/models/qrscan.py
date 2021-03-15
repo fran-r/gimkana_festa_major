@@ -17,9 +17,9 @@ class QrScan(models.Model):
     id = models.TextField(primary_key=True)
     #id = models.UUIDField(primary_key=True, default=uuid.uuid4,
     #                      help_text="Unique ID for this particular QR scan")
-    qr = models.ForeignKey(Qr, on_delete=models.RESTRICT)
+    qr = models.ForeignKey(Qr, related_name='qr_id', on_delete=models.RESTRICT)
     scan_date = models.DateField(null=True, blank=True)
-    scanned_by = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
+    scanned_by = models.ForeignKey(User, related_name='scanned_by', on_delete=models.RESTRICT)
     status = models.CharField(
         max_length=1,
         choices=QR_STATUS,
@@ -32,8 +32,8 @@ class QrScan(models.Model):
         return self.scan_date
 
     class Meta:
-        ordering = ['qr', 'scanned_by']
-        unique_together = ['qr', 'scanned_by']
+        ordering = ['qr_id', 'scanned_by']
+        unique_together = ['qr_id', 'scanned_by']
 
     def __str__(self):
         """String for representing the Model object."""
