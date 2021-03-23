@@ -25,12 +25,12 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='qrscan',
             name='qr',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.RESTRICT, related_name='qr_id', to='gimkana.qr'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='qr_id', to='gimkana.qr'),
         ),
         migrations.AlterField(
             model_name='qrscan',
             name='scanned_by',
-            field=models.ForeignKey(on_delete=django.db.models.deletion.RESTRICT, related_name='scanned_by', to='auth.user'),
+            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='scanned_by', to='auth.user'),
         ),
         migrations.AlterUniqueTogether(
             name='qrscan',
