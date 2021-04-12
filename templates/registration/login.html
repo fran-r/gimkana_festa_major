@@ -2,37 +2,30 @@
 
 {% block content %}
 
-{% if form.errors %}
-<p>Usuario y/o contraseña no válidos</p>
-{% endif %}
-
-{% if next %}
-    {% if user.is_authenticated %}
-    <p>El usuario no tiene acceso a esta página.</p>
-    {% else %}
-    <p>Inicia sesión para ver la página.</p>
+    {% if next %}
+        {% if user.is_authenticated %}
+            <p>El usuario no tiene acceso a esta página</p>
+        {% else %}
+            <p>Inicia sesión para ver la página</p>
+        {% endif %}
     {% endif %}
-{% endif %}
 
-<form method="post" action="{% url 'login' %}">
-{% csrf_token %}
+    <form method="post" action="{% url 'login' %}">
+        {% csrf_token %}
 
-<div>
-  <td>{{ form.username.label_tag }}</td>
-  <td>{{ form.username }}</td>
-</div>
-<div>
-  <td>{{ form.password.label_tag }}</td>
-  <td>{{ form.password }}</td>
-</div>
+        {% if form.errors %}
+            <p><b>El usuario no existe.</b> <a href="{% url 'signup' %}">Crear usuario</a></p>
+        {% else %}
+            <p><a href="{% url 'signup' %}">Crea tu usuario</a> si aún no lo has hecho</p>
+        {% endif %}
 
-<div>
-  <input type="submit" value="Entrar" />
-  <input type="hidden" name="next" value="{{ next }}" />
-</div>
-</form>
-
-{# Assumes you setup the password_reset view in your URLconf #}
-<p><a href="{% url 'password_reset' %}">¿Olvidaste tu contraseña?</a></p>
+        <div>
+            <p>{{ form.username.label_tag }}</p>
+            <p>{{ form.username }}</p>
+            <p>{{ form.password }}</p>
+            <input type="submit" value="Entrar" />
+            <input type="hidden" name="next" value="{{ next }}" />
+        </div>
+    </form>
 
 {% endblock %}

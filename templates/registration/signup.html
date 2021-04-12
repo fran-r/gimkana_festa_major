@@ -3,10 +3,22 @@
 {% block title %}Registro{% endblock %}
 
 {% block content %}
-  <h2>Registrate para participar!</h2>
-  <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Sign Up</button>
-  </form>
+    <p><a href="{% url 'login' %}">Accede</a> si ya tienes una cuenta</p>
+
+    <form method="post">
+        {% csrf_token %}
+
+        {% if form.errors %}
+            <p><b>Introduce un nombre y un email válidos</b></p>
+        {% endif %}
+
+        <div>
+            <p>{{ form.username.label_tag }}</p>
+            <p>{{ form.username }}</p>
+            <p>{{ form.email.label_tag }}</p>
+            <p>{{ form.email }}</p>
+            <input type="submit" value="Entrar" />
+        </div>
+    </form>
+
 {% endblock %}
