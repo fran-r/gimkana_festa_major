@@ -1,5 +1,60 @@
-.sidebar-nav {
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding-left: 0px;
+    background-color: black;
+    color: #dfdfdf;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-bars {
+    display: flex;
+    flex-direction: row;
+}
+
+.color-bar {
+    height: 100%;
+    width: 4px;
+}
+
+.color-bar.bar-red {
+    background-color: crimson;
+}
+
+.color-bar.bar-yellow {
+    background-color: yellow;
+}
+.color-bar.bar-green {
+    background-color: green;
+}
+.color-bar.bar-cyan {
+    background-color: cyan;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    margin-left: 10px;
+    width: 25%;
+}
+
+.sidebar-menu {
     margin-top: 20px;
     padding: 0;
     list-style: none;
 }
+
+.content {
+    margin-left: 10px;
+}
+
