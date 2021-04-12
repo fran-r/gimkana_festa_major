@@ -1,0 +1,65 @@
+[
+  {
+    "model": "gimkana.qr",
+    "pk": 1,
+    "fields": {
+      "name": "#1",
+      "description": "QR-1",
+      "hint": "Hint QR-1"
+    }
+  },
+  {
+    "model": "gimkana.qr",
+    "pk": 2,
+    "fields": {
+      "name": "#2",
+      "description": "QR2",
+      "hint": "Hint QR2"
+    }
+  },
+  {
+    "model": "gimkana.qr",
+    "pk": 3,
+    "fields": {
+      "name": "#3",
+      "description": "QR3",
+      "hint": "Hint QR3"
+    }
+  },
+  {
+    "model": "gimkana.qr",
+    "pk": 4,
+    "fields": {
+      "name": "#4",
+      "description": "QR4",
+      "hint": "Hint QR4"
+    }
+  },
+  {
+    "model": "gimkana.qr",
+    "pk": 5,
+    "fields": {
+      "name": "#5",
+      "description": "QR5",
+      "hint": "Hint QR5"
+    }
+  },
+  {
+    "model": "gimkana.qr",
+    "pk": 6,
+    "fields": {
+      "name": "#6",
+      "description": "QR6",
+      "hint": "Hint QR6"
+    }
+  },
+  {
+    "model": "gimkana.qr",
+    "pk": 7,
+    "fields": {
+      "name": "#7",
+      "description": "QR7",
+      "hint": "Hint QR7"
+    }
+  }
+]

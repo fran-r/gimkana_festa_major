@@ -4,8 +4,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^usertests/$', views.UserTestListView.as_view(), name='usertests'),
-    url(r'^usertest/(?P<pk>.+@.+\..+)$', views.UserTestDetailView.as_view(), name='usertest-detail'),
     url(r'^qrs/$', views.QrListView.as_view(), name='qrs'),
     url(r'^qrscan/(?P<pk>\d+)$', views.QrScanByUserCreateView.as_view(), name='qrscan-detail'),
     url(r'^qr/(?P<pk>\d+)$', views.QrDetailView.as_view(), name='qr-detail'),

@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from ..models import Qr, UserTest
+from ..models import Qr
 
 
 def index(request):
@@ -9,7 +9,7 @@ def index(request):
     """
     # Genera contadores de algunos de los objetos principales
     num_qrs = Qr.objects.all().count()
-    num_users = UserTest.objects.all().count()
+    num_users = 999999 #UserTest.objects.all().count()
     num_visits = request.session.get('num_visits', 1)
     request.session['num_visits'] = num_visits + 1
 

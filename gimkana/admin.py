@@ -1,9 +1,8 @@
 from django.contrib import admin
 
-from .models import Qr, QrScan, UserTest
+from .models import Qr, QrScan
 
 admin.site.register(Qr)
-admin.site.register(UserTest)
 
 @admin.register(QrScan)
 class QrScanAdmin(admin.ModelAdmin):

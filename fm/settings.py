@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # TODO: revisar si es necesaria esta sintaxis
     'gimkana.apps.GimkanaConfig',
     'accounts',
 ]
