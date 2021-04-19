@@ -1,12 +1,12 @@
 from datetime import datetime
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView
 
+from auth.SignupRequiredMixin import SignupRequiredMixin
 from ..models import QrScan, Qr
 
 
-class QrScanByUserListView(LoginRequiredMixin, ListView):
+class QrScanByUserListView(SignupRequiredMixin, ListView):
     """
     Generic class-based view listing QRs scanned by current user.
     """
@@ -22,7 +22,7 @@ class QrScanByUserListView(LoginRequiredMixin, ListView):
                 .order_by('status')
         )
 
-class QrScanByUserCreateView(LoginRequiredMixin, CreateView):
+class QrScanByUserCreateView(SignupRequiredMixin, CreateView):
     model = QrScan
 
     def get(self, request, *args, **kwargs):

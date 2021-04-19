@@ -1,4 +1,3 @@
-import uuid
 from django.contrib.auth.models import User
 from django.db import models
 from django.urls import reverse  # Used to generate URLs by reversing the URL patterns
@@ -14,17 +13,15 @@ QR_STATUS = (
 
 
 class QrScan(models.Model):
-    id = models.TextField(primary_key=True)
-    #id = models.UUIDField(primary_key=True, default=uuid.uuid4,
-    #                      help_text="Unique ID for this particular QR scan")
+    id = models.IntegerField(primary_key=True)
     qr = models.ForeignKey(Qr, related_name='qr_id', on_delete=models.CASCADE)
-    scan_date = models.DateField(null=True, blank=True)
     scanned_by = models.ForeignKey(User, related_name='scanned_by', on_delete=models.CASCADE)
+    scan_date = models.DateField(null=True, blank=True)
     status = models.CharField(
         max_length=1,
         choices=QR_STATUS,
+        null=True,
         blank=True,
-        default='L',
         help_text='QR status')
 
     @property

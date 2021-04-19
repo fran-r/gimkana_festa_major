@@ -2,49 +2,48 @@
 <html lang="es">
 <head>
 
-  {% block title %}<title>Gimkana Festa Major Prospe 2021</title>{% endblock %}
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {% block title %}<title>Gimkana Festa Major Prospe 2021</title>{% endblock %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- Add additional CSS in static file -->
-  {% load static %}
-  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <!-- Add additional CSS in static file -->
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 
 <body>
-    <div class="container">
-        <div class="container-bars">
-            <div class="color-bar bar-red"></div>
-            <div class="color-bar bar-yellow"></div>
-            <div class="color-bar bar-green"></div>
-            <div class="color-bar bar-cyan"></div>
-        </div>
+<div class="container">
+    <div class="container-bars">
+        <div class="color-bar bar-red"></div>
+        <div class="color-bar bar-yellow"></div>
+        <div class="color-bar bar-green"></div>
+        <div class="color-bar bar-cyan"></div>
+    </div>
 
-        <div class="container-body">
+    <div class="container-body">
+        {% if user.is_authenticated %}
             <div class="sidebar">
                 {% block sidebar %}
-                <ul class="sidebar-menu">
-                    <li><a href="{% url 'index' %}">Home</a></li>
-                    <li><a href="{% url 'qrs' %}">QRs</a></li>
-                    <p></p>
-                    {% if user.is_authenticated %}
-                    <li>User: {{ user.get_username }}</li>
-                    <li><a href="{% url 'myqrs' %}">Mis QRs</a></li>
-                    <li><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
-                    {% else %}
-                    <li><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>
-                    {% endif %}
-                </ul>
+                    <ul class="sidebar-menu">
+{#                        <li><a href="{% url 'index' %}">Home</a></li>#}
+                        <li><a href="{% url 'qrs' %}">QRs</a></li>
+                        <p></p>
+                        <li>User: {{ user.get_username }}</li>
+                        <li><a href="{% url 'myqrs' %}">Mis QRs</a></li>
+                        <li><a href="{% url 'logout' %}?next={{ request.path }}">Logout</a></li>
+                    </ul>
                 {% endblock %}
             </div>
+        {% endif %}
 
-            <div class="content">
-                {% block content %}{% endblock %}
-            </div>
+        <div class="content">
+            {% block content %}
+            {% endblock %}
         </div>
     </div>
+</div>
 </body>
 </html>

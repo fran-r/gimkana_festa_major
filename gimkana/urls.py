@@ -3,7 +3,8 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    # url(r'^$', views.index, name='index', ),
+    url(r'^$', views.QrListView.as_view(), name='qrs'),
     url(r'^qrs/$', views.QrListView.as_view(), name='qrs'),
     url(r'^qrscan/(?P<pk>\d+)$', views.QrScanByUserCreateView.as_view(), name='qrscan-detail'),
     url(r'^qr/(?P<pk>\d+)$', views.QrDetailView.as_view(), name='qr-detail'),

@@ -1,14 +1,15 @@
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import Http404
 from django.views.generic import DetailView, ListView
+
+from auth.SignupRequiredMixin import SignupRequiredMixin
 from ..models import Qr
 
 
-class QrListView(LoginRequiredMixin, ListView):
+class QrListView(SignupRequiredMixin, ListView):
     model = Qr
 
 
-class QrDetailView(LoginRequiredMixin, DetailView):
+class QrDetailView(SignupRequiredMixin, DetailView):
     model = Qr
 
     def get(self, request, *args, **kwargs):

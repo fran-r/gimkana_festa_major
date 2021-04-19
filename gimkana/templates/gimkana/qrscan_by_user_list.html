@@ -4,15 +4,15 @@
     <h3>Mis QRs escaneados</h3>
 
     {% if qrscan_list %}
-    <ul>
+{#    <ul>#}
 
       {% for qrscan in qrscan_list %}
-      <li class="{% if qrscan.is_scanned %}text-danger{% endif %}">
+      <div class="{% if qrscan.is_scanned %}item_checked{% else %}item_open{% endif %}">
         <a href="{% url 'qr-detail' qrscan.qr.pk %}">{{qrscan.qr.name}}</a>
           ({{ qrscan.status }}{% if qrscan.scan_date %} - {{ qrscan.scan_date }}{% endif %})
-      </li>
+      </div>
       {% endfor %}
-    </ul>
+{#    </ul>#}
 
     {% else %}
       <p>No has escaneado ningún QR</p>

@@ -1,8 +1,10 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render
 
 from ..models import Qr
 
 
+@login_required(login_url='signup')
 def index(request):
     """
     Función vista para la página inicio del sitio.
