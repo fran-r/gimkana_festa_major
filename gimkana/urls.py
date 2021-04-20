@@ -7,10 +7,14 @@ urlpatterns = [
     # url(r'^$', views.QrListView.as_view(), name='qrs'),
     url(r'^$', views.QrScannedListView.as_view(), name='qrs'),
     # url(r'^qrs/$', views.QrListView.as_view(), name='qrs'),
+
     url(r'^qrs/$', views.QrScannedListView.as_view(), name='qrs'),
     url(r'^qrs2/$', views.qr.QrScannedListView2.as_view(), name='qrs2'),
+    url(r'^qrs3/$', views.qr.QrScannedListView3.as_view(), name='qrs3'),
+
     url(r'^qrscan/$', views.qrscan.QrScanByUserTestCreateView.as_view(), name='qrscan-test'),
     url(r'^qrscan/(?P<qr_id>\d+)$', views.QrScanByUserCreateView.as_view(), name='qrscan'),
+
     url(r'^qr/(?P<pk>\d+)$', views.QrDetailView.as_view(), name='qr-detail'),
     # url(r'^addqr/(?P<pk>\d+)$', views.QrCreateView.as_view(), name='qr-create'),
     url(r'^myqrs/$', views.QrScanByUserListView.as_view(), name='myqrs'),

@@ -30,8 +30,10 @@
                     <ul class="sidebar-menu">
 {#                        <li><a href="{% url 'index' %}">Home</a></li>#}
                         <li><a href="{% url 'qrs' %}">QRs (círculo)</a></li>
-                        <li><a href="{% url 'qrs2' %}">QRs (cuadrado)</a></li>
+                        <li><a href="{% url 'qrs2' %}">QRs (cuadrado-1)</a></li>
+                        <li><a href="{% url 'qrs3' %}">QRs (cuadrado-2)</a></li>
                         <p></p>
+                        <br></br>
                         <li>User: {{ user.get_username }}</li>
                         <li><a href="{% url 'myqrs' %}">Mis QRs</a></li>
                         <p></p>

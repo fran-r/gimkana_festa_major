@@ -5,7 +5,7 @@
 
     {% if qr_list %}
         {% for qr in qr_list %}
-            <div class="{% if qr.is_scanned %}item_checked-2{% else %}item_open-2{% endif %}">
+            <div class="{% if qr.is_scanned %}item_checked-3{% else %}item_open-3{% endif %}">
                 <a href="{{ qr.get_absolute_url }}">{{ qr.name }}</a>
             </div>
         {% endfor %}
