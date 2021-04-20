@@ -12,7 +12,6 @@ class QrScanByUserListView(SignupRequiredMixin, ListView):
     """
     model = QrScan
     template_name ='gimkana/qrscan_by_user_list.html'
-    paginate_by = 10
 
     def get_queryset(self):
         return (
@@ -22,13 +21,20 @@ class QrScanByUserListView(SignupRequiredMixin, ListView):
                 .order_by('status')
         )
 
+
 class QrScanByUserCreateView(SignupRequiredMixin, CreateView):
     model = QrScan
 
     def get(self, request, *args, **kwargs):
-        qr = Qr.objects.get(id=self.kwargs['pk'])
+        qr = Qr.objects.get(id=self.kwargs['qr_id'])
         username = self.request.user
-        qrscan_id = '{}_{}'.format(qr.id, username)
 
-        QrScan(id=qrscan_id, qr=qr, scanned_by=username, scan_date=datetime.now(), status='U').save()
+        # Create qrscan entry and redirect to qr details view
+        # try-except is included to preserve the first scan_date on subsequent scans
+        try:
+            QrScan.objects.get(qr=qr, scanned_by=username)
+        except QrScan.DoesNotExist as e:
+            print(e)
+            QrScan(qr=qr, scanned_by=username, scan_date=datetime.now(), status='U').save()
+
         return redirect(qr)

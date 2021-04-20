@@ -1,0 +1,250 @@
+- model: gimkana.qr
+  pk: 1
+  fields:
+    id: 1
+    name: QR - 1
+    description: Descripcion
+    hint1: Comisión Festa Major
+    hint2: Comisión Festa Major
+    map_url: https://goo.gl/maps/pRURExEej1Xx8uYS9
+    num_order: 1
+- model: gimkana.qr
+  pk: 2
+  fields:
+    id: 2
+    name: QR - 2
+    description: Descripcion
+    hint1: Pancartas
+    hint2: Pancartas
+    map_url: https://goo.gl/maps/v9TgX4Ejwcm7MXe46
+    num_order: 2
+- model: gimkana.qr
+  pk: 3
+  fields:
+    id: 3
+    name: QR - 3
+    description: Descripcion
+    hint1: L@s Fresk@s
+    hint2: Lanzamiento olivas/Cucaña
+    map_url: https://goo.gl/maps/U3NNYSxHYpoDBVqx7
+    num_order: 3
+- model: gimkana.qr
+  pk: 4
+  fields:
+    id: 4
+    name: QR - 4
+    description: Descripcion
+    hint1: Comisión Festa Major
+    hint2: Fiesta Holly
+    map_url: https://goo.gl/maps/eGGasvHNsitBBgru7
+    num_order: 4
+- model: gimkana.qr
+  pk: 5
+  fields:
+    id: 5
+    name: QR - 5
+    description: Descripcion
+    hint1: Pancartas
+    hint2: Parking Paseo Valldaura
+    map_url: https://goo.gl/maps/7Kjpsbi4wNrJxJi98
+    num_order: 5
+- model: gimkana.qr
+  pk: 6
+  fields:
+    id: 6
+    name: QR - 6
+    description: Descripcion
+    hint1: FreeStayl
+    hint2: Casal de Joves
+    map_url: https://goo.gl/maps/w4KktCkocoXozSNo8
+    num_order: 6
+- model: gimkana.qr
+  pk: 7
+  fields:
+    id: 7
+    name: QR - 7
+    description: Descripcion
+    hint1: #prospememata
+    hint2: AVV
+    map_url: https://goo.gl/maps/3KEjmCTGxSay3gmGA
+    num_order: 7
+- model: gimkana.qr
+  pk: 8
+  fields:
+    id: 8
+    name: QR - 8
+    description: Descripcion
+    hint1: Comerciantes Rambleta
+    hint2: Comerciantes Rambleta
+    map_url: https://goo.gl/maps/ERdJ4iZo82FHoRUm6
+    num_order: 8
+- model: gimkana.qr
+  pk: 9
+  fields:
+    id: 9
+    name: QR - 9
+    description: Descripcion
+    hint1: Feria antes
+    hint2: Feria antes
+    map_url: https://goo.gl/maps/o8bGHByywWuLoK6J6
+    num_order: 9
+- model: gimkana.qr
+  pk: 10
+  fields:
+    id: 10
+    name: QR - 10
+    description: Descripcion
+    hint1: Fuente
+    hint2: Promosalut/Prospetina
+    map_url: https://goo.gl/maps/rFwR6hXkZpTvyjyg7
+    num_order: 10
+- model: gimkana.qr
+  pk: 11
+  fields:
+    id: 11
+    name: QR - 11
+    description: Descripcion
+    hint1: Txistorra Rock
+    hint2: Antes se llamaba I. Sant Andreu
+    map_url: https://goo.gl/maps/JenEDZQRi7KPkQTAA
+    num_order: 11
+- model: gimkana.qr
+  pk: 12
+  fields:
+    id: 12
+    name: QR - 12
+    description: Descripcion
+    hint1: Fuegos artificiales
+    hint2: Fuegos artificiales
+    map_url: https://goo.gl/maps/iFS7nvq2EiEuXZcA8
+    num_order: 12
+- model: gimkana.qr
+  pk: 13
+  fields:
+    id: 13
+    name: QR - 13
+    description: Descripcion
+    hint1: Plaza de Lxs de toda la birra
+    hint2: Obra de arte/Asarock
+    map_url: https://goo.gl/maps/MHcrUEBP46dPdhKL6
+    num_order: 13
+- model: gimkana.qr
+  pk: 14
+  fields:
+    id: 14
+    name: QR - 14
+    description: Descripcion
+    hint1: Tamborrada/Correfoc
+    hint2: Colegio Mercé Rodoreda
+    map_url: https://goo.gl/maps/zQiv19BqSS9k5jgN8
+    num_order: 14
+- model: gimkana.qr
+  pk: 15
+  fields:
+    id: 15
+    name: QR - 15
+    description: Descripcion
+    hint1: Quinto+Tapa
+    hint2: CJP/La Cuarta
+    map_url: https://goo.gl/maps/mAQUX6jTvHGHZ4P3A
+    num_order: 15
+- model: gimkana.qr
+  pk: 16
+  fields:
+    id: 16
+    name: QR - 16
+    description: Descripcion
+    hint1: Camisetas colgando
+    hint2: Bizarrock/Pluma negra/Fútbol banco
+    map_url: https://goo.gl/maps/n5kce1ohZqwZZfpq7
+    num_order: 16
+- model: gimkana.qr
+  pk: 17
+  fields:
+    id: 17
+    name: QR - 17
+    description: Descripcion
+    hint1: Quién dijo que el balontiro es un juego de niñas y niños?
+    hint2:
+    map_url: https://goo.gl/maps/Qd9k4bxWS5pS7VMV6
+    num_order: 17
+- model: gimkana.qr
+  pk: 18
+  fields:
+    id: 18
+    name: QR - 18
+    description: Descripcion
+    hint1: Diada basquet / Fútbol sala
+    hint2: Diada basquet / Fútbol sala
+    map_url: https://goo.gl/maps/XepgvyF9NHXH4yYHA
+    num_order: 18
+- model: gimkana.qr
+  pk: 19
+  fields:
+    id: 19
+    name: QR - 19
+    description: Descripcion
+    hint1: Sardinada
+    hint2: Sardinada
+    map_url: https://goo.gl/maps/R1v7LdZnSaqWh7pY6
+    num_order: 19
+- model: gimkana.qr
+  pk: 20
+  fields:
+    id: 20
+    name: QR - 20
+    description: Descripcion
+    hint1: Date una huerta
+    hint2: Date una huerta
+    map_url: https://goo.gl/maps/t29CnGDthY3Q14Zd6
+    num_order: 20
+- model: gimkana.qr
+  pk: 21
+  fields:
+    id: 21
+    name: QR - 21
+    description: Descripcion
+    hint1: Escenario en cuesta/4 calles coinciden en el mismo punto
+    hint2: Recogida de alimentos
+    map_url: https://goo.gl/maps/PX5GFuKatR5cZzJcA
+    num_order: 21
+- model: gimkana.qr
+  pk: 22
+  fields:
+    id: 22
+    name: QR - 22
+    description: Descripcion
+    hint1: Casal de Gent Gran
+    hint2: Casal de Gent Gran
+    map_url: https://goo.gl/maps/3VN5EQ3pQmiCmpRRA
+    num_order: 22
+- model: gimkana.qr
+  pk: 23
+  fields:
+    id: 23
+    name: QR - 23
+    description: Descripcion
+    hint1: Milduros/Zapatillas
+    hint2: Milduros/Zapatillas
+    map_url: https://goo.gl/maps/PX5GFuKatR5cZzJcA
+    num_order: 23
+- model: gimkana.qr
+  pk: 24
+  fields:
+    id: 24
+    name: QR - 24
+    description: Descripcion
+    hint1: El mejor lugar para reubicar eventos en caso de lluvia, porque tiene techo
+    hint2: Aquí se hacen los conciertos de San Xibeco
+    map_url: https://goo.gl/maps/nfUwgQjDaPACKaW88
+    num_order: 24
+- model: gimkana.qr
+  pk: 25
+  fields:
+    id: 25
+    name: QR - 25
+    description: Descripcion
+    hint1: Aquí tocó La polla records la Festa Major de 198??
+    hint2: El lugar natural de la peña 'Al hueco'
+    map_url: https://goo.gl/maps/n5DCXNKagTZWUYHE7
+    num_order: 25
