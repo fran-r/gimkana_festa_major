@@ -63,11 +63,28 @@ html, body {
 }
 
 .item_checked::before {
-    content: "\2705";
+    /*content: "\2714";  !* Check mark *!*/
+    content: "\1F7E2"; /* Green circle */
+    /*content: "\2705";  !* Check mark button *!*/
 }
 
 .item_open::before {
-    /*content: "\1F533";*/
-    content: "\2B1C";
+    content: "\26AA";  /* White circle */
+    /*content: "\1F533"; !* White square button *!*/
+    /*content: "\2B1C";  !* White large square *!*/
+    /*content: "\25FB";  !* White medium square *!*/
+}
+
+.item_checked-alt::before {
+    /*content: "\2714";  !* Check mark *!*/
+    /*content: "\1F7E2"; !* Green circle *!*/
+    content: "\2705";  /* Check mark button */
+}
+
+.item_open-alt::before {
+    /*content: "\26AA";  !* White circle *!*/
+    content: "\1F533"; /* White square button */
+    /*content: "\2B1C";  !* White large square *!*/
+    /*content: "\25FB";  !* White medium square *!*/
 }
 

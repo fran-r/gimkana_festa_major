@@ -1,0 +1,15 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>Lista de QRs</h1>
+
+    {% if qr_list %}
+        {% for qr in qr_list %}
+            <div class="{% if qr.is_scanned %}item_checked-alt{% else %}item_open-alt{% endif %}">
+                <a href="{{ qr.get_absolute_url }}">{{ qr.name }}</a>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Aún no hay QRs.</p>
+    {% endif %}
+{% endblock %}

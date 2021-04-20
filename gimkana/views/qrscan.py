@@ -17,8 +17,6 @@ class QrScanByUserListView(SignupRequiredMixin, ListView):
         return (
             QrScan.objects
                 .filter(scanned_by=self.request.user)
-                # .filter(status__exact='o')
-                .order_by('status')
         )
 
 

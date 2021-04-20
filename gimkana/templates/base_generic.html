@@ -29,7 +29,8 @@
                 {% block sidebar %}
                     <ul class="sidebar-menu">
 {#                        <li><a href="{% url 'index' %}">Home</a></li>#}
-                        <li><a href="{% url 'qrs' %}">QRs</a></li>
+                        <li><a href="{% url 'qrs' %}">QRs (círculo)</a></li>
+                        <li><a href="{% url 'qrs2' %}">QRs (cuadrado)</a></li>
                         <p></p>
                         <li>User: {{ user.get_username }}</li>
                         <li><a href="{% url 'myqrs' %}">Mis QRs</a></li>
