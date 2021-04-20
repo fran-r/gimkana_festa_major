@@ -1,10 +1,18 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-  <h1>QR: {{ qr.name }}</h1>
+    <h1>{{ qr.name }}</h1>
 
-  <p><strong>Id:</strong> {{ qr.id }}</p>
-  <p><strong>Name:</strong> {{ qr.name }}</p>
-  <p><strong>Descripción:</strong> {{ qr.description }}</p>
-  <p><strong>Ayuda:</strong> {{ qr.hint }}</p>
+    <p><strong>Id:</strong> {{ qr.id }}</p>
+    <p><strong>Name:</strong> {{ qr.name }}</p>
+    <p><strong>Descripción:</strong> {{ qr.description }}</p>
+    <p><strong>Ayuda:</strong> {{ qr.hint }}</p>
+    <p></p>
+
+    <div>
+        <a href="{% url 'qrs' %}">Volver a la lista de QRs (círculo)</a>
+        <p></p>
+        <a href="{% url 'qrs2' %}">Volver a la lista de QRs (cuadrado)</a>
+    </div>
+
 {% endblock %}
