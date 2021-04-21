@@ -62,42 +62,29 @@ html, body {
     margin-left: 10px;
 }
 
-.item_checked::before {
-    /*content: "\2714";  !* Check mark *!*/
+.list-item {
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.checked {
+    color: limegreen;
+}
+
+.checked::before {
     content: "\1F7E2"; /* Green circle */
-    /*content: "\2705";  !* Check mark button *!*/
+    color: limegreen;
 }
 
-.item_open::before {
+.unchecked {
+    color: papayawhip;
+    font-weight: bold;
+}
+
+.unchecked::before {
     content: "\26AA";  /* White circle */
-    /*content: "\1F533"; !* White square button *!*/
-    /*content: "\2B1C";  !* White large square *!*/
-    /*content: "\25FB";  !* White medium square *!*/
 }
 
-.item_checked-2::before {
-    /*content: "\2714";  !* Check mark *!*/
-    /*content: "\1F7E2"; !* Green circle *!*/
-    content: "\2705";  /* Check mark button */
-}
-
-.item_open-2::before {
-    /*content: "\26AA";  !* White circle *!*/
-    content: "\1F533"; /* White square button */
-    /*content: "\2B1C";  !* White large square *!*/
-    /*content: "\25FB";  !* White medium square *!*/
-}
-
-.item_checked-3::before {
-    content: "\2714";  /* Check mark */
-    /*content: "\1F7E2"; !* Green circle *!*/
-    /*content: "\2705";  !* Check mark button *!*/
-    color: forestgreen;
-}
-
-.item_open-3::before {
-    /*content: "\26AA";  !* White circle *!*/
-    /*content: "\1F533"; !* White square button *!*/
-    /*content: "\2B1C";  !* White large square *!*/
-    content: "\25FB";  /* White medium square */
+.list-item a {
+    color: inherit;
 }

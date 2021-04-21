@@ -6,13 +6,15 @@
     <p>Bienvenid@ a la <em>Gimkana FreeStayl</em> de la Festa Major de la Prospe.</p>
     <p>¡Sigue las pistas y escanea tantos QRs como puedas!</p>
 
-    <p><a href="{% url 'login' %}">Accede</a> si ya tienes una cuenta</p>
+    <h2>Crea tu usuario para participar</h2>
+    <h4><a O href="{% url 'login' %}">Accede</a> si ya tienes una cuenta</h4>
 
     <form method="post">
         {% csrf_token %}
 
         {% if form.errors %}
             <p><b>Introduce un nombre y un email válidos</b></p>
+            <p>Los usaremos para contactar a los ganadores</p>
         {% endif %}
 
         <div>
@@ -20,7 +22,7 @@
             <p>{{ form.username }}</p>
             <p>{{ form.email.label_tag }}</p>
             <p>{{ form.email }}</p>
-            <input type="submit" value="Entrar" />
+            <input type="submit" value="Crear usuario" />
         </div>
     </form>
 

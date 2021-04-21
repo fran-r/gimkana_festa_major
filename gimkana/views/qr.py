@@ -22,11 +22,5 @@ class QrScannedListView(SignupRequiredMixin, ListView):
         )
 
 
-class QrScannedListView2(QrScannedListView):
-    template_name = 'gimkana/qr_scanned_list_2.html'
-
-class QrScannedListView3(QrScannedListView):
-    template_name = 'gimkana/qr_scanned_list_3.html'
-
 class QrDetailView(SignupRequiredMixin, DetailView):
     model = Qr
