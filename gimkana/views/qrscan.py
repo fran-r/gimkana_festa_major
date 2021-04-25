@@ -3,25 +3,28 @@ from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView
 
 from auth.SignupRequiredMixin import SignupRequiredMixin
-from ..models import QrScan, Qr
+from ..models import UserQr, Qr
 
 
-class QrScanByUserListView(SignupRequiredMixin, ListView):
+class UserQrListView(SignupRequiredMixin, ListView):
     """
     Generic class-based view listing QRs scanned by current user.
     """
-    model = QrScan
-    template_name ='gimkana/qrscan_by_user_list.html'
+    model = UserQr
+    template_name = 'gimkana/qrscan_by_user_list.html'
 
     def get_queryset(self):
+        print("*****")
+        print(UserQr.objects.all())
+        print(self.request.user)
+        print("*****")
         return (
-            QrScan.objects
-                .filter(scanned_by=self.request.user)
+            UserQr.objects.filter(user=self.request.user)
         )
 
 
-class QrScanByUserCreateView(SignupRequiredMixin, CreateView):
-    model = QrScan
+class UserQrCreateView(SignupRequiredMixin, CreateView):
+    model = UserQr
 
     def get(self, request, *args, **kwargs):
         qr = Qr.objects.get(id=self.kwargs['qr_id'])
@@ -30,16 +33,17 @@ class QrScanByUserCreateView(SignupRequiredMixin, CreateView):
         # Create qrscan entry and redirect to qr details view
         # try-except is included to preserve the first scan_date on subsequent scans
         try:
-            QrScan.objects.get(qr=qr, scanned_by=username)
-        except QrScan.DoesNotExist as e:
+            UserQr.objects.get(qr=qr, user=username)
+        except UserQr.DoesNotExist as e:
             print(e)
-            QrScan(qr=qr, scanned_by=username, scan_date=datetime.now(), status='U').save()
+            UserQr(qr=qr, user=username, scan_date=datetime.now()).save()
 
         return redirect(qr)
 
 
-class QrScanByUserTestCreateView(SignupRequiredMixin, CreateView):
-    model = QrScan
+class UserQrTestCreateView(SignupRequiredMixin, CreateView):
+    model = UserQr
+
     def get(self, request, *args, **kwargs):
         import random
         qr_id = random.randint(1, 25)
@@ -49,9 +53,9 @@ class QrScanByUserTestCreateView(SignupRequiredMixin, CreateView):
         # Create qrscan entry and redirect to qr details view
         # try-except is included to preserve the first scan_date on subsequent scans
         try:
-            QrScan.objects.get(qr=qr, scanned_by=username)
-        except QrScan.DoesNotExist as e:
+            UserQr.objects.get(qr=qr, user=username)
+        except UserQr.DoesNotExist as e:
             print(e)
-            QrScan(qr=qr, scanned_by=username, scan_date=datetime.now(), status='U').save()
+            UserQr(qr=qr, user=username, scan_date=datetime.now()).save()
 
         return redirect(qr)

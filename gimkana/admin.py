@@ -1,19 +1,20 @@
 from django.contrib import admin
 
-from .models import Qr, QrScan
+from .models import Qr, UserQr
 
 admin.site.register(Qr)
 
-@admin.register(QrScan)
+
+@admin.register(UserQr)
 class QrScanAdmin(admin.ModelAdmin):
-    list_display = ('qr', 'status', 'scanned_by', 'scan_date')
-    list_filter = ('status', 'scan_date')
+    list_display = ('qr', 'user', 'hints', 'scan_date')
+    list_filter = ('hints', 'scan_date')
 
     fieldsets = (
         (None, {
-            'fields': ('id', 'qr', 'scanned_by')
+            'fields': ('id', 'qr', 'user')
         }),
         ('Availability', {
-            'fields': ('status', 'scan_date')
+            'fields': ('hints', 'scan_date')
         }),
     )

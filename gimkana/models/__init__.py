@@ -1,2 +1,2 @@
 from .qr import Qr
-from .qrscan import QrScan
+from .userqr import UserQr

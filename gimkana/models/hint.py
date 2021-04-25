@@ -19,4 +19,4 @@ class Hint(models.Model):
 
     def __str__(self):
         """String for representing the Model object."""
-        return 'QR: {0} - Pista ({1}) requested by {2}'.format(self.qr.id, self.level, self.scanned_by.username)
+        return 'QR: {0} - Pista ({1}) requested by {2}'.format(self.qr.id, self.level, self.user.username)
