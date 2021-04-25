@@ -15,7 +15,8 @@ QR_STATUS = (
 class QrScan(models.Model):
     id = models.IntegerField(primary_key=True)
     qr = models.ForeignKey(Qr, related_name='qr_id', on_delete=models.CASCADE)
-    scanned_by = models.ForeignKey(User, related_name='scanned_by', on_delete=models.CASCADE)
+    # scanned_by = models.ForeignKey(GimkanaUser, related_name='scanned_by', on_delete=models.CASCADE)
+    scanned_by = models.CharField(max_length=250, default='user2')
     scan_date = models.DateField(null=True, blank=True)
     status = models.CharField(
         max_length=1,

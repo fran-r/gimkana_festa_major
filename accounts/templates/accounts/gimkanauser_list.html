@@ -1,0 +1,15 @@
+{% block content %}
+    <h1>Lista de usuarios</h1>
+
+    {% if users_list %}
+        <ul>
+            {% for user in users_list %}
+                <li>
+                    {{ user.username }} - {{ user.email }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Aún no hay usuarioss</p>
+    {% endif %}
+{% endblock %}
