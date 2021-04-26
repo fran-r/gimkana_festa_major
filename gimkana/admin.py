@@ -6,7 +6,7 @@ admin.site.register(Qr)
 
 
 @admin.register(UserQr)
-class QrScanAdmin(admin.ModelAdmin):
+class UserQrAdmin(admin.ModelAdmin):
     list_display = ('qr', 'user', 'hints', 'scan_date')
     list_filter = ('hints', 'scan_date')
 

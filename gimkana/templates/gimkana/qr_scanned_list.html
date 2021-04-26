@@ -3,13 +3,11 @@
 {% block content %}
     <h1>Lista de QRs</h1>
 
-    {% if qr_list %}
-        {% for qr in qr_list %}
-            <div class="list-item {% if qr.is_scanned %}checked{% else %}unchecked{% endif %}">
-                <a href="{{ qr.get_absolute_url }}">{{ qr.name }}</a>
-            </div>
-        {% endfor %}
-    {% else %}
+    {% for qr in qr_list %}
+        <div class="list-item {% if qr.is_scanned %}checked{% else %}unchecked{% endif %}">
+            <a href="{{ qr.get_absolute_url }}">{{ qr.name }}</a>
+        </div>
+    {% empty %}
         <p>Aún no hay QRs.</p>
-    {% endif %}
+    {% endfor %}
 {% endblock %}

@@ -1,24 +1,39 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <h1>QR - {{ qr.id }}</h1>
+    <h2>{{ qr.name }}</h2>
 
+    <h2>TEST - Hints: {{ qr.show_hints }}</h2>
 
-    <p><strong>{{ qr.name }}</strong></p>
-    <br>
     <p>{{ qr.hint1 }}</p>
-    <br>
-    {# TODO: ver si generarlo directamente en el modelo como ImageField #}
-    {#    <img src="img/img-prueba-{% qr.id %}.jpg" alt="Imagen {% qr.id %}">#}
-    <img src="/static/img/img-prueba-10.jpg" alt="Imagen 1">
-    <br>
-    <br>
-    {# TODO: ver si se puede insertar un mapa #}
-    <p><a href={{ qr.map_url }}>Ver mapa</a></p>
-    <p><strong>Descripción:</strong>{{ qr.description }}
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <br>
+
+    {% if qr.show_hints > 0 %}
+        <br>
+        <img src="/static/img/img-prueba-{{ qr.id }}.jpg" alt="Imagen {{ qr.id }}" style="max-width:80%">
+        <br>
+        <br>
+    {% endif %}
+
+    {% if qr.show_hints > 2 %}
+        <p><strong>Descripción:</strong>
+        <br>
+        {{ qr.description }}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <br>
+    {% endif %}
+
+    {% if qr.show_hints > 1 %}
+        {# TODO: ver si se puede insertar un mapa #}
+        <p><a href={{ qr.map_url }}>Ver mapa</a></p>
+    {% endif %}
+
+    {% if qr.show_hints == 0 or qr.show_hints == 1 %}
+        <a href="{% url 'myqrs' %}">Abrir pista {{ qr.show_hints }}</a>
+        <br>
+        <br>
+    {% endif %}
+
     <div>
         <a href="{% url 'qrs' %}">Volver a la lista de QRs</a>
     </div>

@@ -17,7 +17,7 @@ class UserQr(models.Model):
         return self.scan_date
 
     class Meta:
-        ordering = ['qr_id']
+        ordering = ['qr__num_order']
 
     def __str__(self):
         """String for representing the Model object."""

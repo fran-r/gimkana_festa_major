@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h3>Mis QRs</h3>
+
+    {% if userqr_list %}
+        {% for userqr in userqr_list %}
+            <div class="list-item {% if userqr.is_scanned %}checked{% else %}unchecked{% endif %}">
+                <a href="{% url 'qr-detail' userqr.qr.pk %}">{{userqr.qr.name}}</a>
+                (Hints: {{ userqr.hints }} - {% if userqr.scan_date %}Scanned {{ userqr.scan_date }}{% else %}Sin escanear{% endif %})
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No has escaneado ningún QR</p>
+    {% endif %}
+{% endblock %}
