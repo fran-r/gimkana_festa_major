@@ -1,9 +1,11 @@
 from datetime import datetime
+
+from django.db.models import F
 from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView
 
 from auth.SignupRequiredMixin import SignupRequiredMixin
-from ..models import UserQr, Qr
+from ..models import UserQr
 
 
 class UserQrListView(SignupRequiredMixin, ListView):
@@ -25,12 +27,11 @@ class UserQrCreateView(SignupRequiredMixin, CreateView):
     @staticmethod
     def tmp_create_user_qr(qr_id, username):
         # Create userqr entry and redirect to qr details view
-        # try-except is included to preserve the first scan_date on subsequent scans
-        try:
-            UserQr.objects.get(qr_id=qr_id, user=username)
-        except UserQr.DoesNotExist as e:
-            print(e)
-            UserQr(qr_id=qr_id, user=username, scan_date=datetime.now()).save()
+        user_qr, is_new = UserQr.objects.get_or_create(qr_id=qr_id, user=username, defaults={'scan_date': datetime.now()})
+        # Preserve the first scan_date on subsequent scans
+        if not user_qr.scan_date: 
+            user_qr.scan_date=datetime.now()
+            user_qr.save(update_fields=['scan_date'])
 
         return redirect('qr-detail', pk=qr_id)
 
@@ -52,3 +53,16 @@ class UserQrTestCreateView(SignupRequiredMixin, CreateView):
 
         kwargs['pk'] = qr_id
         return UserQrCreateView.tmp_create_user_qr(qr_id, username)
+
+
+class UserQrGetHintView(SignupRequiredMixin, CreateView):
+    model = UserQr
+
+    def get(self, request, *args, **kwargs):
+        qr_id = self.kwargs['pk']
+        username = self.request.user
+
+        # Update userqr entry (was created when entering in the qr-details view) and redirect to qr details view
+        UserQr.objects.filter(qr_id=qr_id, user=username).update(hints=F('hints') + 1)
+
+        return redirect('qr-detail', pk=qr_id)

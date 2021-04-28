@@ -10,14 +10,15 @@ class UserQr(models.Model):
     qr = models.ForeignKey(Qr, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     hints = models.IntegerField(blank=True, default=0)
-    scan_date = models.DateField(blank=True, null=True)
+    scan_date = models.DateTimeField(blank=True, null=True)
 
     @property
     def is_scanned(self):
-        return self.scan_date
+        return bool(self.scan_date)
 
     class Meta:
         ordering = ['qr__num_order']
+        unique_together = ['qr_id', 'user_id']
 
     def __str__(self):
         """String for representing the Model object."""

@@ -3,18 +3,19 @@
 {% block content %}
     <h2>{{ qr.name }}</h2>
 
-    <h2>TEST - Hints: {{ qr.show_hints }}</h2>
+    <h2>TEST - Hints: {{ qr.hints }}</h2>
+    <h2>TEST - Scanned: {{ qr.is_scanned }}</h2>
 
     <p>{{ qr.hint1 }}</p>
 
-    {% if qr.show_hints > 0 %}
+    {% if qr.is_scanned or qr.hints > 0 %}
         <br>
         <img src="/static/img/img-prueba-{{ qr.id }}.jpg" alt="Imagen {{ qr.id }}" style="max-width:80%">
         <br>
         <br>
     {% endif %}
 
-    {% if qr.show_hints > 2 %}
+    {% if qr.is_scanned %}
         <p><strong>Descripción:</strong>
         <br>
         {{ qr.description }}
@@ -23,13 +24,13 @@
         <br>
     {% endif %}
 
-    {% if qr.show_hints > 1 %}
+    {% if qr.is_scanned or qr.hints > 1 %}
         {# TODO: ver si se puede insertar un mapa #}
         <p><a href={{ qr.map_url }}>Ver mapa</a></p>
     {% endif %}
 
-    {% if qr.show_hints == 0 or qr.show_hints == 1 %}
-        <a href="{% url 'myqrs' %}">Abrir pista {{ qr.show_hints }}</a>
+    {% if qr.hints == 0 or qr.hints == 1 %}
+        <a href="{% url 'get-hint' qr.id %}">Abrir pista {{ qr.hints|add:"1" }}</a>
         <br>
         <br>
     {% endif %}

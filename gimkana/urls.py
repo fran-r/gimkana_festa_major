@@ -12,6 +12,7 @@ urlpatterns = [
 
     url(r'^qrscan/$', views.userqr.UserQrTestCreateView.as_view(), name='qrscan-test'),
     url(r'^qrscan/(?P<pk>.+)$', views.UserQrCreateView.as_view(), name='qrscan'),
+    url(r'^gethint/(?P<pk>.+)$', views.UserQrGetHintView.as_view(), name='get-hint'),
 
     url(r'^qr/(?P<pk>.+)$', views.QrDetailView.as_view(), name='qr-detail'),
     # url(r'^addqr/(?P<pk>\d+)$', views.QrCreateView.as_view(), name='qr-create'),

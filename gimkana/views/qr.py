@@ -18,7 +18,7 @@ class QrScannedListView(SignupRequiredMixin, ListView):
         return (
             Qr.objects.annotate(
                 is_scanned=Case(When(id__in=user_scans, then=Value(True)), default=Value(False),
-                             output_field=BooleanField()))
+                                output_field=BooleanField()))
         )
 
 
@@ -26,12 +26,11 @@ class QrDetailView(SignupRequiredMixin, DetailView):
     model = Qr
 
     def get_queryset(self):
-        queryset = Qr.objects.filter(id=self.kwargs['pk'])
+        qr_id = self.kwargs['pk']
+        queryset = Qr.objects.filter(id=qr_id)
 
-        user_qr = UserQr.objects.filter(qr=queryset.first(), user=self.request.user).first()
-        if user_qr:
-            show_hints = 3 if user_qr.is_scanned else user_qr.hints
-        else:
-            show_hints = 0
-
-        return queryset.annotate(show_hints=Value(show_hints, output_field=IntegerField()))
+        user_qr, _ = UserQr.objects.get_or_create(qr_id=qr_id, user=self.request.user)
+        return queryset.annotate(
+            hints=Value(user_qr.hints, output_field=IntegerField()),
+            is_scanned=Value(user_qr.is_scanned, output_field=BooleanField()),
+        )
