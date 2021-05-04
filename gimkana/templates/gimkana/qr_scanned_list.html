@@ -1,6 +1,8 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
+    {% include "gimkana/scoring.html" %}
+
     <h1>Lista de QRs</h1>
 
     {% for qr in qr_list %}

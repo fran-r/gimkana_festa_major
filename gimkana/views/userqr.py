@@ -30,7 +30,7 @@ class UserQrCreateView(SignupRequiredMixin, CreateView):
         user_qr, is_new = UserQr.objects.get_or_create(qr_id=qr_id, user=username, defaults={'scan_date': datetime.now()})
         # Preserve the first scan_date on subsequent scans
         if not user_qr.scan_date: 
-            user_qr.scan_date=datetime.now()
+            user_qr.scan_date = datetime.now()
             user_qr.save(update_fields=['scan_date'])
 
         return redirect('qr-detail', pk=qr_id)
@@ -63,6 +63,10 @@ class UserQrGetHintView(SignupRequiredMixin, CreateView):
         username = self.request.user
 
         # Update userqr entry (was created when entering in the qr-details view) and redirect to qr details view
-        UserQr.objects.filter(qr_id=qr_id, user=username).update(hints=F('hints') + 1)
+        (
+            UserQr.objects
+            .filter(qr_id=qr_id, user=username)
+            .update(hints=F('hints') + 1, value=F('value') - 1)
+        )
 
         return redirect('qr-detail', pk=qr_id)

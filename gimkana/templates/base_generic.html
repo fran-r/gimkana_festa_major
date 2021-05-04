@@ -31,8 +31,10 @@
 {#                        <li><a href="{% url 'index' %}">Home</a></li>#}
                         <li><a href="{% url 'qrs' %}">Lista de QRs</a></li>
                         <p></p>
-                        <br></br>
+                        <br>
                         <li>User: {{ user.get_username }}</li>
+                        {% include "gimkana/scoring.html" %}
+                        <p></p>
                         <li><a href="{% url 'myqrs' %}">Mis QRs</a></li>
                         <p></p>
                         <li><a href="{% url 'qrscan-test' %}">Generar scan</a></li>

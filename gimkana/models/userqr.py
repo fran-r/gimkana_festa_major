@@ -11,6 +11,7 @@ class UserQr(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     hints = models.IntegerField(blank=True, default=0)
     scan_date = models.DateTimeField(blank=True, null=True)
+    value = models.IntegerField(blank=True, default=5)
 
     @property
     def is_scanned(self):
@@ -22,7 +23,8 @@ class UserQr(models.Model):
 
     def __str__(self):
         """String for representing the Model object."""
-        return '{0} ({1}) scanned by {2} on {3}'.format(self.qr.id, self.qr.name, self.user.username, self.scan_date)
+        return '{0} ({1}) scanned by {2} on {3} - {4}'\
+            .format(self.qr.id, self.qr.name, self.user.username, self.scan_date, self.value)
 
     def get_absolute_url(self):
         """

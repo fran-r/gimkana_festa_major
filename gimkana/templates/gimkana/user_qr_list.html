@@ -1,7 +1,9 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <h3>Mis QRs</h3>
+    {% include "gimkana/scoring.html" %}
+
+    <h2>Mis QRs</h2>
 
     {% if userqr_list %}
         {% for userqr in userqr_list %}
