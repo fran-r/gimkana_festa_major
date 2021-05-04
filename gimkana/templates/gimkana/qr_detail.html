@@ -1,5 +1,10 @@
 {% extends "base_generic.html" %}
 
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/google_maps.css' %}">
+</head>
+
 {% block content %}
     <h2>{{ qr.name }}</h2>
 
@@ -22,18 +27,17 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <br>
-    {% endif %}
-
-    {% if qr.is_scanned or qr.hints > 1 %}
-        {# TODO: ver si se puede insertar un mapa #}
-        <p><a href={{ qr.map_url }}>Ver mapa</a></p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1778.505412222027!2d2.171160894576753!3d41.43753671955199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bd3c708a6c5b%3A0xa0b79e52102c986e!2sArchivo%20Municipal%20del%20Distrito%20de%20Nou%20Barris!5e0!3m2!1ses!2ses!4v1620162949041!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    {% endif %}
-
-    {% if qr.hints == 0 or qr.hints == 1 %}
-        <a href="{% url 'get-hint' qr.id %}">Abrir pista {{ qr.hints|add:"1" }}</a>
-        <br>
-        <br>
+    {% else %}
+        {% if qr.hints > 1 %}
+            <p><a href={{ qr.map_url }}>Ver mapa</a></p>
+            <div class="google-maps">
+                <iframe src="https://maps.google.com/maps?hl=es&amp;q=41.43692216582696,2.170848303801787&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        {% else %}
+            <a href="{% url 'get-hint' qr.id %}">Abrir pista {{ qr.hints|add:"1" }}</a>
+            <br>
+            <br>
+        {% endif %}
     {% endif %}
 
     <div>
