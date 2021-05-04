@@ -5,7 +5,7 @@ from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView
 
 from auth.SignupRequiredMixin import SignupRequiredMixin
-from ..models import UserQr
+from ..models import UserQr, Qr
 
 
 class UserQrListView(SignupRequiredMixin, ListView):
@@ -25,22 +25,27 @@ class UserQrCreateView(SignupRequiredMixin, CreateView):
     model = UserQr
 
     @staticmethod
-    def tmp_create_user_qr(qr_id, username):
+    def tmp_create_user_qr(qr, username):
         # Create userqr entry and redirect to qr details view
-        user_qr, is_new = UserQr.objects.get_or_create(qr_id=qr_id, user=username, defaults={'scan_date': datetime.now()})
+        user_qr, is_new = UserQr.objects.get_or_create(qr_id=qr.id, user=username,
+                                                       defaults={
+                                                           'is_shop': qr.is_shop,
+                                                           'scan_date': datetime.now(),
+                                                           'value': qr.value,
+                                                       })
         # Preserve the first scan_date on subsequent scans
         if not user_qr.scan_date: 
             user_qr.scan_date = datetime.now()
             user_qr.save(update_fields=['scan_date'])
 
-        return redirect('qr-detail', pk=qr_id)
+        return redirect('qr-detail', pk=qr.id)
 
     def get(self, request, *args, **kwargs):
-        qr_id = self.kwargs['pk']
+        qr = Qr.objects.get(pk=self.kwargs['pk'])
         username = self.request.user
 
         # TODO: es temporal. Incluir en get() cuando se elimine el código de prueba
-        return self.tmp_create_user_qr(qr_id, username)
+        return self.tmp_create_user_qr(qr, username)
 
 
 class UserQrTestCreateView(SignupRequiredMixin, CreateView):
@@ -52,7 +57,7 @@ class UserQrTestCreateView(SignupRequiredMixin, CreateView):
         username = self.request.user
 
         kwargs['pk'] = qr_id
-        return UserQrCreateView.tmp_create_user_qr(qr_id, username)
+        return UserQrCreateView.tmp_create_user_qr(qr_id, username, 5)
 
 
 class UserQrGetHintView(SignupRequiredMixin, CreateView):

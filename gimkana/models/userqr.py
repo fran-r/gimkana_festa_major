@@ -9,9 +9,10 @@ class UserQr(models.Model):
     id = models.IntegerField(primary_key=True)
     qr = models.ForeignKey(Qr, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    is_shop = models.BooleanField(null=False, blank=False)
     hints = models.IntegerField(blank=True, default=0)
     scan_date = models.DateTimeField(blank=True, null=True)
-    value = models.IntegerField(blank=True, default=5)
+    value = models.IntegerField(blank=True, null=True)
 
     @property
     def is_scanned(self):

@@ -4,12 +4,14 @@ from django.urls import reverse  # Used to generate URLs by reversing the URL pa
 
 class Qr(models.Model):
     id = models.CharField(max_length=100, primary_key=True)
+    is_shop = models.BooleanField(null=False, blank=False)
     name = models.CharField(max_length=100, null=True, blank=True)
     description = models.TextField(null=True, blank=True)
     hint1 = models.TextField(null=True, blank=True)
     hint2 = models.TextField(null=True, blank=True)
     map_url = models.URLField(null=True, blank=True)
     num_order = models.IntegerField(null=True, blank=True)
+    value = models.IntegerField(null=True, blank=True)
 
     class Meta:
         ordering = ['num_order']

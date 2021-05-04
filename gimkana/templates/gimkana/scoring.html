@@ -1,5 +1,27 @@
 {% block scores %}
-    <li>Escaneados: {{ num_qrs }}</li>
-    <li>Pistas: {{ num_hints }}</li>
-    <li>Puntuacion: {{ score }}</li>
+<div class="TagContainer">
+    <div class="Tag">
+        <div class="Label">
+            Escaneados: {{ num_qrs }}
+        </div>
+    </div>
+
+    <div class="Tag">
+        <div class="Label">
+            Pistas: {{ num_hints }}
+        </div>
+    </div>
+
+    <div class="Tag">
+        <div class="Label">
+            Comercios: {{ num_shops }}
+        </div>
+    </div>
+
+    <div class="Tag">
+        <div class="Label">
+            Puntuacion: {{ score }}
+        </div>
+    </div>
+</div>
 {% endblock %}

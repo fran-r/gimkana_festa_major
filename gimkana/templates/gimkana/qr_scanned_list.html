@@ -3,7 +3,7 @@
 {% block content %}
     {% include "gimkana/scoring.html" %}
 
-    <h1>Lista de QRs</h1>
+{#    <h1>Lista de QRs</h1> #}
 
     {% for qr in qr_list %}
         <div class="list-item {% if qr.is_scanned %}checked{% else %}unchecked{% endif %}">
