@@ -27,6 +27,7 @@
     {% if qr.is_scanned or qr.hints > 1 %}
         {# TODO: ver si se puede insertar un mapa #}
         <p><a href={{ qr.map_url }}>Ver mapa</a></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1778.505412222027!2d2.171160894576753!3d41.43753671955199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bd3c708a6c5b%3A0xa0b79e52102c986e!2sArchivo%20Municipal%20del%20Distrito%20de%20Nou%20Barris!5e0!3m2!1ses!2ses!4v1620162949041!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     {% endif %}
 
     {% if qr.hints == 0 or qr.hints == 1 %}
