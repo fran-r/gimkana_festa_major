@@ -1,3 +1,16 @@
+.Button {
+    margin-top: 20px;
+    width: 100px;
+    height: 28px;
+    border-radius: 20px;
+
+    color: black;
+    background: lightgrey;
+    font-weight: bold;
+}
+
+}
+
 .TagsContainer {
     display: flex;
     flex-direction: column;
@@ -28,3 +41,4 @@
     margin: auto;
     font-size: 12px;
 }
+

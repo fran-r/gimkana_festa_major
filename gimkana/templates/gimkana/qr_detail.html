@@ -17,12 +17,10 @@
     {% endif %}
 
     {% if qr.is_scanned %}
-        <p><strong>Descripción:</strong>
-        <br>
-        {{ qr.description }}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <br>
+        <div class="Description">
+            {{ qr.description }}
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
     {% else %}
         {% if qr.hints > 1 %}
             <p><a href={{ qr.map_url }}>Ver mapa</a></p>
@@ -36,8 +34,8 @@
         {% endif %}
     {% endif %}
 
-    <div>
-        <a href="{% url 'qrs' %}">Volver a la lista de QRs</a>
-    </div>
+    <form action="{% url 'qrs' %}">
+        <input class="Button" type="submit" value="Volver"/>
+    </form>
 
 {% endblock %}

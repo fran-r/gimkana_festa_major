@@ -96,3 +96,7 @@ figcaption {
 .list-item a {
     color: inherit;
 }
+
+.Description {
+    text-align: justify;
+}
