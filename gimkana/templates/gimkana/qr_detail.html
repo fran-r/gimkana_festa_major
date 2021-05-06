@@ -1,16 +1,17 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <h2>{{ qr.name }}</h2>
-
-    <h2>TEST - Hints: {{ qr.hints }}</h2>
-    <h2>TEST - Scanned: {{ qr.is_scanned }}</h2>
+    <h4>{{ qr.name }}</h4>
 
     <p>{{ qr.hint1 }}</p>
 
     {% if qr.is_scanned or qr.hints > 0 %}
         <br>
-        <img src="/static/img/img-prueba-{{ qr.id }}.jpg" alt="Imagen {{ qr.id }}" style="max-width:80%">
+        <figure>
+            <img src="/static/img/img-prueba-{{ qr.id }}.jpg" alt="Imagen {{ qr.id }}" style="max-width:80%">
+            <figcaption>Test: {{ qr.image_footer }}</figcaption>
+        </figure>
+
         <br>
         <br>
     {% endif %}

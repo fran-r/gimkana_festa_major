@@ -19,7 +19,7 @@ def scoring(request):
     )
 
     return {
-        'num_qrs': (result['num_scanned'] - result['num_shops']) or 0,
+        'num_qrs': (result['num_scanned'] or 0) - (result['num_shops'] or 0),
         'num_hints': result['num_hints'] or 0,
         'num_shops': result['num_shops'] or 0,
         'score': result['score'] or 0,

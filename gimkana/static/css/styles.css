@@ -3,6 +3,14 @@ html, body {
     height: 100vh;
 }
 
+img {
+}
+
+figcaption {
+    color: gray;
+    font-size: 10px;
+}
+
 .container {
     width: 100vh;
     min-height: 100vh;
