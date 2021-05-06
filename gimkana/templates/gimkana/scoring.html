@@ -1,26 +1,30 @@
 {% block scores %}
-<div class="TagContainer">
-    <div class="Tag">
-        <div class="Label">
-            Escaneados: {{ num_qrs }}
+<div class="TagsContainer">
+    <div class="TagsRow">
+        <div class="Tag">
+            <div class="Label">
+                QRs: {{ num_qrs }}
+            </div>
+        </div>
+
+        <div class="Tag">
+            <div class="Label">
+                Comercios: {{ num_shops }}
+            </div>
+        </div>
+
+        <div class="Tag">
+            <div class="Label">
+                Pistas: {{ num_hints }}
+            </div>
         </div>
     </div>
 
-    <div class="Tag">
-        <div class="Label">
-            Pistas: {{ num_hints }}
-        </div>
-    </div>
-
-    <div class="Tag">
-        <div class="Label">
-            Comercios: {{ num_shops }}
-        </div>
-    </div>
-
-    <div class="Tag">
-        <div class="Label">
-            Puntuacion: {{ score }}
+    <div class="TagsRow">
+        <div class="Tag">
+            <div class="Label">
+                Puntos: {{ score }}
+            </div>
         </div>
     </div>
 </div>

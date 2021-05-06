@@ -1,0 +1,35 @@
+.TagsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+}
+
+.TagsRow {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.TagsRow .Tag {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 28px;
+  border-radius: 20px;
+
+  color: black;
+  background: lightgrey;
+  transition: width 0.3s linear;
+  overflow: hidden;
+}
+
+.Tag .Label {
+    display: flex;
+    padding: 0 9px 0 9px;
+    margin: auto;
+    font-size: 12px;
+    //overflow: hidden;
+    //white-space: nowrap;
+    //text-overflow: ellipsis;
+}
