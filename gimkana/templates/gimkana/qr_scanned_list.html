@@ -7,7 +7,7 @@
 
     {% for qr in qr_list %}
         <div class="list-item {% if qr.is_scanned %}checked{% else %}unchecked{% endif %}">
-            <a href="{{ qr.get_absolute_url }}">{{ qr.name }}</a>
+            <a href="{{ qr.get_absolute_url }}">{{ qr.title }}</a>
         </div>
     {% empty %}
         <p>Aún no hay QRs.</p>

@@ -4,6 +4,7 @@ html, body {
 }
 
 img {
+    max-width: 100%
 }
 
 figcaption {
@@ -33,7 +34,7 @@ figcaption {
 
 .color-bar {
     height: 100%;
-    width: 5px;
+    width: 7px;
 }
 
 .color-bar.bar-red {
@@ -53,6 +54,7 @@ figcaption {
 .container-body {
     display: flex;
     flex-direction: row;
+    padding: 10px 0;
 }
 
 .sidebar {

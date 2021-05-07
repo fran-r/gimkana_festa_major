@@ -8,7 +8,7 @@
     {% if userqr_list %}
         {% for userqr in userqr_list %}
             <div class="list-item {% if userqr.is_scanned %}checked{% else %}unchecked{% endif %}">
-                <a href="{% url 'qr-detail' userqr.qr.pk %}">{{userqr.qr.name}}</a>
+                <a href="{% url 'qr-detail' userqr.qr.pk %}">{{userqr.qr.title}}</a>
                 (Hints: {{ userqr.hints }} - {% if userqr.scan_date %}Scanned {{ userqr.scan_date }}{% else %}Sin escanear{% endif %})
             </div>
         {% endfor %}

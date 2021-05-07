@@ -7,7 +7,7 @@
         <ul>
             {% for qr in qr_list %}
                 <li>
-                    <a href="{{ qr.get_absolute_url }}">{{ qr.id }}</a> ({{ qr.name }})
+                    <a href="{{ qr.get_absolute_url }}">{{ qr.id }}</a> ({{ qr.title }})
                 </li>
             {% endfor %}
         </ul>

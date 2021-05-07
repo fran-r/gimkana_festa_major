@@ -1,15 +1,15 @@
 {% extends "base_generic.html" %}
 
 {% block content %}
-    <h4>{{ qr.name }}</h4>
+    <h4>{{ qr.title }}</h4>
 
-    <p>{{ qr.hint1 }}</p>
+    <p>{{ qr.hint }}</p>
 
     {% if qr.is_scanned or qr.hints > 0 %}
         <br>
         <figure>
-            <img src="/static/img/img-prueba-{{ qr.id }}.jpg" alt="Imagen {{ qr.id }}" style="max-width:80%">
-            <figcaption>Test: {{ qr.image_footer }}</figcaption>
+            <img src="/static/{{ qr.image}}" alt="{{ qr.title }}">
+            <figcaption>{{ qr.image_footer }}</figcaption>
         </figure>
 
         <br>
@@ -18,14 +18,13 @@
 
     {% if qr.is_scanned %}
         <div class="Description">
-            {{ qr.description }}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            {{ qr.description|urlize|linebreaks }}
         </div>
     {% else %}
         {% if qr.hints > 1 %}
-            <p><a href={{ qr.map_url }}>Ver mapa</a></p>
+            <p><a href={{ qr.coordinates }}>Ver mapa</a></p>
             <div class="GoogleMapsContainer">
-                <iframe src="https://maps.google.com/maps?hl=es&amp;q=41.43692216582696,2.170848303801787&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <iframe src="https://maps.google.com/maps?hl=es&amp;q={{qr.coordinates}}&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         {% else %}
             <a href="{% url 'get-hint' qr.id %}">Abrir pista {{ qr.hints|add:"1" }}</a>

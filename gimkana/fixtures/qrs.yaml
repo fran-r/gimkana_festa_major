@@ -3,323 +3,415 @@
   pk: 1
   fields:
     id: 1
-    name: Título QR - 1
-    description: Descripcion
-    hint1: Casal de Barri
-    hint2: img/img-prueba-1.jpg
-    map_url: https://goo.gl/maps/pRURExEej1Xx8uYS9
+    is_shop: false
+    title: 'Título QR - 1'
+    description: '
+Comisión Festa Major
+'
+    hint: 'Comisión Festa Major'
+    image: 'img/test/img-prueba-1.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 1
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 2
   fields:
     id: 2
-    name: Título QR - 2
-    description: Descripcion
-    hint1: Casal de Barri (terrado)
-    hint2: img/img-prueba-2.jpg
-    map_url: https://goo.gl/maps/v9TgX4Ejwcm7MXe46
+    is_shop: false
+    title: 'Título QR - 2'
+    description: '
+Pancartas
+'
+    hint: 'Pancartas'
+    image: 'img/test/img-prueba-2.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 2
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 3
   fields:
     id: 3
-    name: Título QR - 3
-    description: Descripcion
-    hint1: Angel Pestaña (gradas1)
-    hint2: img/img-prueba-3.jpg
-    map_url: https://goo.gl/maps/U3NNYSxHYpoDBVqx7
+    is_shop: false
+    title: 'Título QR - 3'
+    description: '
+Lanzamiento olivas/Cucaña
+'
+    hint: 'L@s Fresk@s'
+    image: 'img/img-qr-3.jpg'
+    image_footer: 'Foto: Peña FreeStayl'
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 3
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 4
   fields:
     id: 4
-    name: Título QR - 4
-    description: Descripcion
-    hint1: Angel Pestaña (gradas2)
-    hint2: img/img-prueba-4.jpg
-    map_url: https://goo.gl/maps/eGGasvHNsitBBgru7
+    is_shop: false
+    title: 'Título QR - 4'
+    description: '
+Fiesta Holly
+'
+    hint: 'Comisión Festa Major'
+    image: 'img/test/img-prueba-4.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 4
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 5
   fields:
     id: 5
-    name: Título QR - 5
-    description: Descripcion
-    hint1: Plástica Flor
-    hint2: img/img-prueba-5.jpg
-    map_url: https://goo.gl/maps/7Kjpsbi4wNrJxJi98
+    is_shop: false
+    title: 'Título QR - 5'
+    description: '
+Parking Paseo Valldaura
+'
+    hint: 'Pancartas'
+    image: 'img/test/img-prueba-5.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 5
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 6
   fields:
     id: 6
-    name: Título QR - 6
-    description: Descripcion
-    hint1: Casal de Joves
-    hint2: img/img-prueba-6.jpg
-    map_url: https://goo.gl/maps/w4KktCkocoXozSNo8
+    is_shop: false
+    title: 'MARTES: Concierto FreeStayl'
+    description: '
+Casal de Joves
+'
+    hint: 'FreeStayl'
+    image: 'img/test/img-prueba-6.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 6
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 7
   fields:
     id: 7
-    name: Título QR - 7
-    description: Descripcion
-    hint1: AVV
-    hint2: img/img-prueba-7.jpg
-    map_url: https://goo.gl/maps/3KEjmCTGxSay3gmGA
+    is_shop: false
+    title: 'DOMINGO: Habaneras y Ron Cremat'
+    description: '
+Asociación de Vecinas y Vecinos de Prosperitat
+
+Calle Baltasar Gracián, 24-26
+
+
+La AVV de Prosperitat trabaja continuadamente para hacer oir la voz del vecindario en el Ayuntamiento. La voz de la gente que, a pie de calle, conoce de cerca los problemas y las necesidades del lugar en el que vive. La Asociación se fundó como tal el 12 de enero de 1987, aunque ya venía funcionado desde 1972 como sección de la AV del sector Vallbona-Torre Baró-Trinitat.
+
+
+Puedes acercarte para informarte y también participar activamente.
+
+- Junta abierta: Miércoles a partir de las 19h.
+
+- Vocalía de Sanitat: Martes de 19 a 20h y miércoles de 18 a 19:30h.
+
+
+Más información:
+
+https://www.prosperitat.org/
+'
+    hint: 'Local #prospememata'
+    image: 'img/img-qr-7.jpg'
+    image_footer: 'Foto: 9Barris Imatge'
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 7
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 8
   fields:
     id: 8
-    name: Título QR - 8
-    description: Descripcion
-    hint1: Rambleta/Via Favencia
-    hint2: img/img-prueba-8.jpg
-    map_url: https://goo.gl/maps/ERdJ4iZo82FHoRUm6
+    is_shop: false
+    title: 'Título QR - 8'
+    description: '
+Comerciantes Rambleta
+'
+    hint: 'Comerciantes Rambleta'
+    image: 'img/test/img-prueba-8.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 8
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 9
   fields:
     id: 9
-    name: Título QR - 9
-    description: Descripcion
-    hint1: Zona Verde
-    hint2: img/img-prueba-9.jpg
-    map_url: https://goo.gl/maps/o8bGHByywWuLoK6J6
+    is_shop: false
+    title: 'Título QR - 9'
+    description: '
+Feria antes
+'
+    hint: 'Feria antes'
+    image: 'img/test/img-prueba-9.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 9
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 10
   fields:
     id: 10
-    name: Título QR - 10
-    description: Descripcion
-    hint1: Harry Walker (P.Valldaura)
-    hint2: img/img-prueba-10.jpg
-    map_url: https://goo.gl/maps/rFwR6hXkZpTvyjyg7
+    is_shop: false
+    title: 'Título QR - 10'
+    description: '
+Promosalut/Prospetina
+'
+    hint: 'Fuente'
+    image: 'img/test/img-prueba-10.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 10
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 11
   fields:
     id: 11
-    name: Título QR - 11
-    description: Descripcion
-    hint1: Institut Nou Barris
-    hint2: img/img-prueba-11.jpg
-    map_url: https://goo.gl/maps/JenEDZQRi7KPkQTAA
+    is_shop: false
+    title: 'Título QR - 11'
+    description: '
+Antes se llamaba I. Sant Andreu
+'
+    hint: 'Txistorra Rock'
+    image: 'img/test/img-prueba-11.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 11
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 12
   fields:
     id: 12
-    name: Título QR - 12
-    description: Descripcion
-    hint1: Harry Walker (valla)
-    hint2: img/img-prueba-12.jpg
-    map_url: https://goo.gl/maps/iFS7nvq2EiEuXZcA8
+    is_shop: false
+    title: 'Título QR - 12'
+    description: '
+Fuegos artificiales
+'
+    hint: 'Fuegos artificiales'
+    image: 'img/test/img-prueba-12.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 12
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 13
   fields:
     id: 13
-    name: Título QR - 13
-    description: Descripcion
-    hint1: Plaza Prosperitat
-    hint2: img/img-prueba-13.jpg
-    map_url: https://goo.gl/maps/MHcrUEBP46dPdhKL6
+    is_shop: false
+    title: 'Título QR - 13'
+    description: '
+Obra de arte/Asarock
+'
+    hint: 'Plaza de Lxs de toda la birra'
+    image: 'img/test/img-prueba-13.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 13
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 14
   fields:
     id: 14
-    name: Título QR - 14
-    description: Descripcion
-    hint1: Plaza Nou Barris
-    hint2: img/img-prueba-14.jpg
-    map_url: https://goo.gl/maps/zQiv19BqSS9k5jgN8
+    is_shop: false
+    title: 'Título QR - 14'
+    description: '
+Colegio Mercé Rodoreda
+'
+    hint: 'Tamborrada/Correfoc'
+    image: 'img/test/img-prueba-14.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 14
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 15
   fields:
     id: 15
-    name: Título QR - 15
-    description: Descripcion
-    hint1: Joaquim Valls
-    hint2: img/img-prueba-15.jpg
-    map_url: https://goo.gl/maps/mAQUX6jTvHGHZ4P3A
+    is_shop: false
+    title: 'Título QR - 15'
+    description: '
+CJP/La Cuarta
+'
+    hint: 'Quinto+Tapa'
+    image: 'img/test/img-prueba-15.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 15
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 16
   fields:
     id: 16
-    name: Título QR - 16
-    description: Descripcion
-    hint1: Plaza de Santa Engracia
-    hint2: img/img-prueba-16.jpg
-    map_url: https://goo.gl/maps/n5kce1ohZqwZZfpq7
+    is_shop: false
+    title: 'Título QR - 16'
+    description: '
+Bizarrock/Pluma negra/Fútbol banco
+'
+    hint: 'Camisetas colgando'
+    image: 'img/test/img-prueba-16.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 16
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 17
   fields:
     id: 17
-    name: Título QR - 17
-    description: Descripcion
-    hint1: Escuela Prosperitat
-    hint2: img/img-prueba-17.jpg
-    map_url: https://goo.gl/maps/Qd9k4bxWS5pS7VMV6
+    is_shop: false
+    title: 'Título QR - 17'
+    description: '
+
+'
+    hint: 'Quién dijo que el balontiro es un juego de niñas y niños?'
+    image: 'img/test/img-prueba-17.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 17
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 18
   fields:
     id: 18
-    name: Título QR - 18
-    description: Descripcion
-    hint1: Polideportivo
-    hint2: img/img-prueba-18.jpg
-    map_url: https://goo.gl/maps/XepgvyF9NHXH4yYHA
+    is_shop: false
+    title: 'Título QR - 18'
+    description: '
+Diada basquet / Fútbol sala
+'
+    hint: 'Diada basquet / Fútbol sala'
+    image: 'img/test/img-prueba-18.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 18
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 19
   fields:
     id: 19
-    name: Título QR - 19
-    description: Descripcion
-    hint1: Calle Molí
-    hint2: img/img-prueba-19.jpg
-    map_url: https://goo.gl/maps/R1v7LdZnSaqWh7pY6
+    is_shop: false
+    title: 'Título QR - 19'
+    description: '
+Sardinada
+'
+    hint: 'Sardinada'
+    image: 'img/test/img-prueba-19.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 19
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 20
   fields:
     id: 20
-    name: Título QR - 20
-    description: Descripcion
-    hint1: Date una huerta
-    hint2: img/img-prueba-20.jpg
-    map_url: https://goo.gl/maps/t29CnGDthY3Q14Zd6
+    is_shop: false
+    title: 'Título QR - 20'
+    description: '
+Date una huerta
+'
+    hint: 'Date una huerta'
+    image: 'img/test/img-prueba-20.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 20
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 21
   fields:
     id: 21
-    name: Título QR - 21
-    description: Descripcion
-    hint1: Plaza Lola Anglada
-    hint2: img/img-prueba-21.jpg
-    map_url: https://goo.gl/maps/PX5GFuKatR5cZzJcA
+    is_shop: false
+    title: 'Título QR - 21'
+    description: '
+Recogida de alimentos
+'
+    hint: 'Escenario en cuesta/4 calles coinciden en el mismo punto'
+    image: 'img/test/img-prueba-21.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 21
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 22
   fields:
     id: 22
-    name: Título QR - 22
-    description: Descripcion
-    hint1: Casal de Gent Gran
-    hint2: img/img-prueba-22.jpg
-    map_url: https://goo.gl/maps/3VN5EQ3pQmiCmpRRA
+    is_shop: false
+    title: 'Título QR - 22'
+    description: '
+Casal de Gent Gran
+'
+    hint: 'Casal de Gent Gran'
+    image: 'img/test/img-prueba-22.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 22
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 23
   fields:
     id: 23
-    name: Título QR - 23
-    description: Descripcion
-    hint1: Plaza Nou Pins
-    hint2: img/img-prueba-23.jpg
-    map_url: https://goo.gl/maps/PX5GFuKatR5cZzJcA
+    is_shop: false
+    title: 'Título QR - 23'
+    description: '
+Milduros/Zapatillas
+'
+    hint: 'Milduros/Zapatillas'
+    image: 'img/test/img-prueba-23.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 23
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 24
   fields:
     id: 24
-    name: Título QR - 24
-    description: Descripcion
-    hint1: Marquesina
-    hint2: img/img-prueba-24.jpg
-    map_url: https://goo.gl/maps/nfUwgQjDaPACKaW88
+    is_shop: false
+    title: 'Título QR - 24'
+    description: '
+Aquí se hacen los conciertos de San Xibeco
+'
+    hint: 'El mejor lugar para reubicar eventos en caso de lluvia, porque tiene techo'
+    image: 'img/test/img-prueba-24.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 24
     value: 5
-    is_shop: false
 
 - model: gimkana.qr
   pk: 25
   fields:
     id: 25
-    name: Título QR - 25
-    description: Descripcion
-    hint1: Campo de fútbol
-    hint2: img/img-prueba-25.jpg
-    map_url: https://goo.gl/maps/n5DCXNKagTZWUYHE7
+    is_shop: false
+    title: 'Título QR - 25'
+    description: '
+El lugar natural de la peña Al hueco
+'
+    hint: 'Aquí tocó La polla records la Festa Major de 198??'
+    image: 'img/test/img-prueba-25.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 25
     value: 5
-    is_shop: false

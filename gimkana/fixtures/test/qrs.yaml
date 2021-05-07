@@ -1,0 +1,325 @@
+
+- model: gimkana.qr
+  pk: 1
+  fields:
+    id: 1
+    name: Título QR - 1
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 1
+    hint2: img/test/img-prueba-1.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 1
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 2
+  fields:
+    id: 2
+    name: Título QR - 2
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 2
+    hint2: img/test/img-prueba-2.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 2
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 3
+  fields:
+    id: 3
+    name: Título QR - 3
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 3
+    hint2: img/test/img-prueba-3.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 3
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 4
+  fields:
+    id: 4
+    name: Título QR - 4
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 4
+    hint2: img/test/img-prueba-4.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 4
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 5
+  fields:
+    id: 5
+    name: Título QR - 5
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 5
+    hint2: img/test/img-prueba-5.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 5
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 6
+  fields:
+    id: 6
+    name: Título QR - 6
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 6
+    hint2: img/test/img-prueba-6.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 6
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 7
+  fields:
+    id: 7
+    name: Título QR - 7
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 7
+    hint2: img/test/img-prueba-7.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 7
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 8
+  fields:
+    id: 8
+    name: Título QR - 8
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 8
+    hint2: img/test/img-prueba-8.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 8
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 9
+  fields:
+    id: 9
+    name: Título QR - 9
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 9
+    hint2: img/test/img-prueba-9.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 9
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 10
+  fields:
+    id: 10
+    name: Título QR - 10
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 10
+    hint2: img/test/img-prueba-10.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 10
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 11
+  fields:
+    id: 11
+    name: Título QR - 11
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 11
+    hint2: img/test/img-prueba-11.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 11
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 12
+  fields:
+    id: 12
+    name: Título QR - 12
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 12
+    hint2: img/test/img-prueba-12.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 12
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 13
+  fields:
+    id: 13
+    name: Título QR - 13
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 13
+    hint2: img/test/img-prueba-13.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 13
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 14
+  fields:
+    id: 14
+    name: Título QR - 14
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 14
+    hint2: img/test/img-prueba-14.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 14
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 15
+  fields:
+    id: 15
+    name: Título QR - 15
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 15
+    hint2: img/test/img-prueba-15.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 15
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 16
+  fields:
+    id: 16
+    name: Título QR - 16
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 16
+    hint2: img/test/img-prueba-16.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 16
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 17
+  fields:
+    id: 17
+    name: Título QR - 17
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 17
+    hint2: img/test/img-prueba-17.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 17
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 18
+  fields:
+    id: 18
+    name: Título QR - 18
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 18
+    hint2: img/test/img-prueba-18.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 18
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 19
+  fields:
+    id: 19
+    name: Título QR - 19
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 19
+    hint2: img/test/img-prueba-19.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 19
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 20
+  fields:
+    id: 20
+    name: Título QR - 20
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 20
+    hint2: img/test/img-prueba-20.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 20
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 21
+  fields:
+    id: 21
+    name: Título QR - 21
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 21
+    hint2: img/test/img-prueba-21.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 21
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 22
+  fields:
+    id: 22
+    name: Título QR - 22
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 22
+    hint2: img/test/img-prueba-22.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 22
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 23
+  fields:
+    id: 23
+    name: Título QR - 23
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 23
+    hint2: img/test/img-prueba-23.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 23
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 24
+  fields:
+    id: 24
+    name: Título QR - 24
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    hint1: Pista - 24
+    hint2: img/test/img-prueba-24.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 24
+    value: 5
+    is_shop: false
+
+- model: gimkana.qr
+  pk: 25
+  fields:
+    id: 25
+    description: Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.
+    name: Título QR - 25
+    hint1: Pista - 25
+    hint2: img/test/img-prueba-25.jpg
+    map_url: https://goo.gl/maps/kUu1AZUcMYwmR5vXA
+    num_order: 25
+    value: 5
+    is_shop: false
