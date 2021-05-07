@@ -21,7 +21,7 @@ class Qr(models.Model):
         """
         String que representa al objeto QR
         """
-        return self.name or '-'
+        return self.title or '-'
 
     def get_absolute_url(self):
         """
