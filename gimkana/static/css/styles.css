@@ -54,7 +54,7 @@ figcaption {
 .container-body {
     display: flex;
     flex-direction: row;
-    padding: 10px 0;
+    padding: 10px 0 30px 0;
 }
 
 .sidebar {
@@ -74,7 +74,7 @@ figcaption {
 
 .list-item {
     font-size: 15px;
-    padding-bottom: 4px;
+    padding-bottom: 7px;
 }
 
 .checked {
@@ -101,4 +101,5 @@ figcaption {
 
 .Description {
     text-align: justify;
+    white-space: pre-line;
 }

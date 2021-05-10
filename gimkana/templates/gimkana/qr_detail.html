@@ -13,12 +13,11 @@
         </figure>
 
         <br>
-        <br>
     {% endif %}
 
     {% if qr.is_scanned %}
         <div class="Description">
-            {{ qr.description|urlize|linebreaks }}
+            {{ qr.description|urlize }}
         </div>
     {% else %}
         {% if qr.hints > 1 %}
