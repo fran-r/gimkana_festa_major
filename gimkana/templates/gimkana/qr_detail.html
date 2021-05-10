@@ -3,37 +3,76 @@
 {% block content %}
     <h4>{{ qr.title }}</h4>
 
-    <p>{{ qr.hint }}</p>
-
-    {% if qr.is_scanned or qr.hints > 0 %}
+    {% if qr.is_shop %}
+        <p></p><strong>Puntos: {{ qr.scoring_value }}</strong></p>
         <br>
-        <figure>
-            <img src="/static/{{ qr.image}}" alt="{{ qr.title }}">
-            <figcaption>{{ qr.image_footer }}</figcaption>
-        </figure>
-
+        <img src="/static/img/comercios.jpg" alt="Comercio colaborador">
         <br>
-    {% endif %}
-
-    {% if qr.is_scanned %}
         <div class="Description">
-            {{ qr.description|urlize }}
+            <p>Los Comercios Colaboradores son el principal ingreso de la Festa Major. Sin ellos, las fiestas no serían posibles tal y como las conocemos.</p>
+            <p>Por eso, cuando compras en los comercios del barrio, estás colaborando con la Festa Major.</p>
+            <p style="text-align: left;">Además:
+                - Son nuestros vecinos y vecinas
+                - Ofrecen un trato personal y cercano
+                - Sufren la competencia de las grandes superficies y el comercio electrónico
+                - Un barrio sin comercios es un barrio muerto
+            </p>
         </div>
     {% else %}
-        {% if qr.hints > 1 %}
-            <p><a href={{ qr.coordinates }}>Ver mapa</a></p>
-            <div class="GoogleMapsContainer">
-                <iframe src="https://maps.google.com/maps?hl=es&amp;q={{qr.coordinates}}&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <p></p><strong>Puntos: {{ qr.scoring_value }} - Pistas: {{ qr.hints }}</strong></p>
+
+        <p>{{ qr.hint }}</p>
+
+        {% if qr.is_scanned or qr.hints > 0 %}
+            <br>
+            <figure>
+                <img src="/static/{{ qr.image}}" alt="{{ qr.title }}">
+                <figcaption>{{ qr.image_footer }}</figcaption>
+            </figure>
+            <br>
+        {% endif %}
+
+        {% if qr.is_scanned %}
+            <div class="Description">
+                {{ qr.description|urlize }}
             </div>
         {% else %}
-            <a href="{% url 'get-hint' qr.id %}">Abrir pista {{ qr.hints|add:"1" }}</a>
-            <br>
-            <br>
+            {% if qr.hints > 1 %}
+                <a class="MapUrl"href={{ qr.coordinates }}>Abre el mapa para navegar hasta el QR</a>
+                <div class="GoogleMapsContainer">
+                    <iframe src="https://maps.google.com/maps?hl=es&amp;q={{qr.coordinates}}&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            {% endif %}
         {% endif %}
     {% endif %}
 
-    <form action="{% url 'qrs' %}">
-        <input class="Button" type="submit" value="Volver"/>
-    </form>
+    <div>
+        {% if qr.is_shop is not True and qr.is_scanned is not True %}
+            <div class="Warning">
+                {% if qr.hints < 2 %}
+                    * Cada pista resta 1 punto al QR
+                {% else %}
+                    * Si resuelves el QR no se obtendrán puntos
+                {% endif %}
+            </div>
+        {% endif %}
+        <div class="ButtonsContainer">
+            {% if qr.is_shop is not True and qr.is_scanned is not True %}
+                {% if qr.hints < 2 %}
+                    <form action="{% url 'get-hint' qr.id %}">
+                        <input class="Button" type="submit" value="Abrir pista"/>
+                    </form>
+                {% else %}
+                    <form action="{% url 'get-hint' qr.id %}">
+                        <input class="Button" type="submit" value="Resolver QR"/>
+                    </form>
+                {% endif %}
+            {% endif %}
+
+            <form action="{% url 'qrs' %}">
+                <input class="Button" type="submit" value="Volver"/>
+            </form>
+        </div>
+    </div>
 
 {% endblock %}

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from django.db.models import F
+from django.db.models import F, Case, When, Value
 from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView
 
@@ -67,11 +67,11 @@ class UserQrGetHintView(SignupRequiredMixin, CreateView):
         qr_id = self.kwargs['pk']
         username = self.request.user
 
-        # Update userqr entry (was created when entering in the qr-details view) and redirect to qr details view
-        (
-            UserQr.objects
-            .filter(qr_id=qr_id, user=username)
-            .update(hints=F('hints') + 1, value=F('value') - 1)
-        )
+        queryset = UserQr.objects.filter(qr_id=qr_id, user=username)
+        userqr = queryset.first()
+        if userqr.hints < 2:
+            queryset.update(hints=F('hints') + 1, value=F('value') - 1)
+        else:
+            queryset.update(hints=F('hints') + 1, value=0, scan_date=datetime.now())
 
         return redirect('qr-detail', pk=qr_id)

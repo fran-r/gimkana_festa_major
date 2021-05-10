@@ -16,7 +16,7 @@ class UserQr(models.Model):
 
     @property
     def is_scanned(self):
-        return bool(self.scan_date)
+        return bool(self.scan_date or self.value == 0)
 
     class Meta:
         ordering = ['qr__num_order']
@@ -25,7 +25,7 @@ class UserQr(models.Model):
     def __str__(self):
         """String for representing the Model object."""
         return '{0} ({1}) scanned by {2} on {3} - {4}'\
-            .format(self.qr.id, self.qr.name, self.user.username, self.scan_date, self.value)
+            .format(self.qr.id, self.qr.title, self.user.username, self.scan_date, self.value)
 
     def get_absolute_url(self):
         """

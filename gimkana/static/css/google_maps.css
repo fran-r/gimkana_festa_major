@@ -11,3 +11,8 @@
     width: 100% !important;
     height: 100% !important;
 }
+
+.MapUrl {
+    color: lightgray;
+    font-size: 12px;
+}

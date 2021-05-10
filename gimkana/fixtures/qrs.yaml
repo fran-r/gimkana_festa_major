@@ -101,19 +101,26 @@ Casal de Joves
     id: 7
     is_shop: false
     title: 'DOMINGO: Habaneras y Ron Cremat'
-    description: |
+    description: '
 Asociación de Vecinas y Vecinos de Prosperitat
+
 Calle Baltasar Gracián, 24-26
+
 
 La AVV de Prosperitat trabaja continuadamente para hacer oir la voz del vecindario en el Ayuntamiento. La voz de la gente que, a pie de calle, conoce de cerca los problemas y las necesidades del lugar en el que vive. La Asociación se fundó como tal el 12 de enero de 1987, aunque ya venía funcionado desde 1972 como sección de la AV del sector Vallbona-Torre Baró-Trinitat.
 
+
 Puedes acercarte para informarte y también participar activamente.
+
 - Junta abierta: Miércoles a partir de las 19h.
+
 - Vocalía de Sanitat: Martes de 19 a 20h y miércoles de 18 a 19:30h.
 
-Más información:
-https://www.prosperitat.org/
 
+Más información:
+
+https://www.prosperitat.org/
+'
     hint: 'Local #prospememata'
     image: 'img/img-qr-7.jpg'
     image_footer: 'Foto: 9Barris Imatge'

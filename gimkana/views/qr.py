@@ -17,7 +17,7 @@ class QrScannedListView(SignupRequiredMixin, ListView):
         user_scans = (
             UserQr.objects
             .filter(user=self.request.user)
-            .filter(scan_date__isnull=False)
+            .filter(Q(scan_date__isnull=False) | Q(value=0))
             .values_list('qr_id')
         )
 
@@ -42,5 +42,6 @@ class QrDetailView(SignupRequiredMixin, DetailView):
                                                   defaults={'is_shop': qr.is_shop, 'value': qr.value})
         return queryset.annotate(
             hints=Value(user_qr.hints, output_field=IntegerField()),
+            scoring_value=Value(user_qr.value, output_field=IntegerField()),
             is_scanned=Value(user_qr.is_scanned, output_field=BooleanField()),
         )

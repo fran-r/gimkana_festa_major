@@ -52,9 +52,8 @@ figcaption {
 }
 
 .container-body {
-    display: flex;
-    flex-direction: row;
     padding: 10px 0 30px 0;
+    width: 100%;
 }
 
 .sidebar {
@@ -102,4 +101,11 @@ figcaption {
 .Description {
     text-align: justify;
     white-space: pre-line;
+}
+
+.Warning {
+    font-size: 12px;
+    //text-align: center;
+    color: yellow;
+    margin: 15px 0 -15px 15px;
 }
