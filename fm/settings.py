@@ -21,14 +21,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-#SECRET_KEY = 'l%%)zihdnt9#ron_^o+ft90$e^0%bf@3b$))51hnu&6)^#i3f%'
+# SECRET_KEY = 'l%%)zihdnt9#ron_^o+ft90$e^0%bf@3b$))51hnu&6)^#i3f%'
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'l%%)zihdnt9#ron_^o+ft90$e^0%bf@3b$))51hnu&6)^#i3f%')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-#DEBUG = True
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+# DEBUG = True
+DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
-#ALLOWED_HOSTS = ['https://immense-cliffs-09867.herokuapp.com/','127.0.0.1', 'localhost']
+# ALLOWED_HOSTS = ['https://immense-cliffs-09867.herokuapp.com/','127.0.0.1', 'localhost']
 ALLOWED_HOSTS = ['*']
 
 # Application definition
@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # TODO: revisar si es necesaria esta sintaxis
     'gimkana.apps.GimkanaConfig',
-    'accounts',
+    # 'accounts',
+    'accounts.apps.AccountsConfig',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'accounts.middleware.OneSessionPerUserMiddleware',
 ]
 
 ROOT_URLCONF = 'fm.urls'
