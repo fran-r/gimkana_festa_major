@@ -64,7 +64,7 @@
       "first_name": "",
       "last_name": "",
       "email": "user3@kk.com",
-      "is_staff": false,
+      "is_staff": true,
       "is_active": true,
       "date_joined": "2021-04-18T16:41:45.277Z",
       "groups": [],

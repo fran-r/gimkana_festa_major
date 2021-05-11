@@ -10,22 +10,24 @@
         {% endif %}
     {% endif %}
 
-    <form method="post" action="{% url 'login' %}">
+    <form class="Center" method="post" action="{% url 'login' %}">
         {% csrf_token %}
 
         {% if form.errors %}
-            <p><b>El usuario no existe.</b> <a href="{% url 'signup' %}">Crear usuario</a></p>
+            <p>El usuario no existe.<b> <a href="{% url 'signup' %}">Crear usuario</a></b>.</p>
         {% else %}
-            <p><a href="{% url 'signup' %}">Crea tu usuario</a> si aún no lo has hecho</p>
+            <p>Introduce el nombre de usuario registrado</p>
         {% endif %}
 
         <div>
-            <p>{{ form.username.label_tag }}</p>
-            <p>{{ form.username }}</p>
+            <p>{{ form.username.label_tag }} {{ form.username }}</p>
             <p>{{ form.password }}</p>
-            <input type="submit" value="Entrar" />
+            <input class="Button" type="submit" value="Entrar" />
             <input type="hidden" name="next" value="{{ next }}" />
         </div>
-    </form>
 
+    {% if not form.errors %}
+        <p class="Warning">Si no tienes usuario, ve a la página de <a href="{% url 'signup' %}">registro.</a></p>
+    {% endif %}
+    </form>
 {% endblock %}

@@ -41,7 +41,7 @@ Pancartas
 Lanzamiento olivas/Cucaña
 '
     hint: 'L@s Fresk@s'
-    image: 'img/img-qr-3.jpg'
+    image: 'img/qr/img-qr-3.jpg'
     image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.43692216582696,2.170848303801787'
     num_order: 3
@@ -122,7 +122,7 @@ Más información:
 https://www.prosperitat.org/
 '
     hint: 'Local #prospememata'
-    image: 'img/img-qr-7.jpg'
+    image: 'img/qr/img-qr-7.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.43692216582696,2.170848303801787'
     num_order: 7

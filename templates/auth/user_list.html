@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h2>Lista de usuarios</h2>
+
+    {% if user_list %}
+        {% for user in user_list %}
+            <p>{{ user.username }} - {{ user.email }}</p>
+        {% endfor %}
+    {% else %}
+        <p>Aún no hay usuarios.</p>
+    {% endif %}
+{% endblock %}

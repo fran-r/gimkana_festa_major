@@ -3,8 +3,6 @@
 {% block content %}
     {% include "gimkana/scoring.html" %}
 
-{#    <h1>Lista de QRs</h1> #}
-
     {% for qr in qr_list %}
         <div class="list-item {% if qr.is_scanned %}checked{% else %}unchecked{% endif %}">
             <a href="{{ qr.get_absolute_url }}">{{ qr.title }}</a>
@@ -12,4 +10,17 @@
     {% empty %}
         <p>Aún no hay QRs.</p>
     {% endfor %}
+
+    <form class="Center" action="{% url 'rules' %}">
+        <input class="Button" type="submit" value="Ver reglas"/>
+    </form>
+
+    {% if request.user.is_staff %}
+        <form class="Center" action="{% url 'users' %}">
+            <input class="Button" type="submit" value="Ranking"/>
+        </form>
+    {% endif %}
+
+
+
 {% endblock %}

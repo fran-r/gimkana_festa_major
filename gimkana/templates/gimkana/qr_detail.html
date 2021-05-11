@@ -6,7 +6,7 @@
     {% if qr.is_shop %}
         <p></p><strong>Puntos: {{ qr.scoring_value }}</strong></p>
         <br>
-        <img src="/static/img/comercios.jpg" alt="Comercio colaborador">
+        <img src="/static/img/qr/comercios.jpg" alt="Comercio colaborador">
         <br>
         <div class="Description">
             <p>Los Comercios Colaboradores son el principal ingreso de la Festa Major. Sin ellos, las fiestas no serían posibles tal y como las conocemos.</p>
@@ -47,20 +47,11 @@
     {% endif %}
 
     <div>
-        {% if qr.is_shop is not True and qr.is_scanned is not True %}
-            <div class="Warning">
-                {% if qr.hints < 2 %}
-                    * Cada pista resta 1 punto al QR
-                {% else %}
-                    * Si resuelves el QR no se obtendrán puntos
-                {% endif %}
-            </div>
-        {% endif %}
         <div class="ButtonsContainer">
             {% if qr.is_shop is not True and qr.is_scanned is not True %}
                 {% if qr.hints < 2 %}
                     <form action="{% url 'get-hint' qr.id %}">
-                        <input class="Button" type="submit" value="Abrir pista"/>
+                        <input class="Button" type="submit" value="Abrir pista*"/>
                     </form>
                 {% else %}
                     <form action="{% url 'get-hint' qr.id %}">
@@ -73,6 +64,16 @@
                 <input class="Button" type="submit" value="Volver"/>
             </form>
         </div>
+
+        {% if qr.is_shop is not True and qr.is_scanned is not True %}
+            <div class="Indent Warning">
+                {% if qr.hints < 2 %}
+                    * Cada pista resta 1 punto al QR
+                {% else %}
+                    * Si resuelves el QR no se obtendrán puntos
+                {% endif %}
+            </div>
+        {% endif %}
     </div>
 
 {% endblock %}

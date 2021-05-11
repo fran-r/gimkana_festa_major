@@ -1,29 +1,30 @@
 {% extends 'base_generic.html' %}
 
 {% block content %}
-    <h1>Gimkana FreeStayl</h1>
+<div xmlns="http://www.w3.org/1999/html">
+        <h4>Crea tu usuario para participar</h4>
+        <br>
+        <p>No es necesario introducir contraseña.</p>
+        <p>Los datos se utilizarán para contactar con las personas ganadoras.</p>
+        <br>
 
-    <p>Bienvenid@ a la <em>Gimkana FreeStayl</em> de la Festa Major de la Prospe.</p>
-    <p>¡Sigue las pistas y escanea tantos QRs como puedas!</p>
+        <form class="Center" method="post">
+            {% csrf_token %}
 
-    <h2>Crea tu usuario para participar</h2>
-    <h4><a O href="{% url 'login' %}">Accede</a> si ya tienes una cuenta</h4>
+            {% if form.errors %}
+                {% for field in form %}
+					{% if field.errors %}
+                        <p class="Warning Center">{{ field.errors|striptags }}</p>
+                    {% endif %}
+				{% endfor %}
+                <br>
+            {% endif %}
 
-    <form method="post">
-        {% csrf_token %}
-
-        {% if form.errors %}
-            <p><b>Introduce un nombre y un email válidos</b></p>
-            <p>Los usaremos para contactar a los ganadores</p>
-        {% endif %}
-
-        <div>
-            <p>{{ form.username.label_tag }}</p>
-            <p>{{ form.username }}</p>
-            <p>{{ form.email.label_tag }}</p>
-            <p>{{ form.email }}</p>
-            <input type="submit" value="Crear usuario" />
-        </div>
-    </form>
+            <p>{{ form.username.label_tag }} {{ form.username }}</p>
+            <p>{{ form.email.label_tag }} {{ form.email }}</p>
+            <input class="Button Center" type="submit" value="Crear usuario" />
+            <p class="Warning Center"><a href="{% url 'login' %}">Accede aquí</a> si ya tienes usuario.</p>
+        </form>
+    </div>
 
 {% endblock %}
