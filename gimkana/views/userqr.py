@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from django.db.models import F, Case, When, Value
+from django.db.models import F
 from django.shortcuts import redirect
 from django.views.generic import ListView, CreateView
 
@@ -25,7 +25,7 @@ class UserQrCreateView(SignupRequiredMixin, CreateView):
     model = UserQr
 
     @staticmethod
-    def tmp_create_user_qr(qr, username):
+    def create_user_qr(qr, username):
         # Create userqr entry and redirect to qr details view
         user_qr, is_new = UserQr.objects.get_or_create(qr_id=qr.id, user=username,
                                                        defaults={
@@ -43,9 +43,7 @@ class UserQrCreateView(SignupRequiredMixin, CreateView):
     def get(self, request, *args, **kwargs):
         qr = Qr.objects.get(pk=self.kwargs['pk'])
         username = self.request.user
-
-        # TODO: es temporal. Incluir en get() cuando se elimine el código de prueba
-        return self.tmp_create_user_qr(qr, username)
+        return self.create_user_qr(qr, username)
 
 
 class UserQrTestCreateView(SignupRequiredMixin, CreateView):
@@ -57,7 +55,7 @@ class UserQrTestCreateView(SignupRequiredMixin, CreateView):
         username = self.request.user
 
         kwargs['pk'] = qr_id
-        return UserQrCreateView.tmp_create_user_qr(qr_id, username, 5)
+        return UserQrCreateView.create_user_qr(qr_id, username, 5)
 
 
 class UserQrGetHintView(SignupRequiredMixin, CreateView):
