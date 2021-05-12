@@ -3,7 +3,6 @@ from django.shortcuts import redirect
 
 
 class OneSessionPerUserMiddleware:
-    # WARNING!! This fails on redirecting on loginRequired
     def _forbid_new_session(self, request):
         # Code to be executed for each request before the view (and later middleware) are called.
         if request.user.is_authenticated:
@@ -48,4 +47,4 @@ class OneSessionPerUserMiddleware:
 
     def __call__(self, request):
         # Code to be executed for each request before the view (and later middleware) are called.
-        return self._close_previous_session(request)
+        return self._forbid_new_session(request)

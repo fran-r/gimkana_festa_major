@@ -23,7 +23,7 @@
             <p>{{ form.username.label_tag }} {{ form.username }}</p>
             <p>{{ form.email.label_tag }} {{ form.email }}</p>
             <input class="Button Center" type="submit" value="Crear usuario" />
-            <p class="Warning Center"><a href="{% url 'login' %}">Accede aquí</a> si ya tienes usuario.</p>
+            <p class="Warning Center"><a href="{% url 'login' %}?next={{ request.GET.next }}">Accede aquí</a> si ya tienes usuario.</p>
         </form>
     </div>
 

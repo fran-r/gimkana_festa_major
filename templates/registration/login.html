@@ -27,7 +27,7 @@
         </div>
 
     {% if not form.errors %}
-        <p class="Warning">Si no tienes usuario, ve a la página de <a href="{% url 'signup' %}">registro.</a></p>
+        <p class="Warning">Si no tienes usuario, ve a la página de <a href="{% url 'signup' %}?next={{ request.GET.next }}">registro.</a></p>
     {% endif %}
     </form>
 {% endblock %}

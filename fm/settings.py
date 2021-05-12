@@ -40,9 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # TODO: revisar si es necesaria esta sintaxis
+    # 'django_user_agents',
     'gimkana.apps.GimkanaConfig',
-    # 'accounts',
     'accounts.apps.AccountsConfig',
 ]
 
@@ -56,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'accounts.middleware.OneSessionPerUserMiddleware',
+    # 'django_user_agents.middleware.UserAgentMiddleware',
 ]
 
 ROOT_URLCONF = 'fm.urls'
@@ -150,4 +150,3 @@ LOGIN_REDIRECT_URL = '/'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 SESSION_COOKIE_AGE = 5184000
-
