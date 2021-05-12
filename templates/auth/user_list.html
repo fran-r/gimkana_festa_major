@@ -1,13 +1,12 @@
 {% extends "base_generic.html" %}
+{% load django_tables2 %}
 
 {% block content %}
-    <h2>Lista de usuarios</h2>
+    <h2>Usuarios: {{ table.rows|length }}</h2>
+    {% render_table table %}
 
-    {% if user_list %}
-        {% for user in user_list %}
-            <p>{{ user.username }} - {{ user.email }}</p>
-        {% endfor %}
-    {% else %}
-        <p>Aún no hay usuarios.</p>
-    {% endif %}
+    <form class="Center" action="{% url 'qrs' %}">
+        <input class="Button" type="submit" value="Volver"/>
+    </form>
+
 {% endblock %}

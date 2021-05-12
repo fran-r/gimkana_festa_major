@@ -19,7 +19,7 @@ class UserQr(models.Model):
         return bool(self.scan_date or self.value == 0)
 
     class Meta:
-        ordering = ['qr__num_order']
+        # ordering = ['qr__num_order']
         unique_together = ['qr_id', 'user_id']
 
     def __str__(self):

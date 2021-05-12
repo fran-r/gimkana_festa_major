@@ -1,5 +1,6 @@
 Django==3.1.6
 pyyaml==5.4.1
+django_tables2==2.3.4
 # Required if using user_agent
 # ua-parser==0.10.0
 # user-agents==2.2.0

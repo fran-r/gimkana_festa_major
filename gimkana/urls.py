@@ -18,6 +18,8 @@ urlpatterns = [
     url(r'^gethint/(?P<pk>.+)$', views.UserQrGetHintView.as_view(), name='get-hint'),
 
     url(r'^rules/$', TemplateView.as_view(template_name="rules.html"), name='rules'),
-    url(r'^users/$', views.UserListView.as_view(), name='users'),
+    # url(r'^users/$', views.UserListView.as_view(), name='users'),
+    url(r'^users/$', views.active_user_list_view, name='users'),
+
 ]
 

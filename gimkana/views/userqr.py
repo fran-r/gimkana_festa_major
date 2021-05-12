@@ -1,11 +1,12 @@
 from datetime import datetime
 
-from django.db.models import F
-from django.shortcuts import redirect
+from django.db.models import F, Count, Sum, Case, When
+from django.shortcuts import redirect, render
 from django.views.generic import ListView, CreateView
 
 from auth.SignupRequiredMixin import SignupRequiredMixin
 from ..models import UserQr, Qr
+from ..tables import UsersTable
 
 
 class UserQrListView(SignupRequiredMixin, ListView):
@@ -73,3 +74,22 @@ class UserQrGetHintView(SignupRequiredMixin, CreateView):
             queryset.update(hints=F('hints') + 1, value=0, scan_date=datetime.now())
 
         return redirect('qr-detail', pk=qr_id)
+
+
+# TODO: view only accesible by is_staff
+def active_user_list_view(request):
+    queryset = (
+        UserQr.objects
+        .filter(user__is_superuser=False, scan_date__isnull=False)
+        .exclude(value=0)
+        .values('user__username', 'user__email')
+        .annotate(
+            score=Sum('value'),
+            num_qrs=Count(Case(When(is_shop=False, then=1))),
+            num_shops=Count(Case(When(is_shop=True, then=1))),
+            num_hints=Sum('hints'),
+        )
+        .order_by('-score', '-num_qrs', '-num_shops', 'num_hints')
+    )
+    table = UsersTable(queryset)
+    return render(request, 'auth/user_list.html', {'table': table})

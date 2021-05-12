@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # 'django_user_agents',
+    'django_tables2',
     'gimkana.apps.GimkanaConfig',
     'accounts.apps.AccountsConfig',
 ]

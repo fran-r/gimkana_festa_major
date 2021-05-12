@@ -7,4 +7,8 @@ from auth.SignupRequiredMixin import SignupRequiredMixin
 class UserListView(SignupRequiredMixin, ListView):
     model = User
 
-    # num_users = User.objects.all().count()
+    def get_context_data(self, **kwargs):
+        # Call the base implementation first to get a context
+        context = super().get_context_data(**kwargs)
+        context['num_users'] = User.objects.count()
+        return context
