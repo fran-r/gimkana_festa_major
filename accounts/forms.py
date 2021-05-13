@@ -30,6 +30,10 @@ def _clean_username(form):
 
 
 class SignUpForm(UserCreationForm):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['username'].widget.attrs.update({'autofocus': False})
+
     username = forms.CharField(max_length=100, label='Usuario', help_text='*')
     email = forms.EmailField(max_length=100, help_text='*')
     password1 = forms.CharField(
