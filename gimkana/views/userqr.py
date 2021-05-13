@@ -76,7 +76,6 @@ class UserQrGetHintView(SignupRequiredMixin, CreateView):
         return redirect('qr-detail', pk=qr_id)
 
 
-# TODO: view only accesible by is_staff
 def active_user_list_view(request):
     queryset = (
         UserQr.objects

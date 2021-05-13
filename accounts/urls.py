@@ -7,6 +7,6 @@ from accounts.forms import LoginForm
 urlpatterns = [
     url(r'^signup/$', account_views.signup, name='signup'),
     url(r'^login/$',
-        LoginView.as_view(template_name="registration/login.html", authentication_form=LoginForm),
+        LoginView.as_view(template_name='registration/login.html', authentication_form=LoginForm),
         name='login'),
 ]

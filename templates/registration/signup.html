@@ -1,30 +1,23 @@
 {% extends 'base_generic.html' %}
 
 {% block content %}
-<div xmlns="http://www.w3.org/1999/html">
-        <h4>Crea tu usuario para participar</h4>
-        <br>
-        <p>No es necesario introducir contraseña.</p>
-        <p>Los datos se utilizarán para contactar con las personas ganadoras.</p>
-        <br>
+    {% include "gimkana/rules.html" %}
+    <br>
+    <form class="Center" method="post">
+        {% csrf_token %}
 
-        <form class="Center" method="post">
-            {% csrf_token %}
+        {% if form.errors %}
+            {% for field in form %}
+                {% if field.errors %}
+                    <p class="Warning Center">{{ field.errors|striptags }}</p>
+                {% endif %}
+            {% endfor %}
+            <br>
+        {% endif %}
 
-            {% if form.errors %}
-                {% for field in form %}
-					{% if field.errors %}
-                        <p class="Warning Center">{{ field.errors|striptags }}</p>
-                    {% endif %}
-				{% endfor %}
-                <br>
-            {% endif %}
-
-            <p>{{ form.username.label_tag }} {{ form.username }}</p>
-            <p>{{ form.email.label_tag }} {{ form.email }}</p>
-            <input class="Button Center" type="submit" value="Crear usuario" />
-            <p class="Warning Center"><a href="{% url 'login' %}?next={{ request.GET.next }}">Accede aquí</a> si ya tienes usuario.</p>
-        </form>
-    </div>
-
+        <p>{{ form.username.label_tag }} {{ form.username }}</p>
+        <p>{{ form.email.label_tag }} {{ form.email }}</p>
+        <input class="Button Center" type="submit" value="Crear usuario" />
+        <p class="Warning Center"><a href="{% url 'login' %}?next={{ request.GET.next }}">Accede aquí</a> si ya tienes usuario.</p>
+    </form>
 {% endblock %}

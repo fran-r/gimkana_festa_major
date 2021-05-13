@@ -1,4 +1,4 @@
-{% extends "base_generic.html" %}
+{% extends user.is_authenticated|yesno:"base_generic.html,base_empty.html" %}
 
 {% block content %}
     <div class="Center">
@@ -6,15 +6,13 @@
         <p class="Center_">
             <img src="/static/img/logo-freestayl.png" alt="FreeStayl" width="70%">
         </p>
-        <br>
-        <strong>REGLAS</strong>
     </div>
     <br>
 
     <div class="Justify">
         <p>Bienvenid@ a la Gimkana FreeStayl sobre la Festa Major de la Prospe.</p>
         <p>El objetivo del juego es encontrar el máximo número de QRs que están distribuidos en zonas representativas de la Festa Major.</p>
-        <p>En la pantalla principal se muestra una lista con todos los QRs. Al seleccionar cada uno de ellos encontrarás una pista que te ayudará a descubrir su ubicación. No es necesario resolverlos en orden.</p>
+        <p>En la pantalla principal se muestra una lista con todos los QRs. Al entrar en cada uno de ellos encontrarás una pista que te ayudará a descubrir su ubicación. No es necesario resolverlos en orden.</p>
         <p>Aunque los QRs no estarán a simple vista, es posible que encuentres alguno por casualidad. En ese caso ¡enhorabuena!.</p>
         <p>Si lo necesitas, puedes pedir una pista adicional, que consiste en una fotografía de la ubicación del QR.</p>
         <p>Si aún tienes dudas, puedes pedir otra pista, que en este caso será un mapa desde el que podrás navegar para llegar hasta el QR.</p>
@@ -26,12 +24,14 @@
             <li>3 puntos por cada QR con mapa</li>
             <li>1 punto por cada QR de comercio</li>
         </ul>
-        <p>¿Y si no encuentro el QR? Siempre puedes marcarlo como resuelto y ver la información que contiene. En ese caso se marcará como conseguido, pero la puntuación será de 0 puntos</p>
-        </p>
+        <p>En caso de empate a puntos, el orden para desempatar será: mayor número de QRs, mayor número de comercios, y menor número de pistas. Si aún así persiste el empate, se aplicará cualquier otro criterio que decida la Peña FreeStayl. Cualquier comportamiento contra el 'juego limpio' conllevará la descalifación para optar a los premios.</p>
+        <p>¿Y si no encuentro el QR? Siempre puedes marcarlo como resuelto y ver la información que contiene. En ese caso no conseguirás ningún punto por ese QR.</p>
+        <p>Para participar es necesario registrarse. Los datos de registro servirán para contactar a las personas ganadoras. No es necesario utilizar contraseña, ya que el registro está asociado a un único dispositivo móvil.</p>
     </div>
 
-    <form class="Center" action="{% url 'qrs' %}">
-        <input class="Button" type="submit" value="Jugar"/>
-    </form>
-
+    {% if user.is_authenticated %}
+        <form class="Center" action="{% url 'qrs' %}">
+            <input class="Button" type="submit" value="Volver"/>
+        </form>
+    {% endif %}
 {% endblock %}

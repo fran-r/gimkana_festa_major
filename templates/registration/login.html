@@ -2,21 +2,14 @@
 
 {% block content %}
 
-    {% if next %}
-        {% if user.is_authenticated %}
-            <p>El usuario no tiene acceso a esta página</p>
-        {% else %}
-            <p>Inicia sesión para ver la página</p>
-        {% endif %}
-    {% endif %}
-
     <form class="Center" method="post" action="{% url 'login' %}">
         {% csrf_token %}
 
         {% if form.errors %}
-            <p>El usuario no existe.<b> <a href="{% url 'signup' %}">Crear usuario</a></b>.</p>
+            <p>El usuario no existe.</p>
+            <p>Inténtalo de nuevo o <b> <a href="{% url 'signup' %}">crea tu usuario</a></b>.</p>
         {% else %}
-            <p>Introduce el nombre de usuario registrado</p>
+            <p>Accede con tu nombre de usuario registrado</p>
         {% endif %}
 
         <div>
