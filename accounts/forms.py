@@ -4,6 +4,9 @@ from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 
 
+DEFAULT_PASSWORD = 'G1mkana$'
+
+
 def _clean_email(form):
     """
     ensure that email is always lower case and unique.
@@ -18,7 +21,12 @@ def _clean_username(form):
     """
     ensure that username is always lower case.
     """
-    return form.cleaned_data['username'].lower()
+    # TODO: restaurar que se pueda crear cualquier usuario
+    # return form.cleaned_data['username'].lower()
+    if form.cleaned_data['username'].startswith('00'):
+        return form.cleaned_data['username'].lower()
+    else:
+        return '%'
 
 
 class SignUpForm(UserCreationForm):
@@ -26,11 +34,11 @@ class SignUpForm(UserCreationForm):
     email = forms.EmailField(max_length=100, help_text='*')
     password1 = forms.CharField(
         widget=forms.HiddenInput,
-        empty_value='G1mkana$',
+        empty_value=DEFAULT_PASSWORD,
     )
     password2 = forms.CharField(
         widget=forms.HiddenInput,
-        empty_value='G1mkana$',
+        empty_value=DEFAULT_PASSWORD,
     )
 
     class Meta:
@@ -48,7 +56,7 @@ class LoginForm(AuthenticationForm):
     username = forms.CharField(max_length=100, label='Usuario', help_text='*')
     password = forms.CharField(
         widget=forms.HiddenInput,
-        empty_value='G1mkana$',
+        empty_value=DEFAULT_PASSWORD,
     )
 
     def clean_username(self):
