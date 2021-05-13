@@ -1,200 +1,1600 @@
 
 - model: gimkana.qr
-  pk: 101
+  pk: 4FF3F
   fields:
-    id: 101
+    id: 4FF3F
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 102
+  pk: BBD6E
   fields:
-    id: 102
+    id: BBD6E
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 103
+  pk: D8FA5
   fields:
-    id: 103
+    id: D8FA5
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 104
+  pk: C419A
   fields:
-    id: 104
+    id: C419A
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 105
+  pk: 4E740
   fields:
-    id: 105
+    id: 4E740
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 106
+  pk: 1D4D0
   fields:
-    id: 106
+    id: 1D4D0
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 107
+  pk: F18EF
   fields:
-    id: 107
+    id: F18EF
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 108
+  pk: 679C9
   fields:
-    id: 108
+    id: 679C9
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 109
+  pk: 795DB
   fields:
-    id: 109
+    id: 795DB
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 110
+  pk: 1F10E
   fields:
-    id: 110
+    id: 1F10E
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 111
+  pk: BAB6A
   fields:
-    id: 111
+    id: BAB6A
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 112
+  pk: E7AD2
   fields:
-    id: 112
+    id: E7AD2
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 113
+  pk: E1BB3
   fields:
-    id: 113
+    id: E1BB3
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 114
+  pk: A815D
   fields:
-    id: 114
+    id: A815D
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 115
+  pk: 4D1E2
   fields:
-    id: 115
+    id: 4D1E2
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 116
+  pk: 60CFE
   fields:
-    id: 116
+    id: 60CFE
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 117
+  pk: 6E961
   fields:
-    id: 117
+    id: 6E961
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 118
+  pk: 98555
   fields:
-    id: 118
+    id: 98555
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 119
+  pk: 7F35C
   fields:
-    id: 119
+    id: 7F35C
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 120
+  pk: D5BB3
   fields:
-    id: 120
+    id: D5BB3
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 121
+  pk: 9D432
   fields:
-    id: 121
+    id: 9D432
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 122
+  pk: C2832
   fields:
-    id: 122
+    id: C2832
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 123
+  pk: 5217B
   fields:
-    id: 123
+    id: 5217B
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 124
+  pk: C0AE4
   fields:
-    id: 124
+    id: C0AE4
     is_shop: true
     title: Comercio Colaborador
     value: 1
 
 - model: gimkana.qr
-  pk: 125
+  pk: AD3A8
   fields:
-    id: 125
+    id: AD3A8
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E2E9B
+  fields:
+    id: E2E9B
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 88DC5
+  fields:
+    id: 88DC5
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 33F88
+  fields:
+    id: 33F88
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 80466
+  fields:
+    id: 80466
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 94050
+  fields:
+    id: 94050
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C1AC9
+  fields:
+    id: C1AC9
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4F909
+  fields:
+    id: 4F909
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8E88C
+  fields:
+    id: 8E88C
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 50DEF
+  fields:
+    id: 50DEF
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 7A181
+  fields:
+    id: 7A181
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C41DE
+  fields:
+    id: C41DE
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8A33A
+  fields:
+    id: 8A33A
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 3D112
+  fields:
+    id: 3D112
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C175B
+  fields:
+    id: C175B
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B0703
+  fields:
+    id: B0703
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 974AC
+  fields:
+    id: 974AC
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 1F787
+  fields:
+    id: 1F787
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: A447D
+  fields:
+    id: A447D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B4C75
+  fields:
+    id: B4C75
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E3CA7
+  fields:
+    id: E3CA7
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 46D7F
+  fields:
+    id: 46D7F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 73B86
+  fields:
+    id: 73B86
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B2487
+  fields:
+    id: B2487
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 9448B
+  fields:
+    id: 9448B
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5C56F
+  fields:
+    id: 5C56F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 3B71E
+  fields:
+    id: 3B71E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 30201
+  fields:
+    id: 30201
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5CB33
+  fields:
+    id: 5CB33
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: CBCCF
+  fields:
+    id: CBCCF
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4C4D7
+  fields:
+    id: 4C4D7
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 28E46
+  fields:
+    id: 28E46
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 66A1E
+  fields:
+    id: 66A1E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 423F4
+  fields:
+    id: 423F4
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 2FBCB
+  fields:
+    id: 2FBCB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5AE57
+  fields:
+    id: 5AE57
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 66BE1
+  fields:
+    id: 66BE1
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 6C81E
+  fields:
+    id: 6C81E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C4616
+  fields:
+    id: C4616
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 608C2
+  fields:
+    id: 608C2
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 927C7
+  fields:
+    id: 927C7
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8E9FD
+  fields:
+    id: 8E9FD
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5672F
+  fields:
+    id: 5672F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: F24B1
+  fields:
+    id: F24B1
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 3D712
+  fields:
+    id: 3D712
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 6215C
+  fields:
+    id: 6215C
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 6C3E9
+  fields:
+    id: 6C3E9
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: AAA10
+  fields:
+    id: AAA10
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 362FB
+  fields:
+    id: 362FB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5231E
+  fields:
+    id: 5231E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E1FE6
+  fields:
+    id: E1FE6
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 30553
+  fields:
+    id: 30553
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 6E8AC
+  fields:
+    id: 6E8AC
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: CE6FC
+  fields:
+    id: CE6FC
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5DF19
+  fields:
+    id: 5DF19
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8090C
+  fields:
+    id: 8090C
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 26D5D
+  fields:
+    id: 26D5D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: A78FC
+  fields:
+    id: A78FC
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: ED429
+  fields:
+    id: ED429
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: A3353
+  fields:
+    id: A3353
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D48F6
+  fields:
+    id: D48F6
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5954C
+  fields:
+    id: 5954C
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 58E8F
+  fields:
+    id: 58E8F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4AA77
+  fields:
+    id: 4AA77
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: BD60A
+  fields:
+    id: BD60A
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: DDC44
+  fields:
+    id: DDC44
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 85110
+  fields:
+    id: 85110
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5B4FB
+  fields:
+    id: 5B4FB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 6356E
+  fields:
+    id: 6356E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 798AD
+  fields:
+    id: 798AD
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 57C87
+  fields:
+    id: 57C87
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 34EC2
+  fields:
+    id: 34EC2
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4970D
+  fields:
+    id: 4970D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: A8835
+  fields:
+    id: A8835
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 44C3D
+  fields:
+    id: 44C3D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E9BE6
+  fields:
+    id: E9BE6
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 9AB1F
+  fields:
+    id: 9AB1F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E7C86
+  fields:
+    id: E7C86
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C2275
+  fields:
+    id: C2275
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 98D47
+  fields:
+    id: 98D47
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8187C
+  fields:
+    id: 8187C
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: CB5DB
+  fields:
+    id: CB5DB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 7E898
+  fields:
+    id: 7E898
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 9B04D
+  fields:
+    id: 9B04D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D607F
+  fields:
+    id: D607F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 93778
+  fields:
+    id: 93778
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 24E23
+  fields:
+    id: 24E23
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: A4DE0
+  fields:
+    id: A4DE0
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5A32D
+  fields:
+    id: 5A32D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: F2401
+  fields:
+    id: F2401
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 80440
+  fields:
+    id: 80440
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C1354
+  fields:
+    id: C1354
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 57889
+  fields:
+    id: 57889
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5A04E
+  fields:
+    id: 5A04E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 9A40F
+  fields:
+    id: 9A40F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 3E7D7
+  fields:
+    id: 3E7D7
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 85DF0
+  fields:
+    id: 85DF0
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8C2CB
+  fields:
+    id: 8C2CB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8D95D
+  fields:
+    id: 8D95D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D4C15
+  fields:
+    id: D4C15
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: BF7CD
+  fields:
+    id: BF7CD
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 6FF0D
+  fields:
+    id: 6FF0D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B358F
+  fields:
+    id: B358F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 9AF94
+  fields:
+    id: 9AF94
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 7DAAC
+  fields:
+    id: 7DAAC
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: AAFA4
+  fields:
+    id: AAFA4
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 95D78
+  fields:
+    id: 95D78
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 58F92
+  fields:
+    id: 58F92
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4B5BD
+  fields:
+    id: 4B5BD
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5D755
+  fields:
+    id: 5D755
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B34D0
+  fields:
+    id: B34D0
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B2BEB
+  fields:
+    id: B2BEB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 43B17
+  fields:
+    id: 43B17
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D4D9F
+  fields:
+    id: D4D9F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 1BC83
+  fields:
+    id: 1BC83
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C9624
+  fields:
+    id: C9624
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 5C83E
+  fields:
+    id: 5C83E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D7E78
+  fields:
+    id: D7E78
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: F1699
+  fields:
+    id: F1699
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E7448
+  fields:
+    id: E7448
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 2F32B
+  fields:
+    id: 2F32B
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B3FD3
+  fields:
+    id: B3FD3
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: CEE89
+  fields:
+    id: CEE89
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 30491
+  fields:
+    id: 30491
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 3EFCA
+  fields:
+    id: 3EFCA
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E1EA9
+  fields:
+    id: E1EA9
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 69D60
+  fields:
+    id: 69D60
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: A02E3
+  fields:
+    id: A02E3
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 69C07
+  fields:
+    id: 69C07
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: EBDEB
+  fields:
+    id: EBDEB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B0C75
+  fields:
+    id: B0C75
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 3BE76
+  fields:
+    id: 3BE76
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 9319A
+  fields:
+    id: 9319A
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 42DAB
+  fields:
+    id: 42DAB
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4BAB8
+  fields:
+    id: 4BAB8
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D56D3
+  fields:
+    id: D56D3
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: DC215
+  fields:
+    id: DC215
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8D103
+  fields:
+    id: 8D103
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 57462
+  fields:
+    id: 57462
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 63DFF
+  fields:
+    id: 63DFF
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 23F0A
+  fields:
+    id: 23F0A
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 81126
+  fields:
+    id: 81126
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E5D8A
+  fields:
+    id: E5D8A
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8FF43
+  fields:
+    id: 8FF43
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 3EAFA
+  fields:
+    id: 3EAFA
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 515FD
+  fields:
+    id: 515FD
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 23523
+  fields:
+    id: 23523
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D6EE6
+  fields:
+    id: D6EE6
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 94A2A
+  fields:
+    id: 94A2A
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: DF663
+  fields:
+    id: DF663
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4766D
+  fields:
+    id: 4766D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C461F
+  fields:
+    id: C461F
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 6A992
+  fields:
+    id: 6A992
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 1B264
+  fields:
+    id: 1B264
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 535D1
+  fields:
+    id: 535D1
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: F1F8D
+  fields:
+    id: F1F8D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E1767
+  fields:
+    id: E1767
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: DCAB3
+  fields:
+    id: DCAB3
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 83C6C
+  fields:
+    id: 83C6C
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: EB880
+  fields:
+    id: EB880
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 81A59
+  fields:
+    id: 81A59
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: F1E19
+  fields:
+    id: F1E19
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: E29E0
+  fields:
+    id: E29E0
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: D8970
+  fields:
+    id: D8970
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 91E02
+  fields:
+    id: 91E02
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: B20C2
+  fields:
+    id: B20C2
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: C8E9D
+  fields:
+    id: C8E9D
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 787A2
+  fields:
+    id: 787A2
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: A0667
+  fields:
+    id: A0667
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 71D6E
+  fields:
+    id: 71D6E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 4ABE0
+  fields:
+    id: 4ABE0
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 7581E
+  fields:
+    id: 7581E
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 31C1B
+  fields:
+    id: 31C1B
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 2FA03
+  fields:
+    id: 2FA03
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: DEA97
+  fields:
+    id: DEA97
+    is_shop: true
+    title: Comercio Colaborador
+    value: 1
+
+- model: gimkana.qr
+  pk: 8C8FD
+  fields:
+    id: 8C8FD
     is_shop: true
     title: Comercio Colaborador
     value: 1

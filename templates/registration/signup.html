@@ -13,6 +13,8 @@
                 {% endif %}
             {% endfor %}
             <br>
+        {% else  %}
+            <p class="Center">Alta de usuario</p>
         {% endif %}
 
         <p>{{ form.username.label_tag }} {{ form.username }}</p>
