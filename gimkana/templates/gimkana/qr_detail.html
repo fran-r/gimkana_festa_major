@@ -4,7 +4,7 @@
     <h4>{{ qr.title }}</h4>
 
     {% if qr.is_shop %}
-        <p></p><strong>Puntos: {{ qr.scoring_value }}</strong></p>
+        {# <p></p><strong>Puntos: {{ qr.scoring_value }}</strong></p> #}
         <br>
         <img src="/static/img/qr/comercios.jpg" alt="Comercio colaborador">
         <br>
@@ -19,7 +19,7 @@
             </p>
         </div>
     {% else %}
-        <p></p><strong>Puntos: {{ qr.scoring_value }} - Pistas: {{ qr.hints }}</strong></p>
+        {# <p></p><strong>Puntos: {{ qr.scoring_value }} - Pistas: {{ qr.hints }}</strong></p> #}
 
         <p>{{ qr.hint }}</p>
 
@@ -55,18 +55,18 @@
                     </form>
                 {% else %}
                     <form action="{% url 'get-hint' qr.id %}">
-                        <input class="Button" type="submit" value="Resolver QR"/>
+                        <input class="Button" type="submit" value="Resolver QR*"/>
                     </form>
                 {% endif %}
             {% endif %}
 
             <form action="{% url 'qrs' %}">
-                <input class="Button" type="submit" value="Volver"/>
+                <input class="Button" type="submit" value="Ver QRs"/>
             </form>
         </div>
 
         {% if qr.is_shop is not True and qr.is_scanned is not True %}
-            <div class="Indent Warning">
+            <div class="Warning Center">
                 {% if qr.hints < 2 %}
                     * Cada pista resta 1 punto al QR
                 {% else %}
