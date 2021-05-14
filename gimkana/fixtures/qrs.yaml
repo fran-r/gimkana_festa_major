@@ -1,58 +1,282 @@
 
 - model: gimkana.qr
-  pk: 1
+  pk: pRURExEej1Xx8uYS90
   fields:
-    id: 1
+    id: pRURExEej1Xx8uYS90
     is_shop: false
-    title: 'Título QR - 1'
+    title: 'Donde todo comienza'
     description: '
 Comisión Festa Major
 '
     hint: 'Comisión Festa Major'
-    image: 'img/test/img-prueba-1.jpg'
-    image_footer: ''
+    image: 'img/qr/comision.jpg'
+    image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.43692216582696,2.170848303801787'
     num_order: 1
     value: 5
 
 - model: gimkana.qr
-  pk: 2
+  pk: v9TgX4Ejwcm7MXe460
   fields:
-    id: 2
+    id: v9TgX4Ejwcm7MXe460
     is_shop: false
-    title: 'Título QR - 2'
+    title: 'Las pancartas de las peñas'
     description: '
-Pancartas
+Pancartas / Txupinazo
 '
     hint: 'Pancartas'
-    image: 'img/test/img-prueba-2.jpg'
-    image_footer: ''
+    image: 'img/qr/pancartas.jpg'
+    image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.43692216582696,2.170848303801787'
     num_order: 2
     value: 5
 
 - model: gimkana.qr
-  pk: 3
+  pk: o8bGHByywWuLoK6J60
   fields:
-    id: 3
+    id: o8bGHByywWuLoK6J60
     is_shop: false
-    title: 'Título QR - 3'
+    title: 'Viernes: Pregón de Festa Major'
     description: '
-Lanzamiento olivas/Cucaña
+Feria antes
 '
-    hint: 'L@s Fresk@s'
-    image: 'img/qr/img-qr-3.jpg'
-    image_footer: 'Foto: Peña FreeStayl'
+    hint: 'Feria antes'
+    image: 'img/test/img-prueba-9.jpg'
+    image_footer: ''
     coordinates: '41.43692216582696,2.170848303801787'
     num_order: 3
     value: 5
 
 - model: gimkana.qr
-  pk: 4
+  pk: R1v7LdZnSaqWh7pY60
   fields:
-    id: 4
+    id: R1v7LdZnSaqWh7pY60
     is_shop: false
-    title: 'Título QR - 4'
+    title: 'Sábado: Sardinada popular'
+    description: '
+Sardinada Perku
+'
+    hint: 'Sardinada'
+    image: 'img/test/img-prueba-19.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 4
+    value: 5
+
+- model: gimkana.qr
+  pk: U3NNYSxHYpoDBVqx70
+  fields:
+    id: U3NNYSxHYpoDBVqx70
+    is_shop: false
+    title: 'Sábado: Tarde de peñas'
+    description: '
+Lanzamiento olivas/Cucaña
+'
+    hint: 'L@s Fresk@s'
+    image: 'img/qr/chewakas.jpg'
+    image_footer: 'Foto: Peña FreeStayl'
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 5
+    value: 5
+
+- model: gimkana.qr
+  pk: JenEDZQRi7KPkQTAA0
+  fields:
+    id: JenEDZQRi7KPkQTAA0
+    is_shop: false
+    title: 'Lunes: Txistorra rock'
+    description: '
+Antes se llamaba I. Sant Andreu
+'
+    hint: 'Txistorra Rock'
+    image: 'img/test/img-prueba-11.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 6
+    value: 5
+
+- model: gimkana.qr
+  pk: 3VN5EQ3pQmiCmpRRA0
+  fields:
+    id: 3VN5EQ3pQmiCmpRRA0
+    is_shop: false
+    title: 'Martes: Comer y bailar'
+    description: '
+Casal de Gent Gran
+'
+    hint: 'Casal de la Gent Gran de martes a jueves'
+    image: 'img/qr/casal_gent_gran.jpg'
+    image_footer: 'Foto: El País'
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 7
+    value: 5
+
+- model: gimkana.qr
+  pk: w4KktCkocoXozSNo80
+  fields:
+    id: w4KktCkocoXozSNo80
+    is_shop: false
+    title: 'Martes: Concierto FreeStayl'
+    description: '
+Casal de Joves
+'
+    hint: 'FreeStayl'
+    image: 'img/qr/casal_joves.jpg'
+    image_footer: 'Foto: Peña FreeStayl'
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 8
+    value: 5
+
+- model: gimkana.qr
+  pk: t29CnGDthY3Q14Zd60
+  fields:
+    id: t29CnGDthY3Q14Zd60
+    is_shop: false
+    title: 'Miércoles: Date una huerta'
+    description: '
+Date una huerta
+'
+    hint: 'Date una huerta'
+    image: 'img/test/img-prueba-20.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 9
+    value: 5
+
+- model: gimkana.qr
+  pk: 7Kjpsbi4wNrJxJi980
+  fields:
+    id: 7Kjpsbi4wNrJxJi980
+    is_shop: false
+    title: 'Miércoles: Vamos a la feria'
+    description: '
+Parking Paseo Valldaura
+'
+    hint: 'Día del niño miércoles y jueves'
+    image: 'img/test/img-prueba-5.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 10
+    value: 5
+
+- model: gimkana.qr
+  pk: n5DCXNKagTZWUYHE70
+  fields:
+    id: n5DCXNKagTZWUYHE70
+    is_shop: false
+    title: 'Miércoles: Rememorando Prospe Rock'
+    description: '
+El lugar natural de la peña Al hueco. Historias de Azagra como referencia - hemeroteca
+'
+    hint: 'Aquí tocó La polla records la Festa Major de 1985'
+    image: 'img/qr/prospe_rock_1985.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 11
+    value: 5
+
+- model: gimkana.qr
+  pk: mAQUX6jTvHGHZ4P3A0
+  fields:
+    id: mAQUX6jTvHGHZ4P3A0
+    is_shop: false
+    title: 'Jueves: Quinto y tapa'
+    description: '
+CJP/La Cuarta
+'
+    hint: 'Quinto+Tapa'
+    image: 'img/test/img-prueba-15.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 12
+    value: 5
+
+- model: gimkana.qr
+  pk: n5kce1ohZqwZZfpq70
+  fields:
+    id: n5kce1ohZqwZZfpq70
+    is_shop: false
+    title: 'Jueves: Bizarrock'
+    description: '
+Bizarrock/Pluma negra/Fútbol banco
+'
+    hint: 'Camisetas colgando'
+    image: 'img/test/img-prueba-16.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 13
+    value: 5
+
+- model: gimkana.qr
+  pk: PX5GFuKatR5cZzJcA0
+  fields:
+    id: PX5GFuKatR5cZzJcA0
+    is_shop: false
+    title: 'Viernes: Tortilla, kalimotxo y rumbaoke'
+    description: '
+Milduros/Zapatillas y puretas deteniendo la obra
+'
+    hint: 'Milduros/Zapatillas'
+    image: 'img/test/img-prueba-23.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 14
+    value: 5
+
+- model: gimkana.qr
+  pk: MHcrUEBP46dPdhKL60
+  fields:
+    id: MHcrUEBP46dPdhKL60
+    is_shop: false
+    title: 'Sábado: Asarrock'
+    description: '
+De comer y de beber con Asarrock y Lxs de toda la birra
+'
+    hint: 'Plaza de Lxs de toda la birra'
+    image: 'img/test/img-prueba-13.jpg'
+    image_footer: ''
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 15
+    value: 5
+
+- model: gimkana.qr
+  pk: ERdJ4iZo82FHoRUm60
+  fields:
+    id: ERdJ4iZo82FHoRUm60
+    is_shop: false
+    title: 'Sábado: Fiesta en la frontera'
+    description: '
+Comerciantes Rambleta
+'
+    hint: 'Comerciantes Rambleta'
+    image: 'img/qr/rambleta.jpg'
+    image_footer: 'Foto: Comerciantes de la Rambleta'
+    coordinates: '41.43692216582696,2.170848303801787'
+    num_order: 16
+    value: 5
+
+- model: gimkana.qr
+  pk: K5h8wPckGFZppnpD70
+  fields:
+    id: K5h8wPckGFZppnpD70
+    is_shop: false
+    title: 'Sábado: Lola Anglada'
+    description: '
+Recogida de alimentos/Txipinazo-Xarxa
+'
+    hint: 'Escenario en cuesta/4 calles coinciden en el mismo punto'
+    image: 'img/test/img-prueba-21.jpg'
+    image_footer: ''
+    coordinates: '41.444702405504955, 2.184250188497672'
+    num_order: 17
+    value: 5
+
+- model: gimkana.qr
+  pk: eGGasvHNsitBBgru70
+  fields:
+    id: eGGasvHNsitBBgru70
+    is_shop: false
+    title: 'Sábado: Las orquestas'
     description: '
 Fiesta Holly
 '
@@ -60,47 +284,47 @@ Fiesta Holly
     image: 'img/test/img-prueba-4.jpg'
     image_footer: ''
     coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 4
+    num_order: 18
     value: 5
 
 - model: gimkana.qr
-  pk: 5
+  pk: Qd9k4bxWS5pS7VMV60
   fields:
-    id: 5
+    id: Qd9k4bxWS5pS7VMV60
     is_shop: false
-    title: 'Título QR - 5'
+    title: 'Domingo: Balontiro'
     description: '
-Parking Paseo Valldaura
+AMPAS
 '
-    hint: 'Pancartas'
-    image: 'img/test/img-prueba-5.jpg'
+    hint: 'Quién dijo que el balontiro es un juego de niñas y niños?'
+    image: 'img/test/img-prueba-17.jpg'
     image_footer: ''
     coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 5
+    num_order: 19
     value: 5
 
 - model: gimkana.qr
-  pk: 6
+  pk: rFwR6hXkZpTvyjyg70
   fields:
-    id: 6
+    id: rFwR6hXkZpTvyjyg70
     is_shop: false
-    title: 'MARTES: Concierto FreeStayl'
+    title: 'Domingo: Fiesta de la espuma'
     description: '
-Casal de Joves
+Promosalut/Prospetina
 '
-    hint: 'FreeStayl'
-    image: 'img/test/img-prueba-6.jpg'
+    hint: 'Fuente'
+    image: 'img/test/img-prueba-10.jpg'
     image_footer: ''
     coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 6
+    num_order: 20
     value: 5
 
 - model: gimkana.qr
-  pk: 7
+  pk: 3KEjmCTGxSay3gmGA0
   fields:
-    id: 7
+    id: 3KEjmCTGxSay3gmGA0
     is_shop: false
-    title: 'DOMINGO: Habaneras y Ron Cremat'
+    title: 'Domingo: Habaneras y Ron Cremat'
     description: '
 Asociación de Vecinas y Vecinos de Prosperitat
 
@@ -122,114 +346,18 @@ Más información:
 https://www.prosperitat.org/
 '
     hint: 'Local #prospememata'
-    image: 'img/qr/img-qr-7.jpg'
+    image: 'img/qr/avv.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 7
+    num_order: 21
     value: 5
 
 - model: gimkana.qr
-  pk: 8
+  pk: zQiv19BqSS9k5jgN80
   fields:
-    id: 8
+    id: zQiv19BqSS9k5jgN80
     is_shop: false
-    title: 'Título QR - 8'
-    description: '
-Comerciantes Rambleta
-'
-    hint: 'Comerciantes Rambleta'
-    image: 'img/test/img-prueba-8.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 8
-    value: 5
-
-- model: gimkana.qr
-  pk: 9
-  fields:
-    id: 9
-    is_shop: false
-    title: 'Título QR - 9'
-    description: '
-Feria antes
-'
-    hint: 'Feria antes'
-    image: 'img/test/img-prueba-9.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 9
-    value: 5
-
-- model: gimkana.qr
-  pk: 10
-  fields:
-    id: 10
-    is_shop: false
-    title: 'Título QR - 10'
-    description: '
-Promosalut/Prospetina
-'
-    hint: 'Fuente'
-    image: 'img/test/img-prueba-10.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 10
-    value: 5
-
-- model: gimkana.qr
-  pk: 11
-  fields:
-    id: 11
-    is_shop: false
-    title: 'Título QR - 11'
-    description: '
-Antes se llamaba I. Sant Andreu
-'
-    hint: 'Txistorra Rock'
-    image: 'img/test/img-prueba-11.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 11
-    value: 5
-
-- model: gimkana.qr
-  pk: 12
-  fields:
-    id: 12
-    is_shop: false
-    title: 'Título QR - 12'
-    description: '
-Fuegos artificiales
-'
-    hint: 'Fuegos artificiales'
-    image: 'img/test/img-prueba-12.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 12
-    value: 5
-
-- model: gimkana.qr
-  pk: 13
-  fields:
-    id: 13
-    is_shop: false
-    title: 'Título QR - 13'
-    description: '
-Obra de arte/Asarock
-'
-    hint: 'Plaza de Lxs de toda la birra'
-    image: 'img/test/img-prueba-13.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 13
-    value: 5
-
-- model: gimkana.qr
-  pk: 14
-  fields:
-    id: 14
-    is_shop: false
-    title: 'Título QR - 14'
+    title: 'Domingo: Correfoc'
     description: '
 Colegio Mercé Rodoreda
 '
@@ -237,159 +365,31 @@ Colegio Mercé Rodoreda
     image: 'img/test/img-prueba-14.jpg'
     image_footer: ''
     coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 14
-    value: 5
-
-- model: gimkana.qr
-  pk: 15
-  fields:
-    id: 15
-    is_shop: false
-    title: 'Título QR - 15'
-    description: '
-CJP/La Cuarta
-'
-    hint: 'Quinto+Tapa'
-    image: 'img/test/img-prueba-15.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 15
-    value: 5
-
-- model: gimkana.qr
-  pk: 16
-  fields:
-    id: 16
-    is_shop: false
-    title: 'Título QR - 16'
-    description: '
-Bizarrock/Pluma negra/Fútbol banco
-'
-    hint: 'Camisetas colgando'
-    image: 'img/test/img-prueba-16.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 16
-    value: 5
-
-- model: gimkana.qr
-  pk: 17
-  fields:
-    id: 17
-    is_shop: false
-    title: 'Título QR - 17'
-    description: '
-
-'
-    hint: 'Quién dijo que el balontiro es un juego de niñas y niños?'
-    image: 'img/test/img-prueba-17.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 17
-    value: 5
-
-- model: gimkana.qr
-  pk: 18
-  fields:
-    id: 18
-    is_shop: false
-    title: 'Título QR - 18'
-    description: '
-Diada basquet / Fútbol sala
-'
-    hint: 'Diada basquet / Fútbol sala'
-    image: 'img/test/img-prueba-18.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 18
-    value: 5
-
-- model: gimkana.qr
-  pk: 19
-  fields:
-    id: 19
-    is_shop: false
-    title: 'Título QR - 19'
-    description: '
-Sardinada
-'
-    hint: 'Sardinada'
-    image: 'img/test/img-prueba-19.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 19
-    value: 5
-
-- model: gimkana.qr
-  pk: 20
-  fields:
-    id: 20
-    is_shop: false
-    title: 'Título QR - 20'
-    description: '
-Date una huerta
-'
-    hint: 'Date una huerta'
-    image: 'img/test/img-prueba-20.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 20
-    value: 5
-
-- model: gimkana.qr
-  pk: 21
-  fields:
-    id: 21
-    is_shop: false
-    title: 'Título QR - 21'
-    description: '
-Recogida de alimentos
-'
-    hint: 'Escenario en cuesta/4 calles coinciden en el mismo punto'
-    image: 'img/test/img-prueba-21.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 21
-    value: 5
-
-- model: gimkana.qr
-  pk: 22
-  fields:
-    id: 22
-    is_shop: false
-    title: 'Título QR - 22'
-    description: '
-Casal de Gent Gran
-'
-    hint: 'Casal de Gent Gran'
-    image: 'img/test/img-prueba-22.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
     num_order: 22
     value: 5
 
 - model: gimkana.qr
-  pk: 23
+  pk: iFS7nvq2EiEuXZcA80
   fields:
-    id: 23
+    id: iFS7nvq2EiEuXZcA80
     is_shop: false
-    title: 'Título QR - 23'
+    title: 'Domingo: Piromusical'
     description: '
-Milduros/Zapatillas
+Fuegos artificiales
 '
-    hint: 'Milduros/Zapatillas'
-    image: 'img/test/img-prueba-23.jpg'
+    hint: 'Fuegos artificiales'
+    image: 'img/test/img-prueba-12.jpg'
     image_footer: ''
     coordinates: '41.43692216582696,2.170848303801787'
     num_order: 23
     value: 5
 
 - model: gimkana.qr
-  pk: 24
+  pk: nfUwgQjDaPACKaW880
   fields:
-    id: 24
+    id: nfUwgQjDaPACKaW880
     is_shop: false
-    title: 'Título QR - 24'
+    title: '¿Y si llueve?'
     description: '
 Aquí se hacen los conciertos de San Xibeco
 '
@@ -401,16 +401,16 @@ Aquí se hacen los conciertos de San Xibeco
     value: 5
 
 - model: gimkana.qr
-  pk: 25
+  pk: XepgvyF9NHXH4yYHA0
   fields:
-    id: 25
+    id: XepgvyF9NHXH4yYHA0
     is_shop: false
-    title: 'Título QR - 25'
+    title: 'Del deporte también se sale'
     description: '
-El lugar natural de la peña Al hueco
+Diada basquet / Fútbol sala
 '
-    hint: 'Aquí tocó La polla records la Festa Major de 198??'
-    image: 'img/test/img-prueba-25.jpg'
+    hint: 'Hay que quemarlo todo'
+    image: 'img/test/img-prueba-18.jpg'
     image_footer: ''
     coordinates: '41.43692216582696,2.170848303801787'
     num_order: 25
