@@ -25,6 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'l%%)zihdnt9#ron_^o+ft90$e^0%bf@3b$))51hnu&6)^#i3f%')
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# TODO: set False
 # DEBUG = True
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
@@ -150,4 +151,6 @@ LOGIN_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-SESSION_COOKIE_AGE = 5184000
+# TODO: restaurar la caducidad de la sesión antes de producción
+# SESSION_COOKIE_AGE = 5184000  # 60 days
+SESSION_COOKIE_AGE = 86400 # 1 day
