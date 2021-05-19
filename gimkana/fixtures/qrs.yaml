@@ -1,3 +1,4 @@
+
 - model: gimkana.qr
   pk: pRURExEej1Xx8uYS90
   fields:
@@ -11,10 +12,10 @@ La Comisión de Festa Major
 La Festa Major de Prosperitad es un proyecto participativo, creado desde el vecindario y para el vecindario.
 
 
-La Comisión de Festa Major está abierta a cualquiera que quiera participar. El sistema de organización está basado en subcomisiones que trabajan de forma autónoma: Programación, Infraestructuras, Difusión, Economía, Documentación y Anuncios. En las reuniones se ponen en común los avances o temas pendientes, y se trabaja sobre las propuestas que llegan de entidades y peñas.
+La Comisión de Festa Major está abierta a cualquiera que quiera participar. El sistema de organización está basado en subcomisiones que trabajan de forma autónoma: Programación, Infraestructuras, Difusión, Economía, Documentación y Anuncios. En las reuniones se ponen en común los avances o temas pendientes, y se trabaja sobre las propuestas que llegan de entidades y peñas. 
 
 
-De las entidades que participan en la Comisión, son de especial relevancia el Casal de Barri y el Casal de Joves, que ceden una gran parte de equipos de sonido e infraestructuras y abren sus espacios a disposición de las necesidades de las fiestas.
+De las entidades que participan en la Comisión, son de especial relevancia el Casal de Barri y el Casal de Joves, que ceden una gran parte de equipos de sonido e infraestructuras y abren sus espacios a disposición de las necesidades de las fiestas. 
 
 
 ¿Cómo puedo participar?
@@ -80,7 +81,7 @@ La Gestora y PK2 (Prosperitat Cultura en Acció 2) van de la mano. La Gestora ap
 
 
 ¿Cómo puedo participar?
-La Gestora está abierta a vecin@s y entidades que quieran colaborar.
+La Gestora está abierta a vecin@s y entidades que quieran colaborar. 
 Se reúne los lunes a las 19:30h
 '
     hint: 'Las peñas cuelgan sus pancartas en una zona bien visible durante todas las fiestas'
@@ -190,7 +191,7 @@ Calle Badosa, 10-14
 
 En 1973, con el traslado de la fábrica Harry Walker, quedó la nave y un gran solar. Con la necesidad de equipamientos públicos, y ante la amenaza de los intereses inmobiliarios, comenzó una movilización vecinal, que obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977.
 
-
+ 
 El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia con todo tipo de acciones lúdicas y de protesta alrededor del solar, nació con un espíritu netamente asambleario. Aún así, alumnos y profesores tuvieron que pasar años en barracones hasta que finalmente se logró la construcción del edificio actual.
 '
     hint: 'Salir del instituto y quedarte de concierto'
@@ -236,10 +237,10 @@ Date una huerta - Espacio okupado/liberado y autogestionado.
 Calle Joaquim Valls, 79
 
 
-En 2007, la banca compró la casa del número 79 de la calle Joaquim Valls que derribó, y desde entonces el solar quedó abandonado """"""""con un nivel de insalubridad creciente y alarmante"""""""". El actual propietario es el BBVA, que ha mantenido el solar abandonado a la espera de oportunidades de negocio, mientras se llenaba de suciedad, ratas y mal olor.
+En 2007, la banca compró la casa del número 79 de la calle Joaquim Valls que derribó, y desde entonces el solar quedó abandonado con un nivel de insalubridad creciente y alarmante. El actual propietario es el BBVA, que ha mantenido el solar abandonado a la espera de oportunidades de negocio, mientras se llenaba de suciedad, ratas y mal olor.
 
 
-El 19 de noviembre de 2016, un grupo diverso de gente del barrio entró, lo limpió y lo convirtió en un huerto y un jardín para el vecindario. De manera voluntaria, autogestionada y asamblearia. Le pusieron de nombre Date una huerta.
+El 19 de noviembre de 2016, un grupo diverso de gente del barrio entró, lo limpió y lo convirtió en un huerto y un jardín para el vecindario. De manera voluntaria, autogestionada y asamblearia. Le pusieron de nombre Date una huerta. 
 
 
 Multitud de vecinos y vecinas visitan habitualmente el huerto, de forma individual, en familia o en grupo (escolares, ancianos,...) También se realizan actividades culturales de todo tipo.
@@ -340,7 +341,7 @@ La feria se ubica en los últimos años en el solar que ocupaba la fábrica Idea
 Ante la presión vecinal, el Ayuntamiento adquirió la propiedad del solar derribó la fábrica en 2009, con la intención de destinarlo a construir equipamientos. El proyecto se detuvo con la llegada de la crisis y el Ayuntamiento decidió construir provisionalmente una zona de aparcamiento.
 
 
-Durante el mandato pasado se llevó a cabo un proceso participativo con vecinos y entidades de la Prosperidad para decidir los usos y equipamientos que se querían en este solar.
+Durante el mandato pasado se llevó a cabo un proceso participativo con vecinos y entidades de la Prosperidad para decidir los usos y equipamientos que se querían en este solar. 
 '
     hint: 'Vamos a la feria, que miércoles y jueves son los días del niño y es más barato.'
     image: 'img/qr/feria.jpg'
@@ -381,7 +382,7 @@ De hecho, los álbumes de ''Pedro Pico y Pico Vena'' de Azagra publicados en la 
   fields:
     id: mAQUX6jTvHGHZ4P3A0
     is_shop: false
-    title: 'Jueves: Quinto y tapa'
+    title: '*Jueves: Quinto y tapa'
     description: '
 CJP/La Cuarta
 '
@@ -397,7 +398,7 @@ CJP/La Cuarta
   fields:
     id: n5kce1ohZqwZZfpq70
     is_shop: false
-    title: 'Jueves: Bizarrock'
+    title: '*Jueves: Bizarrock'
     description: '
 Bizarrock/Pluma negra/Fútbol banco
 '
@@ -438,7 +439,7 @@ Haciendo gala de su espíritu combativo, algunos miembros de la Peña Pureta se 
   fields:
     id: MHcrUEBP46dPdhKL60
     is_shop: false
-    title: 'Sábado: Asarrock'
+    title: '*Sábado: Asarrock'
     description: '
 De comer y de beber con Asarrock y Lxs de toda la birra
 '
@@ -476,7 +477,7 @@ En la Festa Major de 2016 hicieron un bocadillo de butifarra tan largo como la R
   fields:
     id: K5h8wPckGFZppnpD70
     is_shop: false
-    title: 'Sábado: Para todos los públicos'
+    title: '*Sábado: Para todos los públicos'
     description: '
 Recogida de alimentos/Txipinazo-Xarxa
 '
@@ -492,7 +493,7 @@ Recogida de alimentos/Txipinazo-Xarxa
   fields:
     id: eGGasvHNsitBBgru70
     is_shop: false
-    title: 'Sábado: Las orquestas'
+    title: '*Sábado: Las orquestas'
     description: '
 ProspeBeach
 '
@@ -508,7 +509,7 @@ ProspeBeach
   fields:
     id: Qd9k4bxWS5pS7VMV60
     is_shop: false
-    title: 'Domingo: Balontiro'
+    title: '*Domingo: Balontiro'
     description: '
 AMPAS
 '
@@ -532,7 +533,7 @@ Junto al paseo de Valldaura, hace medio siglo, había grandes espacios vacíos y
 
 Una parte de los trabajadores comenzaron a hacer paros parciales, a los que la empresa respondió con sanciones. En diciembre de 1970 los paros y las asambleas diarias, forjaron la unidad. Estaban decididos a ir a la huelga total y ocupar la fábrica.
 
-A lo largo de 1970 y 1971 las protestas laborales se multiplicaron. Pero Franco todavía estaba vivo, se estaba haciendo el proceso de Burgos contra los acusados de pertenencia a ETA y se suspendieron derechos civiles en una especie de “estado de excepción dentro de una dictadura militar"""". Como todo estaba prohibido, no había derecho de huelga, no hay ningún derecho, una lucha económica automáticamente se convertía también en lucha política.
+A lo largo de 1970 y 1971 las protestas laborales se multiplicaron. Pero Franco todavía estaba vivo, se estaba haciendo el proceso de Burgos contra los acusados de pertenencia a ETA y se suspendieron derechos civiles en una especie de estado de excepción dentro de una dictadura militar. Como todo estaba prohibido, no había ningún derecho, no había derecho de huelga. Una lucha económica automáticamente se convertía también en lucha política.
 
 La huelga de la Harry Walker duró 62 días, de las más largas que se habían hecho hasta entonces en Barcelona.  Recibieron la solidaridad de decenas de empresas de toda España y también soportes desde Francia e Italia.
 
@@ -540,9 +541,9 @@ Se celebró un juicio en Magistratura del Trabajo, que declaró improcedentes lo
 
 La lucha de la Harry Walker se convirtió en símbolo de la lucha obrera.
 
-En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de “Plaza de Harry Walker"""" por el actual.
+En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de 'Plaza de Harry Walker' por el actual.
 
-Más información en el libro """"Harry Walker: lucha obrera, victoria vecinal"""", de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
+Más información en el libro 'Harry Walker: lucha obrera, victoria vecinal', de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
 '
     hint: 'Una fuente, en una plaza que cambió de nombre en 2019, coincidiendo con el centenario del barrio.'
     image: 'img/qr/fiesta_espuma.jpg'
@@ -589,7 +590,7 @@ https://www.prosperitat.org/
   fields:
     id: zQiv19BqSS9k5jgN80
     is_shop: false
-    title: 'Domingo: Correfoc'
+    title: '*Domingo: Correfoc'
     description: '
 Colegio Mercé Rodoreda
 '
@@ -612,14 +613,14 @@ Plaza de las Trabajadoras y Trabajadores de la Harry Walker
 
 En 1973, con el traslado de la Harry Walker, quedó la nave y un gran solar. Con la necesidad de equipamientos públicos, y ante la amenaza de los intereses inmobiliarios, comenzó una movilización vecinal, que obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977 y a construir equipamientos públicos.
 
-
+ 
 Finalmente, después de 25 años de movilizaciones y acción vecinal , en 1999 se consiguió la plaza, uno de los espacios públicos más grandes del barrio de la Prosperidad, rodeado por cuatro equipamientos públicos, un hecho casi único en Barcelona.
 
 
-En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de “Plaza de Harry Walker"""" por el actual.
+En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de 'Plaza de Harry Walker' por el actual.
 
-
-Más información en el libro """"Harry Walker: lucha obrera, victoria vecinal"""", de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
+ 
+Más información en el libro 'Harry Walker: lucha obrera, victoria vecinal', de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
 '
     hint: 'Cuenta una leyenda que la valla que separa el material pirotécnico del público está electrificada, para evitar que la gente se aproxime peligrosamente.'
     image: 'img/qr/fuegos.jpg'
@@ -633,11 +634,11 @@ Más información en el libro """"Harry Walker: lucha obrera, victoria vecinal""
   fields:
     id: nfUwgQjDaPACKaW880
     is_shop: false
-    title: '¿Y si llueve?'
+    title: '*¿Y si llueve?'
     description: '
 Aquí se hacen los conciertos de San Xibeco
 '
-    hint: 'Si llueve, reubicamos'
+    hint: 'Si llueve, reubicamos aquí'
     image: 'img/qr/marquesina.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.44421696272769, 2.1787662203229488'
