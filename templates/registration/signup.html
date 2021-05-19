@@ -1,9 +1,7 @@
 {% extends 'base_generic.html' %}
 
 {% block content %}
-    {% include "gimkana/rules.html" %}
-    <br>
-    <form class="Center" method="post">
+    <form id=signup_form class="Center" method="post">
         {% csrf_token %}
 
         {% if form.errors %}
@@ -14,6 +12,8 @@
             {% endfor %}
             <br>
         {% else  %}
+            {% include "gimkana/rules.html" %}
+            <br>
             <p class="Center">Alta de usuario</p>
         {% endif %}
 

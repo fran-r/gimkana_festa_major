@@ -1,18 +1,61 @@
-
 - model: gimkana.qr
   pk: pRURExEej1Xx8uYS90
   fields:
     id: pRURExEej1Xx8uYS90
     is_shop: false
-    title: 'Donde todo comienza'
+    title: 'Aquí empieza todo'
     description: '
-Comisión Festa Major
+La Comisión de Festa Major
+
+
+La Festa Major de Prosperitad es un proyecto participativo, creado desde el vecindario y para el vecindario.
+
+
+La Comisión de Festa Major está abierta a cualquiera que quiera participar. El sistema de organización está basado en subcomisiones que trabajan de forma autónoma: Programación, Infraestructuras, Difusión, Economía, Documentación y Anuncios. En las reuniones se ponen en común los avances o temas pendientes, y se trabaja sobre las propuestas que llegan de entidades y peñas.
+
+
+De las entidades que participan en la Comisión, son de especial relevancia el Casal de Barri y el Casal de Joves, que ceden una gran parte de equipos de sonido e infraestructuras y abren sus espacios a disposición de las necesidades de las fiestas.
+
+
+¿Cómo puedo participar?
+
+No importa que no pertenezcas a ninguna peña o entidad. Tu aportación será siempre bienvenida. Las reuniones son todos los jueves a las 20 horas, de enero a mayo, en el Casal de Barri de la Prosperitat.
+
+www.facebook.com/comissio.prosperitat
+
+festamajorprospe@gmail.com
 '
-    hint: 'Comisión Festa Major'
-    image: 'img/qr/comision.jpg'
+    hint: 'Es el lugar donde se reúne la Comisión de Festa Major para preparar las fiestas.'
+    image: 'img/qr/vermut_musical.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.43692216582696,2.170848303801787'
+    coordinates: '41.44172958530219, 2.1799327930775725'
     num_order: 1
+    value: 5
+
+- model: gimkana.qr
+  pk: EQp72fQsy6bRkuRS90
+  fields:
+    id: EQp72fQsy6bRkuRS90
+    is_shop: false
+    title: 'El periódico de fiestas'
+    description: '
+El periódico de la Festa Major, ''La Prosperitat'', tiene una tirada de 9000 ejemplares, que se guardan a buen recaudo en el búnker que hay debajo de las gradas de la plaza de Angel Pestaña hasta su presentación.
+
+
+El periódico de fiestas es una herramienta para reivindicar las problemáticas e inquietudes del barrio. Además, es una de las vías de financiación más importantes de la Comisión de fiestas, a través de los anuncios que ponen los comercios del barrio. La distribución comienza en la fiesta de presentación, el sábado antes de fiestas, y a partir de ese momento en todos los comercios y entidades que colaboran poniendo un anuncio en el periódico.
+
+
+¿Cómo puedo participar?
+
+Un mes antes de las fiestas (anunciado en las redes sociales) se organiza un vermut musical en el Casal de Barri durante el cual se asigna una calle a quienes se ofrecen para hacer el seguimiento y cobro de los anuncios de dicha calle. Aunque los principales colaboradores son las peñas y entidades, cualquier persona puede participar. Pásate a tomar el vermut y llévate una calle (las hay de todos los tamaños).
+
+
+'
+    hint: 'En este el lugar se guardan los 9000 ejemplares del periódico de fiestas antes de la presentación.'
+    image: 'img/qr/periodico.jpg'
+    image_footer: 'Foto: 9Barris Imatge'
+    coordinates: '41.44160486494299, 2.179576127132858'
+    num_order: 2
     value: 5
 
 - model: gimkana.qr
@@ -22,13 +65,29 @@ Comisión Festa Major
     is_shop: false
     title: 'Las pancartas de las peñas'
     description: '
-Pancartas / Txupinazo
+El Casal de Barri
+
+Plaza de Angel Pestaña s/n
+
+
+Las peñas cuelgan sus pancartas en el terrado del Casal de Barri. Además, desde aquí se lanza uno de los tres txupinazos que con los que se anuncia el comienzo oficial de las fiestas.
+
+
+El Casal de Barri se gestiona de manera comunitaria. La Gestora está formada mayoritariamente por personas voluntarias del barrio, y decide de forma asamblearia las actividades o el funcionamiento del Casal. En el Casal se realizan talleres, conciertos, exposiciones,... También se cede el espacio a colectivos que no disponen de sede donde reunirse
+
+
+La Gestora y PK2 (Prosperitat Cultura en Acció 2) van de la mano. La Gestora aporta el ideario y toma las decisiones del día a día, mientras que PK2 es un órgano más jurídico-legal. Actualmente varias personas voluntarias participan en ambos organismos.
+
+
+¿Cómo puedo participar?
+La Gestora está abierta a vecin@s y entidades que quieran colaborar.
+Se reúne los lunes a las 19:30h
 '
-    hint: 'Pancartas'
+    hint: 'Las peñas cuelgan sus pancartas en una zona bien visible durante todas las fiestas'
     image: 'img/qr/pancartas.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 2
+    coordinates: '41.441725521502875, 2.179844603521839'
+    num_order: 3
     value: 5
 
 - model: gimkana.qr
@@ -38,13 +97,25 @@ Pancartas / Txupinazo
     is_shop: false
     title: 'Viernes: Pregón de Festa Major'
     description: '
-Feria antes
+La plaza de La Zona Verde
+
+
+Esta plaza antiguamente era un campo de fútbol. A finales de los 60, coincidiendo con la época de la especulación urbanística en la zona, el campo de fútbol se desmanteló para abrir la avenida de Río de Janeiro.
+
+
+El terreno estaba declarado como zona verde, pero el solar fue invadido rápidamente por toda una serie de edificios que seguían la línea de la calle de Formentera. Fue entonces cuando los vecinos hicieron suyo el solar que aún quedaba sin edificar y declararon que aquello era la ''zona verde'' de la Prosperidad. Plantaron tres pinos en el centro de la plaza y utilizaron el espacio para celebrar actos sociales y reivindicativos a lo largo de la década de los 70.
+
+
+El espacio se convirtió en el escenario de sonadas reivindicaciones de la Prosperidad como la lucha por los semáforos, que comenzó a raíz de los accidentes había en la calle de Vinyar.
+
+
+Las reclamaciones vecinales obligaron al Ayuntamiento a construir por fin una plaza en este solar. En los años 90, con las obras del aparcamiento subterráneo, se tuvo que levantar la plaza y de los tres pinos sólo queda el nombre de un bar.
 '
-    hint: 'Feria antes'
-    image: 'img/test/img-prueba-9.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 3
+    hint: 'El pregón se realiza desde el escenario que hay sobre la entrada al parking que hay bajo esta plaza'
+    image: 'img/qr/zona_verde.jpg'
+    image_footer: 'Foto: Orquesta Swing Latino'
+    coordinates: '41.44164031930643, 2.1832512729358116'
+    num_order: 4
     value: 5
 
 - model: gimkana.qr
@@ -54,13 +125,26 @@ Feria antes
     is_shop: false
     title: 'Sábado: Sardinada popular'
     description: '
-Sardinada Perku
+Calle Molí - Escola Prosperitat
+
+
+La sardinada comienza justo donde termina el Cercavila, frente a la Escola Properitat en la calle Molí. El Cercavila está amenizado por la Txaranga de la Prospe y La Perku, que es la sección del Grup de Foc de Nou Barris dedicada a la música de percusión. La Perku también tiene su versión infantil: ''La Nostra Perku''.
+
+
+¿Quieres formar parte de La Perku?
+
+email: grup.foc.9b@gmail.com
+
+Instagram: @laperku4
+
+FB: La PerKu
+
 '
-    hint: 'Sardinada'
-    image: 'img/test/img-prueba-19.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 4
+    hint: 'La sardinada comienza justo donde termina el Cercavila'
+    image: 'img/qr/sardinada.jpg'
+    image_footer: 'Foto: 9Barris Imatge'
+    coordinates: '41.44499913112929, 2.181459634497478'
+    num_order: 5
     value: 5
 
 - model: gimkana.qr
@@ -70,13 +154,26 @@ Sardinada Perku
     is_shop: false
     title: 'Sábado: Tarde de peñas'
     description: '
-Lanzamiento olivas/Cucaña
+Las Peñas
+
+
+La tarde del primer sábado, muchos eventos de peñas concurren simultáneamente en la plaza de Angel Pestaña.
+
+
+Las peñas son la base de la Fiesta Mayor. La mayoría de las actividades de las fiestas se programan y financian desde las peñas, que son diferentes grupos de amig@s o vecin@s del barrio. Hay alrededor de 30 peñas.
+
+
+Cada peña tiene un nombre y un color que los caracteriza. Cada peña se reúne durante el año y se organiza para llevar a cabo una actividad abierta a la gente del barrio. Piensan y se responsabilizan de su evento, inviertendo su dinero para sacarlo adelante (no hay financiación económica de la Comisión a las peñas). La recaudación de las barras se destina a sufragar los gastos del evento, como l@s artistas. Por eso es importante tu colaboración haciendo el consumo en las barras de los eventos en los que participes.
+
+
+¿Aún no tienes una peña?
+Júntate con tus amig@s, piensa en algún evento que os gustaría hacer, y proponedlo en las reuniones de Comisión. No importa si la idea es muy simple, muy loca... allí os echarán una mano a darle forma.
 '
-    hint: 'L@s Fresk@s'
+    hint: 'En esta plaza es donde mayor número de eventos de peñas concurren simultáneamente. El QR está donde empiezan los primeros eventos de la tarde del sábado.'
     image: 'img/qr/chewakas.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 5
+    coordinates: '41.441535657990435, 2.1796471565132784'
+    num_order: 6
     value: 5
 
 - model: gimkana.qr
@@ -86,13 +183,21 @@ Lanzamiento olivas/Cucaña
     is_shop: false
     title: 'Lunes: Txistorra rock'
     description: '
-Antes se llamaba I. Sant Andreu
+Instituto Nou Barris (antes, instituto Sant Andreu)
+
+Calle Badosa, 10-14
+
+
+En 1973, con el traslado de la fábrica Harry Walker, quedó la nave y un gran solar. Con la necesidad de equipamientos públicos, y ante la amenaza de los intereses inmobiliarios, comenzó una movilización vecinal, que obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977.
+
+
+El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia con todo tipo de acciones lúdicas y de protesta alrededor del solar, nació con un espíritu netamente asambleario. Aún así, alumnos y profesores tuvieron que pasar años en barracones hasta que finalmente se logró la construcción del edificio actual.
 '
-    hint: 'Txistorra Rock'
-    image: 'img/test/img-prueba-11.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 6
+    hint: 'Salir del instituto y quedarte de concierto'
+    image: 'img/qr/txistorra.jpg'
+    image_footer: 'Foto: 9Barris Imatge'
+    coordinates: '41.44084658904464, 2.180600570230035'
+    num_order: 7
     value: 5
 
 - model: gimkana.qr
@@ -100,15 +205,64 @@ Antes se llamaba I. Sant Andreu
   fields:
     id: 3VN5EQ3pQmiCmpRRA0
     is_shop: false
-    title: 'Martes: Comer y bailar'
+    title: 'Martes: Merienda y baile'
     description: '
 Casal de Gent Gran
+
+Calle de Pablo Iglesas 8
+
+
+Como otros equipamientos públicos del barrio, el Casal de la Gent Gran de la Prosperitat está autogestionado por la Asociación de la Gent Gran, a pesar de los intentos de la Generalitat de privatizar la gestión. Es el único Casal de Gent Gran que resiste a la gesitión privatizada.
+
+
+En el Casal se realizan cerca de 45 talleres, todos ellos gratuitos, y organiza o participa activamente en diversas actividades a lo largo del año: carnaval, nochevieja, cenas,... y, por supuesto, la Festa Major, donde organizan bailes o playback, con su correspondiente merienda, de martes a jueves.
 '
-    hint: 'Casal de la Gent Gran de martes a jueves'
+    hint: 'Hay actos con merienda y baile para la Gent Gran de martes a jueves. El QR no está donde se celebran los actos, sino desde donde se organizan.'
     image: 'img/qr/casal_gent_gran.jpg'
     image_footer: 'Foto: El País'
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 7
+    coordinates: '41.442019811302494, 2.1804990135460365'
+    num_order: 8
+    value: 5
+
+- model: gimkana.qr
+  pk: t29CnGDthY3Q14Zd60
+  fields:
+    id: t29CnGDthY3Q14Zd60
+    is_shop: false
+    title: 'Martes: Date una huerta'
+    description: '
+Date una huerta - Espacio okupado/liberado y autogestionado.
+
+Calle Joaquim Valls, 79
+
+
+En 2007, la banca compró la casa del número 79 de la calle Joaquim Valls que derribó, y desde entonces el solar quedó abandonado """"""""con un nivel de insalubridad creciente y alarmante"""""""". El actual propietario es el BBVA, que ha mantenido el solar abandonado a la espera de oportunidades de negocio, mientras se llenaba de suciedad, ratas y mal olor.
+
+
+El 19 de noviembre de 2016, un grupo diverso de gente del barrio entró, lo limpió y lo convirtió en un huerto y un jardín para el vecindario. De manera voluntaria, autogestionada y asamblearia. Le pusieron de nombre Date una huerta.
+
+
+Multitud de vecinos y vecinas visitan habitualmente el huerto, de forma individual, en familia o en grupo (escolares, ancianos,...) También se realizan actividades culturales de todo tipo.
+
+
+Aunque el BBVA no tiene pensado hacer nada con el solar, ha intentado el desalojo en varias ocasiones, por lo que varias entidades de Prosperitat han solicitado la mediación del Distrito para que el huerto comunitario sea cedido a la gestión del barrio en tanto no hagan obras de construcción.
+
+
+¿Cómo participar?
+
+Puedes trabajar y/o disfrutar del espacio, a tu ritmo, con el compromiso y la dedicación que consideres necesario, de manera comunitaria. También puedes venir a tomar el sol y disfrutar de buena conversación y compañía.
+
+Horario:
+
+De 11 a 15h y de 19 a 21h
+
+Todos los días de la semana
+'
+    hint: 'Espacio okupado/liberado donde puedes disfrutar de actos familiares durante varios días durante las fiestas'
+    image: 'img/qr/huerto.jpg'
+    image_footer: 'Foto: Date una huerta'
+    coordinates: '41.44388091083004, 2.179881333958888'
+    num_order: 9
     value: 5
 
 - model: gimkana.qr
@@ -119,28 +273,55 @@ Casal de Gent Gran
     title: 'Martes: Concierto FreeStayl'
     description: '
 Casal de Joves
+
+Avenida Río de Janeiro 100
+
+
+El Casal de Joves participa en la Comisión de Festa Major, cede una gran parte de equipos de sonido e infraestructuras, y el espacio está a disposición de las necesidades de las fiestas.
+
+
+En el Casal puedes encontrar talleres, colectivos como Ràcord (audiovisuales) o Ecovincles (huerto) y, por supuesto, el punto de encuentro que es La Cuarta, donde se realizan actividades diarias, desde conciertos hasta exposiciones y mercadillos.
+
+
+¿Cómo puedo participar?
+
+La Gestora del Casal se reune los lunes a las 18h (horario pandémico), abierta para quien quiera participar, hacer propuestas,...
 '
-    hint: 'FreeStayl'
+    hint: 'Donde hacemos los conciertos la peña FreeStayl. Aquí nos sentimos como en casa, rodeados de personas que nos echan una (o dos) manos para que todo funcione perfectamente.'
     image: 'img/qr/casal_joves.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 8
+    coordinates: '41.439927989866284, 2.183199446283535'
+    num_order: 10
     value: 5
 
 - model: gimkana.qr
-  pk: t29CnGDthY3Q14Zd60
+  pk: XepgvyF9NHXH4yYHA0
   fields:
-    id: t29CnGDthY3Q14Zd60
+    id: XepgvyF9NHXH4yYHA0
     is_shop: false
-    title: 'Miércoles: Date una huerta'
+    title: 'Miércoles: Festa de l''esport'
     description: '
-Date una huerta
+Poliesportiu Valldaura
+
+Calle Baltasar Gracián 9
+
+
+Durante las fiestas, en el polideportivo se realizan distintas competiciones de baloncesto y de fútbol sala, así como la Festa de l''esport, dedicada a los más pequeños.
+
+
+El tipo de gestión del polideportivo es ciudadana. Está cedida por el Ayuntamiento mediante Convenio a La Prosperitat Cultura en Acció 2 (PECA2), asociación sin ánimo de lucro con domicilio en el barrio de La Prosperitat, como responsable de las obligaciones legales.
+
+
+Una Gestora compuesta por las entidades usuarias, particulares y trabajadores del equipamiento programa y decide las actividades a desarrollar, horarios y calendarios. Sus reuniones son mensuales.
+
+
+Fue la primera instalación deportiva cubierta con este modelo de gestión en la ciudad de Barcelona.
 '
-    hint: 'Date una huerta'
-    image: 'img/test/img-prueba-20.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 9
+    hint: 'Es el espacio principal en el que se realizan las actividades deportivas durante las fiestas'
+    image: 'img/qr/poliesportiu.jpg'
+    image_footer: 'Foto: Marc Javierre-Kohan'
+    coordinates: '41.44049561814321, 2.1813319447787243'
+    num_order: 11
     value: 5
 
 - model: gimkana.qr
@@ -150,13 +331,22 @@ Date una huerta
     is_shop: false
     title: 'Miércoles: Vamos a la feria'
     description: '
-Parking Paseo Valldaura
+Solar de la Ideal Plástica Flor
+
+
+La feria se ubica en los últimos años en el solar que ocupaba la fábrica Ideal Plástica Flor, en el terreno situado entre el paseo de Valldaura y las calles de Fuente de Canyelles y de Santa Engracia. La fábrica se dedicaba a la fabricación de flores ornamentales hasta que durante los 90 entró en crisis, coincidiendo con la muerte del propietario.
+
+
+Ante la presión vecinal, el Ayuntamiento adquirió la propiedad del solar derribó la fábrica en 2009, con la intención de destinarlo a construir equipamientos. El proyecto se detuvo con la llegada de la crisis y el Ayuntamiento decidió construir provisionalmente una zona de aparcamiento.
+
+
+Durante el mandato pasado se llevó a cabo un proceso participativo con vecinos y entidades de la Prosperidad para decidir los usos y equipamientos que se querían en este solar.
 '
-    hint: 'Día del niño miércoles y jueves'
-    image: 'img/test/img-prueba-5.jpg'
+    hint: 'Vamos a la feria, que miércoles y jueves son los días del niño y es más barato.'
+    image: 'img/qr/feria.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 10
+    coordinates: '41.43934714007855, 2.1777924552224475'
+    num_order: 12
     value: 5
 
 - model: gimkana.qr
@@ -166,13 +356,24 @@ Parking Paseo Valldaura
     is_shop: false
     title: 'Miércoles: Rememorando Prospe Rock'
     description: '
-El lugar natural de la peña Al hueco. Historias de Azagra como referencia - hemeroteca
+Campo de fútbol municipal de Nou Barris
+
+Via Júlia 168
+
+
+Es la sede de la Montañesa C.F. y el lugar natural de la peña Al hueco.
+
+
+En tiempos se hacían conciertos aquí, hasta que se cubrió la superficie con césped artificial. Uno de los conciertos más famosos es el de La Polla Records, en el Prospe Rock de 1985, gracias a la historieta de Azagra publicada en la revista El Jueves.
+
+
+De hecho, los álbumes de ''Pedro Pico y Pico Vena'' de Azagra publicados en la colección ''Pendones del humor'', de la revista El Jueves no deberían faltar en cualquier biblioteca sobre la Prospe, pues contienen abundantes historias que no encontrarás en otros libros. Tanto para nostálgicos, como para jóvenes y ''nouvinguts''.
 '
     hint: 'Aquí tocó La polla records la Festa Major de 1985'
     image: 'img/qr/prospe_rock_1985.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 11
+    coordinates: '41.445308824929135, 2.1795211335798164'
+    num_order: 13
     value: 5
 
 - model: gimkana.qr
@@ -187,8 +388,8 @@ CJP/La Cuarta
     hint: 'Quinto+Tapa'
     image: 'img/test/img-prueba-15.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 12
+    coordinates: '41.44416232168304, 2.1794239435569773'
+    num_order: 14
     value: 5
 
 - model: gimkana.qr
@@ -201,10 +402,10 @@ CJP/La Cuarta
 Bizarrock/Pluma negra/Fútbol banco
 '
     hint: 'Camisetas colgando'
-    image: 'img/test/img-prueba-16.jpg'
+    image: 'img/qr/bizarrock.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 13
+    coordinates: '41.44253889809428, 2.180348559880662'
+    num_order: 15
     value: 5
 
 - model: gimkana.qr
@@ -214,13 +415,22 @@ Bizarrock/Pluma negra/Fútbol banco
     is_shop: false
     title: 'Viernes: Tortilla, kalimotxo y rumbaoke'
     description: '
-Milduros/Zapatillas y puretas deteniendo la obra
+Plaza de Nou Pins
+
+
+Las dos primeras peñas del barrio, Mil Duros y Zapatilla, comparten esta plaza para hacer el Rumbaoke y la Tortillada/Kalimotxada, respectivamente.
+
+
+En mayo de 2018 el Ayuntamiento programó unas obras en la plaza, coincidiendo con la Festa Major, lo que afectaría a todos los eventos que estaban previstos en esa plaza.
+
+
+Haciendo gala de su espíritu combativo, algunos miembros de la Peña Pureta se plantaron allí, como se ve en la foto, dispuestos a parar la obra a toda costa hasta que acabasen las fiestas. No llegó la sangre al río; las fiestas se celebraron con normalidad y la obra se retrasó hasta pasadas las fiestas.
 '
-    hint: 'Milduros/Zapatillas'
-    image: 'img/test/img-prueba-23.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 14
+    hint: 'Las dos primeras peñas del barrio, Mil Duros y Zapatilla, hacen su evento en esta plaza'
+    image: 'img/qr/puretas_paletas.jpg'
+    image_footer: 'Foto: Peña Puretas'
+    coordinates: '41.44376743902189, 2.182550528939409'
+    num_order: 16
     value: 5
 
 - model: gimkana.qr
@@ -233,10 +443,10 @@ Milduros/Zapatillas y puretas deteniendo la obra
 De comer y de beber con Asarrock y Lxs de toda la birra
 '
     hint: 'Plaza de Lxs de toda la birra'
-    image: 'img/test/img-prueba-13.jpg'
+    image: 'img/qr/asarrock.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 15
+    coordinates: '41.44026879429922, 2.1788101541162437'
+    num_order: 17
     value: 5
 
 - model: gimkana.qr
@@ -246,13 +456,19 @@ De comer y de beber con Asarrock y Lxs de toda la birra
     is_shop: false
     title: 'Sábado: Fiesta en la frontera'
     description: '
-Comerciantes Rambleta
+Asociación de Comerciantes de la Rambleta
+
+
+La Asociación de Comerciantes de La Rambleta (el tramo de la calle Pablo Iglesias entre el número 95 y la Vía Favencia) es una entidad que trabaja para el desarrollo económico de La Rambleta, para su mejora como espacio de convivencia y crecimiento de sus vecinos.
+
+
+En la Festa Major de 2016 hicieron un bocadillo de butifarra tan largo como la Rambleta: 120 metros.
 '
-    hint: 'Comerciantes Rambleta'
+    hint: 'Justo en la frontera norte del barrio,la fiesta la organiza la Asociación de Comerciantes'
     image: 'img/qr/rambleta.jpg'
     image_footer: 'Foto: Comerciantes de la Rambleta'
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 16
+    coordinates: '41.44636792418276, 2.1831487558215135'
+    num_order: 18
     value: 5
 
 - model: gimkana.qr
@@ -260,15 +476,15 @@ Comerciantes Rambleta
   fields:
     id: K5h8wPckGFZppnpD70
     is_shop: false
-    title: 'Sábado: Lola Anglada'
+    title: 'Sábado: Para todos los públicos'
     description: '
 Recogida de alimentos/Txipinazo-Xarxa
 '
     hint: 'Escenario en cuesta/4 calles coinciden en el mismo punto'
-    image: 'img/test/img-prueba-21.jpg'
-    image_footer: ''
+    image: 'img/qr/lola_anglada.jpg'
+    image_footer: 'Foto: Tito Dobles'
     coordinates: '41.444702405504955, 2.184250188497672'
-    num_order: 17
+    num_order: 19
     value: 5
 
 - model: gimkana.qr
@@ -278,13 +494,13 @@ Recogida de alimentos/Txipinazo-Xarxa
     is_shop: false
     title: 'Sábado: Las orquestas'
     description: '
-Fiesta Holly
+ProspeBeach
 '
     hint: 'Comisión Festa Major'
-    image: 'img/test/img-prueba-4.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 18
+    image: 'img/qr/orquesta.jpg'
+    image_footer: 'Foto: Juanfer Ortega'
+    coordinates: '41.44119068307912, 2.1792062637458365'
+    num_order: 20
     value: 5
 
 - model: gimkana.qr
@@ -297,10 +513,10 @@ Fiesta Holly
 AMPAS
 '
     hint: 'Quién dijo que el balontiro es un juego de niñas y niños?'
-    image: 'img/test/img-prueba-17.jpg'
+    image: 'img/qr/balontiro.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 19
+    coordinates: '41.444521139337894, 2.1807188905632233'
+    num_order: 21
     value: 5
 
 - model: gimkana.qr
@@ -310,13 +526,29 @@ AMPAS
     is_shop: false
     title: 'Domingo: Fiesta de la espuma'
     description: '
-Promosalut/Prospetina
+Plaza de las Trabajadoras y los Trabajadores de la Harry Walker.
+
+Junto al paseo de Valldaura, hace medio siglo, había grandes espacios vacíos y naves industriales, como la de la empresa Harry Walker, que Fabricaba accesorios para la automoción y trabajaban 470 personas. Para muchos, las condiciones laborales eran extremas y el ritmo de producción, cronometrado, angustiante.
+
+Una parte de los trabajadores comenzaron a hacer paros parciales, a los que la empresa respondió con sanciones. En diciembre de 1970 los paros y las asambleas diarias, forjaron la unidad. Estaban decididos a ir a la huelga total y ocupar la fábrica.
+
+A lo largo de 1970 y 1971 las protestas laborales se multiplicaron. Pero Franco todavía estaba vivo, se estaba haciendo el proceso de Burgos contra los acusados de pertenencia a ETA y se suspendieron derechos civiles en una especie de “estado de excepción dentro de una dictadura militar"""". Como todo estaba prohibido, no había derecho de huelga, no hay ningún derecho, una lucha económica automáticamente se convertía también en lucha política.
+
+La huelga de la Harry Walker duró 62 días, de las más largas que se habían hecho hasta entonces en Barcelona.  Recibieron la solidaridad de decenas de empresas de toda España y también soportes desde Francia e Italia.
+
+Se celebró un juicio en Magistratura del Trabajo, que declaró improcedentes los despidos. La empresa no readmitió la mayoría de trabajadores y pagó indemnizaciones. El resto de la plantilla volvió al trabajo, con algunas mejoras salariales y laborales.
+
+La lucha de la Harry Walker se convirtió en símbolo de la lucha obrera.
+
+En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de “Plaza de Harry Walker"""" por el actual.
+
+Más información en el libro """"Harry Walker: lucha obrera, victoria vecinal"""", de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
 '
-    hint: 'Fuente'
-    image: 'img/test/img-prueba-10.jpg'
+    hint: 'Una fuente, en una plaza que cambió de nombre en 2019, coincidiendo con el centenario del barrio.'
+    image: 'img/qr/fiesta_espuma.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 20
+    coordinates: '41.43948623189188, 2.181216691967491'
+    num_order: 22
     value: 5
 
 - model: gimkana.qr
@@ -345,11 +577,11 @@ Más información:
 
 https://www.prosperitat.org/
 '
-    hint: 'Local #prospememata'
+    hint: 'Junto al escenario donde se hacen las habaneras, una pequeña puerta conduce a la asociación desde la que se trabaja para resolver los problemas y las necesidades del barrio'
     image: 'img/qr/avv.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 21
+    coordinates: '41.441321718419594, 2.180538842350551'
+    num_order: 23
     value: 5
 
 - model: gimkana.qr
@@ -364,8 +596,8 @@ Colegio Mercé Rodoreda
     hint: 'Tamborrada/Correfoc'
     image: 'img/test/img-prueba-14.jpg'
     image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 22
+    coordinates: '41.445586851051544, 2.1857037898678233'
+    num_order: 24
     value: 5
 
 - model: gimkana.qr
@@ -375,13 +607,25 @@ Colegio Mercé Rodoreda
     is_shop: false
     title: 'Domingo: Piromusical'
     description: '
-Fuegos artificiales
+Plaza de las Trabajadoras y Trabajadores de la Harry Walker
+
+
+En 1973, con el traslado de la Harry Walker, quedó la nave y un gran solar. Con la necesidad de equipamientos públicos, y ante la amenaza de los intereses inmobiliarios, comenzó una movilización vecinal, que obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977 y a construir equipamientos públicos.
+
+
+Finalmente, después de 25 años de movilizaciones y acción vecinal , en 1999 se consiguió la plaza, uno de los espacios públicos más grandes del barrio de la Prosperidad, rodeado por cuatro equipamientos públicos, un hecho casi único en Barcelona.
+
+
+En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de “Plaza de Harry Walker"""" por el actual.
+
+
+Más información en el libro """"Harry Walker: lucha obrera, victoria vecinal"""", de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
 '
-    hint: 'Fuegos artificiales'
-    image: 'img/test/img-prueba-12.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 23
+    hint: 'Cuenta una leyenda que la valla que separa el material pirotécnico del público está electrificada, para evitar que la gente se aproxime peligrosamente.'
+    image: 'img/qr/fuegos.jpg'
+    image_footer: 'Foto: Luis Espallargas'
+    coordinates: '41.44022084824711, 2.180695416978632'
+    num_order: 25
     value: 5
 
 - model: gimkana.qr
@@ -393,25 +637,9 @@ Fuegos artificiales
     description: '
 Aquí se hacen los conciertos de San Xibeco
 '
-    hint: 'El mejor lugar para reubicar eventos en caso de lluvia, porque tiene techo'
-    image: 'img/test/img-prueba-24.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 24
-    value: 5
-
-- model: gimkana.qr
-  pk: XepgvyF9NHXH4yYHA0
-  fields:
-    id: XepgvyF9NHXH4yYHA0
-    is_shop: false
-    title: 'Del deporte también se sale'
-    description: '
-Diada basquet / Fútbol sala
-'
-    hint: 'Hay que quemarlo todo'
-    image: 'img/test/img-prueba-18.jpg'
-    image_footer: ''
-    coordinates: '41.43692216582696,2.170848303801787'
-    num_order: 25
+    hint: 'Si llueve, reubicamos'
+    image: 'img/qr/marquesina.jpg'
+    image_footer: 'Foto: 9Barris Imatge'
+    coordinates: '41.44421696272769, 2.1787662203229488'
+    num_order: 26
     value: 5
