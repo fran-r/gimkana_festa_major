@@ -114,7 +114,7 @@ Las reclamaciones vecinales obligaron al Ayuntamiento a construir por fin una pl
 '
     hint: 'El pregón se realiza desde el escenario que hay sobre la entrada al parking que hay bajo esta plaza'
     image: 'img/qr/zona_verde.jpg'
-    image_footer: 'Foto: Orquesta Swing Latino'
+    image_footer: 'Foto: Peña Prospetaos'
     coordinates: '41.44164031930643, 2.1832512729358116'
     num_order: 4
     value: 5
@@ -143,7 +143,7 @@ FB: La PerKu
 '
     hint: 'La sardinada comienza justo donde termina el Cercavila'
     image: 'img/qr/sardinada.jpg'
-    image_footer: 'Foto: 9Barris Imatge'
+    image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.44499913112929, 2.181459634497478'
     num_order: 5
     value: 5
@@ -220,7 +220,7 @@ En el Casal se realizan cerca de 45 talleres, todos ellos gratuitos, y organiza 
 '
     hint: 'Hay actos con merienda y baile para la Gent Gran de martes a jueves. El QR no está donde se celebran los actos, sino desde donde se organizan.'
     image: 'img/qr/casal_gent_gran.jpg'
-    image_footer: 'Foto: El País'
+    image_footer: ''
     coordinates: '41.442019811302494, 2.1804990135460365'
     num_order: 8
     value: 5
@@ -281,7 +281,7 @@ Avenida Río de Janeiro 100
 El Casal de Joves participa en la Comisión de Festa Major, cede una gran parte de equipos de sonido e infraestructuras, y el espacio está a disposición de las necesidades de las fiestas.
 
 
-En el Casal puedes encontrar talleres, colectivos como Ràcord (audiovisuales) o Ecovincles (huerto) y, por supuesto, el punto de encuentro que es La Cuarta, donde se realizan actividades diarias, desde conciertos hasta exposiciones y mercadillos.
+En el Casal puedes encontrar talleres, colectivos como Ràcord (audiovisuales) o Plantitis (plantas) y, por supuesto, el punto de encuentro que es La Cuarta, donde se realizan actividades diarias, desde conciertos hasta exposiciones y mercadillos.
 
 
 ¿Cómo puedo participar?
@@ -326,31 +326,6 @@ Fue la primera instalación deportiva cubierta con este modelo de gestión en la
     value: 5
 
 - model: gimkana.qr
-  pk: 7Kjpsbi4wNrJxJi980
-  fields:
-    id: 7Kjpsbi4wNrJxJi980
-    is_shop: false
-    title: 'Miércoles: Vamos a la feria'
-    description: '
-Solar de la Ideal Plástica Flor
-
-
-La feria se ubica en los últimos años en el solar que ocupaba la fábrica Ideal Plástica Flor, en el terreno situado entre el paseo de Valldaura y las calles de Fuente de Canyelles y de Santa Engracia. La fábrica se dedicaba a la fabricación de flores ornamentales hasta que durante los 90 entró en crisis, coincidiendo con la muerte del propietario.
-
-
-Ante la presión vecinal, el Ayuntamiento adquirió la propiedad del solar derribó la fábrica en 2009, con la intención de destinarlo a construir equipamientos. El proyecto se detuvo con la llegada de la crisis y el Ayuntamiento decidió construir provisionalmente una zona de aparcamiento.
-
-
-Durante el mandato pasado se llevó a cabo un proceso participativo con vecinos y entidades de la Prosperidad para decidir los usos y equipamientos que se querían en este solar. 
-'
-    hint: 'Vamos a la feria, que miércoles y jueves son los días del niño y es más barato.'
-    image: 'img/qr/feria.jpg'
-    image_footer: ''
-    coordinates: '41.43934714007855, 2.1777924552224475'
-    num_order: 12
-    value: 5
-
-- model: gimkana.qr
   pk: n5DCXNKagTZWUYHE70
   fields:
     id: n5DCXNKagTZWUYHE70
@@ -374,23 +349,35 @@ De hecho, los álbumes de ''Pedro Pico y Pico Vena'' de Azagra publicados en la 
     image: 'img/qr/prospe_rock_1985.jpg'
     image_footer: ''
     coordinates: '41.445308824929135, 2.1795211335798164'
-    num_order: 13
+    num_order: 12
     value: 5
 
 - model: gimkana.qr
-  pk: mAQUX6jTvHGHZ4P3A0
+  pk: 7Kjpsbi4wNrJxJi980
   fields:
-    id: mAQUX6jTvHGHZ4P3A0
+    id: 7Kjpsbi4wNrJxJi980
     is_shop: false
-    title: '*Jueves: Quinto y tapa'
+    title: 'Jueves: El día del niño'
     description: '
-CJP/La Cuarta
+Solar de la Ideal Plástica Flor
+
+
+La feria se ubica en los últimos años en el solar que ocupaba la fábrica Ideal Plástica Flor, en el terreno situado entre el paseo de Valldaura y las calles de Fuente de Canyelles y de Santa Engracia. La fábrica se dedicaba a la fabricación de flores ornamentales y fue la última fábrica que existió en la Prosperitat.
+
+
+Ante la presión vecinal, el Ayuntamiento adquirió el solar y derribó la fábrica en 2009, con la intención de destinarlo a zona verde y equipamientos. El proyecto se detuvo con la llegada de la crisis y el Ayuntamiento decidió construir provisionalmente una zona de aparcamiento.
+
+
+El programa funcional de equipamientos incluye una biblioteca de Distrito, un auditorio, espacio cultural polivalente  para uso compartido de las entidades y equipamientos de la Prosperitat, y un aparcamiento subterráneo.
+
+
+En 2019 se convocó un concurso de ideas, que el Ayuntamiento debería resolver para redactar el proyecto ejecutivo, para el que se han reservado un millón de euros. Seguimos a la espera...
 '
-    hint: 'Quinto+Tapa'
-    image: 'img/test/img-prueba-15.jpg'
-    image_footer: ''
-    coordinates: '41.44416232168304, 2.1794239435569773'
-    num_order: 14
+    hint: 'Toca ir a la feria, que el miércoles y el jueves son los días del niño y es más barato.'
+    image: 'img/qr/feria.jpg'
+    image_footer: 'Foto: Asociación de feriantes'
+    coordinates: '41.43934714007855, 2.1777924552224475'
+    num_order: 13
     value: 5
 
 - model: gimkana.qr
@@ -398,15 +385,26 @@ CJP/La Cuarta
   fields:
     id: n5kce1ohZqwZZfpq70
     is_shop: false
-    title: '*Jueves: Bizarrock'
+    title: 'Jueves: Bizarrock'
     description: '
-Bizarrock/Pluma negra/Fútbol banco
+Plaza de Santa Engracia
+
+
+Desde esta plaza se lanza uno de los tres chupinazos de inicio de fiestas, acompañado de las campanadas desde la iglesia, para anunciar el inicio oficial de las fiestas.
+
+
+Durante el Bizarrock, se cuelgan las camisetas de las peñas en el medio de la plaza. A partir de ese momento, cualquier cosa puede ocurrir. El Bizarrock era un evento de la peña de Los Xarnecs hasta 2015. A partir de ese año, miembros de algunas peñas se juntaron para preservar el espíritu del evento y pasó a llamarse ''Bizarrock Interpeñas''.
+
+Si perteneces a alguna peña y quieres participar en el Bizarrock Interpeñas, tu aportación será siempre bienvenida.
+
+
+Y si después del Quinto+Tapa y el Bizarrock no te habías pedido el día libre, mucho ánimo para el viernes y, la próxima vez, recuerda el lema: ''jueves de aberraciones, viernes de vacaciones''.
 '
-    hint: 'Camisetas colgando'
+    hint: 'Desde esta plaza se da el inicio oficial de las fiestas con campanadas y uno de los tres chupinazos de inicio de fiestas.'
     image: 'img/qr/bizarrock.jpg'
-    image_footer: ''
+    image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.44253889809428, 2.180348559880662'
-    num_order: 15
+    num_order: 14
     value: 5
 
 - model: gimkana.qr
@@ -426,12 +424,15 @@ En mayo de 2018 el Ayuntamiento programó unas obras en la plaza, coincidiendo c
 
 
 Haciendo gala de su espíritu combativo, algunos miembros de la Peña Pureta se plantaron allí, como se ve en la foto, dispuestos a parar la obra a toda costa hasta que acabasen las fiestas. No llegó la sangre al río; las fiestas se celebraron con normalidad y la obra se retrasó hasta pasadas las fiestas.
+
+
+Por cierto, el nombre de la plaza no se debe a que hubiera 9 pinos plantados aquí, sino que estaban al final de la calle Nou Pins, y es esta la que da nombre a la plaza.
 '
     hint: 'Las dos primeras peñas del barrio, Mil Duros y Zapatilla, hacen su evento en esta plaza'
     image: 'img/qr/puretas_paletas.jpg'
     image_footer: 'Foto: Peña Puretas'
     coordinates: '41.44376743902189, 2.182550528939409'
-    num_order: 16
+    num_order: 15
     value: 5
 
 - model: gimkana.qr
@@ -439,15 +440,21 @@ Haciendo gala de su espíritu combativo, algunos miembros de la Peña Pureta se 
   fields:
     id: MHcrUEBP46dPdhKL60
     is_shop: false
-    title: '*Sábado: Asarrock'
+    title: 'Sábado: Día de asado y birras'
     description: '
-De comer y de beber con Asarrock y Lxs de toda la birra
+Plaza de la Prosperitat
+
+
+En la plaza de la Prosperitat se levanta una escultura de 17 metros del artista Perejaume. Su título es ''A Brossa'' y es un homenaje del autor al artista Joan Brossa. En la obra están las 6 letras que, tejidas por 20 pares de pasos, forman la palabra ''brossa''.
+
+
+El proyecto se enmarcó dentro del plan de remodelación y singularización de paredes medianeras de la ciudad. Perejaume sólo puso una condición: su diseño brossiano no podía lucir en un barrio céntrico de Barcelona, sino en un lugar humilde.  ''Estamos hablando de Brossa ...!'', exclamó el artista, que aprobó el emplazamiento en la plaza de la Prosperitad, en una pared totalmente desnuda y muda.
 '
-    hint: 'Plaza de Lxs de toda la birra'
+    hint: 'En la plaza también conocida como ''Plaza de Lxs de toda la birra'' se encuentra una escultura que, a pesar de su tamaño, puede pasar desapercibida.'
     image: 'img/qr/asarrock.jpg'
-    image_footer: ''
+    image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.44026879429922, 2.1788101541162437'
-    num_order: 17
+    num_order: 16
     value: 5
 
 - model: gimkana.qr
@@ -469,7 +476,7 @@ En la Festa Major de 2016 hicieron un bocadillo de butifarra tan largo como la R
     image: 'img/qr/rambleta.jpg'
     image_footer: 'Foto: Comerciantes de la Rambleta'
     coordinates: '41.44636792418276, 2.1831487558215135'
-    num_order: 18
+    num_order: 17
     value: 5
 
 - model: gimkana.qr
@@ -477,15 +484,30 @@ En la Festa Major de 2016 hicieron un bocadillo de butifarra tan largo como la R
   fields:
     id: K5h8wPckGFZppnpD70
     is_shop: false
-    title: '*Sábado: Para todos los públicos'
+    title: 'Sábado: Para todos los públicos'
     description: '
-Recogida de alimentos/Txipinazo-Xarxa
+Plaza de Lola Anglada
+
+
+Desde aquí se lanza uno de los tres txupinazos que anuncian el inicio de la fiesta, y durante toda la jornada del segundo sábado se suceden actuaciones para todos los públicos.
+
+
+Durante el último año ha sido uno en varias ocasiones de los puntos de recogida de alimentos y productos básicos que la Xarxa se Support de Prosperitat está distribuyendo entre las personas que más lo necesitan.
+
+
+¿Cómo puedo participar?
+El Casal de Joves de Prosperitat (Avenida Río de Janeiro 100) recoge alimentos el horario:
+Lunes a viernes de 17h a 21h
+
+A partir del 29 de mayo, durante la semana de Festa Major, algunos de los comercios que colaboran habitualmente con las fiestas tendrán colocada una caja para la recogida de alimentos.
+
+Si conoces a alguien que necesite recursos, puedes llamar de forma gratuita al teléfono 900670217
 '
-    hint: 'Escenario en cuesta/4 calles coinciden en el mismo punto'
+    hint: 'Esta pequeña plaza en la que confluyen cuatro calles en un mismo punto ha sido punto de recogida de alimentos que la Xarxa de support de Prosperitat está distribuyendo a las personas con necesidad.'
     image: 'img/qr/lola_anglada.jpg'
     image_footer: 'Foto: Tito Dobles'
     coordinates: '41.444702405504955, 2.184250188497672'
-    num_order: 19
+    num_order: 18
     value: 5
 
 - model: gimkana.qr
@@ -493,15 +515,32 @@ Recogida de alimentos/Txipinazo-Xarxa
   fields:
     id: eGGasvHNsitBBgru70
     is_shop: false
-    title: '*Sábado: Las orquestas'
+    title: 'Sábado: Las orquestas'
     description: '
-ProspeBeach
+Plaza de Angel Pestaña
+
+
+La plaza de Angel Pestaña congrega el mayor número de eventos durante las fiestas y durante todo el año. Uno de los principales eventos que se celebran en la plaza es el Prospe Beach.
+
+
+
+El Prospe Beach se celebra durante varios fines de semana en el mes de julio, y durante ese tiempo la plaza se llena de arena y nos traemos la playa al barrio. Se celebran torneos de tenis y voley playa, y entre semana se realizan actividades infantiles.
+
+
+Igual que existe la Comisión de Festa Major, existe la Comisión de Prospe Beach, en la que participan el Casal de Barri, el Casal de Joves, y personas volutarias.
+
+
+¿Cómo puedo participar en la Comisión de Prospe Beach?
+
+La celebración de la fiesta depende de que haya suficientes personas voluntarias. Tu participación es siempre bienvenida.
+
+La Comisión de Prospe Beach se reúne los martes a las 19:30h en el Casal de Barri.
 '
-    hint: 'Comisión Festa Major'
+    hint: 'Detrás del mayor escenario de las fiestas'
     image: 'img/qr/orquesta.jpg'
     image_footer: 'Foto: Juanfer Ortega'
     coordinates: '41.44119068307912, 2.1792062637458365'
-    num_order: 20
+    num_order: 19
     value: 5
 
 - model: gimkana.qr
@@ -509,15 +548,22 @@ ProspeBeach
   fields:
     id: Qd9k4bxWS5pS7VMV60
     is_shop: false
-    title: '*Domingo: Balontiro'
+    title: 'Domingo: Balontiro'
     description: '
-AMPAS
+Patio de la Escola Prosperitat
+Calle Tissó  66
+
+
+Los colegios e institutos del barrio también participan durante las fiestas, programando actividades y/o cediendo el espacio para la realización de eventos.
+
+
+En el patio de la Escola Prosperitat se celebra el balontiro, para quienes madrugan.
 '
-    hint: 'Quién dijo que el balontiro es un juego de niñas y niños?'
+    hint: 'Volvemos a jugar al balontiro en el patio del colegio. Busca el QR en la puerta del patio, no en la entrada principal.'
     image: 'img/qr/balontiro.jpg'
-    image_footer: ''
+    image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.444521139337894, 2.1807188905632233'
-    num_order: 21
+    num_order: 20
     value: 5
 
 - model: gimkana.qr
@@ -547,9 +593,9 @@ Más información en el libro ''Harry Walker: lucha obrera, victoria vecinal'', 
 '
     hint: 'Una fuente, en una plaza que cambió de nombre en 2019, coincidiendo con el centenario del barrio.'
     image: 'img/qr/fiesta_espuma.jpg'
-    image_footer: ''
+    image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.43948623189188, 2.181216691967491'
-    num_order: 22
+    num_order: 21
     value: 5
 
 - model: gimkana.qr
@@ -582,7 +628,7 @@ https://www.prosperitat.org/
     image: 'img/qr/avv.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.441321718419594, 2.180538842350551'
-    num_order: 23
+    num_order: 22
     value: 5
 
 - model: gimkana.qr
@@ -595,10 +641,10 @@ https://www.prosperitat.org/
 Colegio Mercé Rodoreda
 '
     hint: 'Tamborrada/Correfoc'
-    image: 'img/test/img-prueba-14.jpg'
+    image: 'img/qr/diables.jpg'
     image_footer: ''
     coordinates: '41.445586851051544, 2.1857037898678233'
-    num_order: 24
+    num_order: 23
     value: 5
 
 - model: gimkana.qr
@@ -626,7 +672,7 @@ Más información en el libro ''Harry Walker: lucha obrera, victoria vecinal'', 
     image: 'img/qr/fuegos.jpg'
     image_footer: 'Foto: Luis Espallargas'
     coordinates: '41.44022084824711, 2.180695416978632'
-    num_order: 25
+    num_order: 24
     value: 5
 
 - model: gimkana.qr
@@ -634,13 +680,25 @@ Más información en el libro ''Harry Walker: lucha obrera, victoria vecinal'', 
   fields:
     id: nfUwgQjDaPACKaW880
     is_shop: false
-    title: '*¿Y si llueve?'
+    title: '¿Y si llueve?'
     description: '
-Aquí se hacen los conciertos de San Xibeco
+Marquesina de la Via Júlia
+
+
+Como casi todos los eventos de fiestas se realizan al aire libre, en caso de lluvia intentamos reubicar el máximo posible de eventos a zonas cubiertas. La capacidad del Casal de Joves y el Casal de Barri es muy limitada, especialmente el fin de semana, y la marquesina se convierte en el escenario ideal.
+
+El escenario de la marquesina también se utiliza durante la Festa Major de invierno, San Xibeco. Igual que existe la Comisión de Festa Major, existe la Comisión de San Xibeco, en la que participan el Casal de Barri, el Casal de Joves, y personas volutarias.
+
+
+¿Cómo puedo participar en la Comisión de San Xibeco?
+
+La celebración de la fiesta depende de que haya suficientes personas voluntarias. Tu participación es siempre bienvenida.
+
+La Comisión de San Xibeco se reúne los jueves en el Casal de Joves (Avenida Río de Janeiro 100) a las 20h.
 '
     hint: 'Si llueve, reubicamos aquí'
     image: 'img/qr/marquesina.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.44421696272769, 2.1787662203229488'
-    num_order: 26
+    num_order: 25
     value: 5
