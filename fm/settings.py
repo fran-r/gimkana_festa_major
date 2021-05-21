@@ -151,6 +151,4 @@ LOGIN_REDIRECT_URL = '/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# TODO: restaurar la caducidad de la sesión antes de producción
-# SESSION_COOKIE_AGE = 5184000  # 60 days
-SESSION_COOKIE_AGE = 86400 # 1 day
+SESSION_COOKIE_AGE = 5184000  # 60 days

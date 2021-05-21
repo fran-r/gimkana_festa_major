@@ -5,6 +5,7 @@ from django.shortcuts import redirect
 class OneSessionPerUserMiddleware:
     def _forbid_new_session(self, request):
         # Code to be executed for each request before the view (and later middleware) are called.
+        # NOTE: THIS DOESN'T WORK WELL IF THE SESSION EXPIRES. IN THAT CASE THE USER WON'T BE ABLE TO LOGIN AGAIN
         if request.user.is_authenticated:
             request_session_key = request.session.session_key
             stored_session_key = request.user.logged_in_user.session_key
