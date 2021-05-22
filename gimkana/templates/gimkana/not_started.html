@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <div class="Center">
+        <h3>LA GIMKANA COMIENZA</h3>
+        <h3>EL <strong>29-05-2021</strong> A LAS <strong>00:00</strong></h3>
+    </div>
+    <br>
+
+    <form class="Center" action="{% url 'rules' %}">
+        <input class="Button" type="submit" value="Ver reglas"/>
+    </form>
+
+{% endblock %}

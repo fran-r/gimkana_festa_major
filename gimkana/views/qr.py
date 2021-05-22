@@ -1,17 +1,14 @@
 from django.db.models import BooleanField, IntegerField, Value, Case, When, Q
 from django.views.generic import DetailView, ListView
 
-from auth.SignupRequiredMixin import SignupRequiredMixin
+from auth import SignupRequiredMixin
+
+from ..mixins import IsStartedMixin
 from ..models import Qr, UserQr
 
 
-class QrListView(SignupRequiredMixin, ListView):
+class QrListView(SignupRequiredMixin, IsStartedMixin, ListView):
     model = Qr
-
-
-class QrScannedListView(SignupRequiredMixin, ListView):
-    model = Qr
-    template_name = 'gimkana/qr_scanned_list.html'
 
     def get_queryset(self):
         user_scans = (
@@ -30,7 +27,7 @@ class QrScannedListView(SignupRequiredMixin, ListView):
         )
 
 
-class QrDetailView(SignupRequiredMixin, DetailView):
+class QrDetailView(SignupRequiredMixin, IsStartedMixin, DetailView):
     model = Qr
 
     def get_queryset(self):

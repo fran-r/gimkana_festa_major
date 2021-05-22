@@ -6,10 +6,10 @@ from . import views
 
 urlpatterns = [
     # url(r'^$', views.index, name='index', ),
-    url(r'^$', views.QrScannedListView.as_view(), name='qrs'),
+    url(r'^$', views.QrListView.as_view(), name='qrs'),
 
     # url(r'^qrs/$', views.QrListView.as_view(), name='qrs'),
-    url(r'^qrs/$', views.QrScannedListView.as_view(), name='qrs'),
+    url(r'^qrs/$', views.QrListView.as_view(), name='qrs'),
     # url(r'^myqrs/$', views.UserQrListView.as_view(), name='myqrs'),
 
     url(r'^qr/(?P<pk>.+)$', views.QrDetailView.as_view(), name='qr-detail'),
@@ -21,8 +21,9 @@ urlpatterns = [
     url(r'^rules/$',
         login_required(TemplateView.as_view(template_name='gimkana/rules.html'), login_url='signup'),
         name='rules'),
+    url(r'^notstarted/$', TemplateView.as_view(template_name='gimkana/not_started.html'), name='not-started'),
+
     # url(r'^users/$', views.UserListView.as_view(), name='users'),
     url(r'^users/$', views.active_user_list_view, name='users'),
-
 ]
 

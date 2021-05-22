@@ -6,7 +6,7 @@ from .qr import Qr
 
 
 class UserQr(models.Model):
-    id = models.IntegerField(primary_key=True)
+    id = models.AutoField(primary_key=True)
     qr = models.ForeignKey(Qr, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     is_shop = models.BooleanField(null=False, blank=False)

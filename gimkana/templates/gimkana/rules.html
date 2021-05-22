@@ -3,9 +3,7 @@
 {% block content %}
     <div class="Center">
         <h2><strong>GIMKANA</strong></h2>
-        <p class="Center_">
-            <img src="/static/img/logo-freestayl.png" alt="FreeStayl" width="70%">
-        </p>
+        <img src="/static/img/logo-freestayl.png" alt="FreeStayl" width="70%">
     </div>
     <br>
 
@@ -32,7 +30,7 @@
 
     {% if user.is_authenticated %}
         <form class="Center" action="{% url 'qrs' %}">
-            <input class="Button" type="submit" value="Volver"/>
+            <input class="Button" type="submit" value="Jugar"/>
         </form>
     {% endif %}
 {% endblock %}

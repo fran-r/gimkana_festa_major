@@ -4,9 +4,10 @@ from django.db.models import F, Count, Sum, Case, When
 from django.shortcuts import redirect, render
 from django.views.generic import ListView, CreateView
 
-from auth.SignupRequiredMixin import SignupRequiredMixin
+from auth import SignupRequiredMixin
 from ..models import UserQr, Qr
 from ..tables import UsersTable
+from .. import utils
 
 
 class UserQrListView(SignupRequiredMixin, ListView):
@@ -37,11 +38,15 @@ class UserQrCreateView(SignupRequiredMixin, CreateView):
         # Preserve the first scan_date on subsequent scans
         if not user_qr.scan_date: 
             user_qr.scan_date = datetime.now()
-            user_qr.save(update_fields=['scan_date'])
+            user_qr.value = user_qr.value if not utils.is_finished() else 0
+            user_qr.save(update_fields=['scan_date', 'value'])
 
         return redirect('qr-detail', pk=qr.id)
 
     def get(self, request, *args, **kwargs):
+        if not utils.is_started():
+            return utils.redirect_not_started()
+
         qr = Qr.objects.get(pk=self.kwargs['pk'])
         username = self.request.user
         return self.create_user_qr(qr, username)

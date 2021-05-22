@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 from django.views.generic import ListView
 
-from auth.SignupRequiredMixin import SignupRequiredMixin
+from auth import SignupRequiredMixin
 
 
 class UserListView(SignupRequiredMixin, ListView):
