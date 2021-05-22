@@ -22,7 +22,7 @@
         {# <p></p><strong>Puntos: {{ qr.scoring_value }} - Pistas: {{ qr.hints }}</strong></p> #}
 
         {% if not qr.is_scanned %}
-            <p>{{ qr.hint|safe }}</p>
+            <p class="Justify">{{ qr.hint|safe }}</p>
         {% endif %}
 
         {% if qr.is_scanned or qr.hints > 0 %}

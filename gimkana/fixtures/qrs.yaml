@@ -59,6 +59,7 @@ Un mes antes de las fiestas (anunciado en las redes sociales) se organiza un ver
 
 Aunque los principales colaboradores son las peñas y entidades, cualquier persona puede participar.
 
+
 Pásate a tomar el vermut y llévate una calle (las hay de todos los tamaños).
 
 
@@ -129,7 +130,7 @@ El espacio se convirtió en el escenario de sonadas reivindicaciones de la Prosp
 
 Las reclamaciones vecinales obligaron al Ayuntamiento a construir por fin una plaza en este solar. En los años 90, con las obras del aparcamiento subterráneo, se tuvo que levantar la plaza y de los tres pinos sólo queda el nombre de un bar.
 '
-    hint: 'El pregón se realiza desde el escenario que hay sobre la entrada al parking que hay bajo esta plaza'
+    hint: 'El pregón se realiza desde el escenario que hay sobre la entrada al parking que hay bajo esta plaza.'
     image: 'img/qr/zona_verde.jpg'
     image_footer: 'Foto: Peña Prospetaos'
     coordinates: '41.44164031930643, 2.1832512729358116'
@@ -161,7 +162,7 @@ Instagram: @laperku4
 FB: La PerKu
 
 '
-    hint: 'La sardinada comienza justo donde termina el Cercavila'
+    hint: 'La sardinada comienza justo donde termina el Cercavila.'
     image: 'img/qr/sardinada.jpg'
     image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.44499913112929, 2.181459634497478'
@@ -216,7 +217,7 @@ En 1973, con el traslado de la fábrica Harry Walker, quedó la nave y un gran s
  
 El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia con todo tipo de acciones lúdicas y de protesta alrededor del solar, nació con un espíritu netamente asambleario. Aún así, alumnos y profesores tuvieron que pasar años en barracones hasta que finalmente se logró la construcción del edificio actual.
 '
-    hint: 'Salir del instituto y quedarte de concierto'
+    hint: 'Salir del instituto y quedarte de concierto.'
     image: 'img/qr/txistorra.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.44084658904464, 2.180600570230035'
@@ -286,7 +287,7 @@ Todos los días de la semana
 
 De 11 a 15h y de 19 a 21h
 '
-    hint: 'Disfruta de actos familiares entre plantas y hortalizas'
+    hint: 'Disfruta de actos familiares entre plantas y hortalizas.'
     image: 'img/qr/huerto.jpg'
     image_footer: 'Foto: Date una huerta'
     coordinates: '41.44388091083004, 2.179881333958888'
@@ -308,13 +309,33 @@ De 11 a 15h y de 19 a 21h
 El Casal de Joves participa en la Comisión de Festa Major, cede una gran parte de equipos de sonido e infraestructuras, y el espacio está a disposición de las necesidades de las fiestas.
 
 
-En el Casal puedes encontrar talleres, colectivos como <i>Ràcord</i> (audiovisuales) o <i>Plantitis</i> (plantas) y, por supuesto, el punto de encuentro que es <i>La Cuarta</i>, donde se realizan actividades diarias, desde conciertos hasta exposiciones y mercadillos.
+
+La primera vez que se formó el grupo de jóvenes en Prosperitat fue en 1981, y de aquí surgió lo que sería el Casal de Jóvenes de Prosperidad (CJP).
+
+
+Pronto se constató la necesidad de tener un espacio dirigido a los y las jóvenes, y comenzó una larga lucha con el Ayuntamiento para conseguirlo, pero éste no se tomó el asunto en serio hasta la ocupación de la antigua tienda de muebles Narciso, en la calle Joaquim Valls, 82.
+
+
+Por fin, el CJP abrió las puertas el año 1988. En 1993 fueron l@s mism@s usuari@s del Casal quienes asumieron su gestión, creando la Asociación Juvenil Sociocultural de Prosperidad (AJSCP), que aún continúa su labor gestora.
+
+
+Tras 17 años, en 2010, por las denuncias constantes de algun@s vecin@s por ruidos, el Ayuntamiento <i>reokupa</i> y cierra el edificio, prohibiendo en él la actividad de la Asociación.  A partir de entonces, muchas de las actividades que se realizaban se reubican en otros locales de asociaciones amigas, o en la calle, o ante el Distrito. 
+
+
+Gracias a la unión de l@s jóvenes se consigue que, en 2012, el Distrito alquile los módulos que sirven como Casal provisional en la actual ubicación, a la espera de que se levante un nuevo edificio para la Asociación.
 
 
 <b>¿Cómo puedo participar?</b>
 
 
-Los lunes a las 18h (horario pandémico) la Gestora del Casal de Joves hace una reunión abierta para quien quiera participar, hacer propuestas,...
+En el Casal puedes encontrar talleres, colectivos como <i>Ràcord</i> (audiovisuales) o <i>Plantitis</i> (plantas) y, por supuesto, el punto de encuentro que es <i>La Cuarta</i>, donde se realizan actividades diarias, desde conciertos hasta exposiciones y mercadillos.
+
+
+En la Gestora partipan también usuari@s y trabajador@s y grupos estables del CJP. 
+
+
+Se reúne los lunes a las 18h (horario pandémico).
+
 
 www.cjprospe.net
 '
@@ -332,9 +353,9 @@ www.cjprospe.net
     is_shop: false
     title: 'Miércoles: Festa de l''esport'
     description: '
-Poliesportiu Valldaura
+<b>Poliesportiu Valldaura</b>
 
-Calle Baltasar Gracián 9
+<i>Calle Baltasar Gracián 9</i>
 
 
 Durante las fiestas, en el polideportivo se realizan distintas competiciones de baloncesto y de fútbol sala, así como la Festa de l''esport, dedicada a los más pequeños.
@@ -348,7 +369,7 @@ Una Gestora compuesta por las entidades usuarias, particulares y trabajadores de
 
 Fue la primera instalación deportiva cubierta con este modelo de gestión en la ciudad de Barcelona.
 '
-    hint: 'Es el espacio principal en el que se realizan las actividades deportivas durante las fiestas'
+    hint: 'Es el espacio principal para las actividades deportivas de las fiestas.'
     image: 'img/qr/poliesportiu.jpg'
     image_footer: 'Foto: Marc Javierre-Kohan'
     coordinates: '41.44049561814321, 2.1813319447787243'
@@ -362,9 +383,9 @@ Fue la primera instalación deportiva cubierta con este modelo de gestión en la
     is_shop: false
     title: 'Miércoles: Rememorando Prospe Rock'
     description: '
-Campo de fútbol municipal de Nou Barris
+<b>Campo de fútbol municipal de Nou Barris</b>
 
-Via Júlia 168
+<i>Via Júlia 168</i>
 
 
 Es la sede de la Montañesa C.F. y el lugar natural de la peña Al hueco.
@@ -373,9 +394,9 @@ Es la sede de la Montañesa C.F. y el lugar natural de la peña Al hueco.
 En tiempos se hacían conciertos aquí, hasta que se cubrió la superficie con césped artificial. Uno de los conciertos más famosos es el de La Polla Records, en el Prospe Rock de 1985, gracias a la historieta de Azagra publicada en la revista El Jueves.
 
 
-De hecho, los álbumes de ''Pedro Pico y Pico Vena'' de Azagra publicados en la colección ''Pendones del humor'', de la revista El Jueves no deberían faltar en cualquier biblioteca sobre la Prospe, pues contienen abundantes historias que no encontrarás en otros libros. Tanto para nostálgicos, como para jóvenes y ''nouvinguts''.
+De hecho, los álbumes de <i>Pedro Pico y Pico Vena</i> de Azagra publicados en la colección <i>Pendones del humor</i>, de El Jueves no deberían faltar en cualquier biblioteca sobre la Prospe, pues contienen abundantes historias que no encontrarás en otros libros. Tanto para nostálgicos, como para jóvenes y <i>nouvinguts</i>.
 '
-    hint: 'Aquí tocó La polla records la Festa Major de 1985'
+    hint: 'Aquí tocó La polla records la Festa Major de 1985.'
     image: 'img/qr/prospe_rock_1985.jpg'
     image_footer: ''
     coordinates: '41.445308824929135, 2.1795211335798164'
@@ -389,16 +410,18 @@ De hecho, los álbumes de ''Pedro Pico y Pico Vena'' de Azagra publicados en la 
     is_shop: false
     title: 'Jueves: El día del niño'
     description: '
-Solar de la Ideal Plástica Flor
+<b>Solar de la Ideal Plástica Flor</b>
+
+<i>P. Valldaura, Font d''en Canyelles y Santa Engràcia</i>
 
 
-La feria se ubica en los últimos años en el solar que ocupaba la fábrica Ideal Plástica Flor, en el terreno situado entre el paseo de Valldaura y las calles de Fuente de Canyelles y de Santa Engracia. La fábrica se dedicaba a la fabricación de flores ornamentales y fue la última fábrica que existió en la Prosperitat.
+La feria se ubica en los últimos años en el solar que ocupaba la fábrica Ideal Plástica Flor. Se dedicaba a la fabricación de flores ornamentales y fue la última fábrica que existió en la Prosperitat.
 
 
 Ante la presión vecinal, el Ayuntamiento adquirió el solar y derribó la fábrica en 2009, con la intención de destinarlo a zona verde y equipamientos. El proyecto se detuvo con la llegada de la crisis y el Ayuntamiento decidió construir provisionalmente una zona de aparcamiento.
 
 
-El programa funcional de equipamientos incluye una biblioteca de Distrito, un auditorio, espacio cultural polivalente  para uso compartido de las entidades y equipamientos de la Prosperitat, y un aparcamiento subterráneo.
+El programa funcional de equipamientos incluye un auditorio, una biblioteca de Distrito, espacio cultural polivalente  para uso compartido de las entidades y equipamientos de la Prosperitat, y un aparcamiento subterráneo.
 
 
 En 2019 se convocó un concurso de ideas, que el Ayuntamiento debería resolver para redactar el proyecto ejecutivo, para el que se han reservado un millón de euros. Seguimos a la espera...
@@ -417,18 +440,19 @@ En 2019 se convocó un concurso de ideas, que el Ayuntamiento debería resolver 
     is_shop: false
     title: 'Jueves: Bizarrock'
     description: '
-Plaza de Santa Engracia
+<b>Plaza de Santa Engracia</b>
 
 
-Desde esta plaza se lanza uno de los tres chupinazos de inicio de fiestas, acompañado de las campanadas desde la iglesia, para anunciar el inicio oficial de las fiestas.
+Desde esta plaza se lanza uno de los tres chupinazos, acompañado de las campanadas desde la iglesia, para anunciar el inicio oficial de las fiestas.
 
 
-Durante el Bizarrock, se cuelgan las camisetas de las peñas en el medio de la plaza. A partir de ese momento, cualquier cosa puede ocurrir. El Bizarrock era un evento de la peña de Los Xarnecs hasta 2015. A partir de ese año, miembros de algunas peñas se juntaron para preservar el espíritu del evento y pasó a llamarse ''Bizarrock Interpeñas''.
+Durante el Bizarrock, se cuelgan las camisetas de las peñas en el medio de la plaza. A partir de ese momento, cualquier cosa puede ocurrir. El Bizarrock era un evento de la peña de Los Xarnecs hasta 2015. A partir de ese año, miembros de algunas peñas se juntaron para preservar el espíritu del evento y pasó a llamarse <i>Bizarrock Interpeñas</i>.
+
 
 Si perteneces a alguna peña y quieres participar en el Bizarrock Interpeñas, tu aportación será siempre bienvenida.
 
 
-Y si después del Quinto+Tapa y el Bizarrock no te habías pedido el día libre, mucho ánimo para el viernes y, la próxima vez, recuerda el lema: ''jueves de aberraciones, viernes de vacaciones''.
+Y si después del Quinto+Tapa y el Bizarrock no te habías pedido el viernes libre ¡mucho ánimo! y para la próxima vez recuerda el lema: <i>jueves de aberraciones, viernes de vacaciones</i>.
 '
     hint: 'Desde esta plaza se da el inicio oficial de las fiestas con campanadas y uno de los tres chupinazos de inicio de fiestas.'
     image: 'img/qr/bizarrock.jpg'
@@ -444,21 +468,21 @@ Y si después del Quinto+Tapa y el Bizarrock no te habías pedido el día libre,
     is_shop: false
     title: 'Viernes: Tortilla, kalimotxo y rumbaoke'
     description: '
-Plaza de Nou Pins
+<i>Plaza de Nou Pins</i>
 
 
 Las dos primeras peñas del barrio, Mil Duros y Zapatilla, comparten esta plaza para hacer el Rumbaoke y la Tortillada/Kalimotxada, respectivamente.
 
 
-En mayo de 2018 el Ayuntamiento programó unas obras en la plaza, coincidiendo con la Festa Major, lo que afectaría a todos los eventos que estaban previstos en esa plaza.
+En mayo de 2018 el Ayuntamiento programó unas obras en la plaza, coincidiendo con la Festa Major, lo que afectaría a todos los eventos que estaban previstos aquí.
 
 
-Haciendo gala de su espíritu combativo, algunos miembros de la Peña Pureta se plantaron allí, como se ve en la foto, dispuestos a parar la obra a toda costa hasta que acabasen las fiestas. No llegó la sangre al río; las fiestas se celebraron con normalidad y la obra se retrasó hasta pasadas las fiestas.
+Haciendo gala de su espíritu combativo, algunos miembros de la Peña Pureta se plantaron allí, como se ve en la foto, dispuestos a parar la obra a toda costa hasta que acabasen las fiestas. No llegó la sangre al río. Las fiestas se celebraron con normalidad y la obra se retrasó hasta pasadas las fiestas.
 
 
 Por cierto, el nombre de la plaza no se debe a que hubiera 9 pinos plantados aquí, sino que estaban al final de la calle Nou Pins, y es esta la que da nombre a la plaza.
 '
-    hint: 'Las dos primeras peñas del barrio, Mil Duros y Zapatilla, hacen su evento en esta plaza'
+    hint: 'La plaza donde hacen evento las dos primeras peñas del barrio, Mil Duros y Zapatilla.'
     image: 'img/qr/puretas_paletas.jpg'
     image_footer: 'Foto: Peña Puretas'
     coordinates: '41.44376743902189, 2.182550528939409'
@@ -472,15 +496,15 @@ Por cierto, el nombre de la plaza no se debe a que hubiera 9 pinos plantados aqu
     is_shop: false
     title: 'Sábado: Día de asado y birras'
     description: '
-Plaza de la Prosperitat
+<b>Plaza de la Prosperitat</b>
 
 
-En la plaza de la Prosperitat se levanta una escultura de 17 metros del artista Perejaume. Su título es ''A Brossa'' y es un homenaje del autor al artista Joan Brossa. En la obra están las 6 letras que, tejidas por 20 pares de pasos, forman la palabra ''brossa''.
+En la plaza de la Prosperitat se levanta una escultura de 17 metros del artista Perejaume. Su título es <i>A Brossa</i> y es un homenaje del autor al artista Joan Brossa. En la obra están las 6 letras que, tejidas por 20 pares de pasos, forman la palabra ''brossa''.
 
 
-El proyecto se enmarcó dentro del plan de remodelación y singularización de paredes medianeras de la ciudad. Perejaume sólo puso una condición: su diseño brossiano no podía lucir en un barrio céntrico de Barcelona, sino en un lugar humilde.  ''Estamos hablando de Brossa ...!'', exclamó el artista, que aprobó el emplazamiento en la plaza de la Prosperitad, en una pared totalmente desnuda y muda.
+El proyecto se enmarcó dentro del plan de remodelación y singularización de paredes medianeras de la ciudad. Perejaume sólo puso una condición: su diseño brossiano no podía lucir en un barrio céntrico de Barcelona, sino en un lugar humilde.  <i>''Estamos hablando de Brossa ...!''</i>, exclamó el artista, que aprobó el emplazamiento en la plaza de la Prosperitad, en una pared totalmente desnuda y muda.
 '
-    hint: 'En la plaza también conocida como ''Plaza de Lxs de toda la birra'' se encuentra una escultura que, a pesar de su tamaño, puede pasar desapercibida.'
+    hint: 'En la plaza también conocida como <i>Plaza de Lxs de toda la birra</i> se encuentra una escultura que, a pesar de su tamaño, puede pasar desapercibida.'
     image: 'img/qr/asarrock.jpg'
     image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.44026879429922, 2.1788101541162437'
@@ -494,7 +518,7 @@ El proyecto se enmarcó dentro del plan de remodelación y singularización de p
     is_shop: false
     title: 'Sábado: Fiesta en la frontera'
     description: '
-Asociación de Comerciantes de la Rambleta
+<b>Asociación de Comerciantes de la Rambleta</b>
 
 
 La Asociación de Comerciantes de La Rambleta (el tramo de la calle Pablo Iglesias entre el número 95 y la Vía Favencia) es una entidad que trabaja para el desarrollo económico de La Rambleta, para su mejora como espacio de convivencia y crecimiento de sus vecinos.
@@ -502,7 +526,7 @@ La Asociación de Comerciantes de La Rambleta (el tramo de la calle Pablo Iglesi
 
 En la Festa Major de 2016 hicieron un bocadillo de butifarra tan largo como la Rambleta: 120 metros.
 '
-    hint: 'Justo en la frontera norte del barrio,la fiesta la organiza la Asociación de Comerciantes'
+    hint: 'Justo en la frontera norte del barrio, la fiesta la organizan los comerciantes.'
     image: 'img/qr/rambleta.jpg'
     image_footer: 'Foto: Comerciantes de la Rambleta'
     coordinates: '41.44636792418276, 2.1831487558215135'
@@ -514,26 +538,31 @@ En la Festa Major de 2016 hicieron un bocadillo de butifarra tan largo como la R
   fields:
     id: K5h8wPckGFZppnpD70
     is_shop: false
-    title: 'Sábado: Para todos los públicos'
+    title: 'Sábado: Fiesta y solidaridad'
     description: '
-Plaza de Lola Anglada
+<b>Plaza de Lola Anglada</b>
 
 
-Desde aquí se lanza uno de los tres txupinazos que anuncian el inicio de la fiesta, y durante toda la jornada del segundo sábado se suceden actuaciones para todos los públicos.
+Desde aquí se lanza uno de los tres txupinazos que anuncian el inicio de la fiesta, y el segundo sábado se suceden actuaciones durante toda la jornada.
 
 
-Durante el último año ha sido uno en varias ocasiones de los puntos de recogida de alimentos y productos básicos que la Xarxa se Support de Prosperitat está distribuyendo entre las personas que más lo necesitan.
+Durante el último año ha sido en varias ocasiones uno de los puntos de recogida de alimentos y productos básicos que la Xarxa se Suport de Prosperitat está distribuyendo entre las personas que más lo necesitan.
 
 
-<b>¿Cómo puedo participar?</b>
-El Casal de Joves de Prosperitat (Avenida Río de Janeiro 100) recoge alimentos el horario:
+<b>¿Cómo puedo colaborar con la Xarxa de Suport?</b>
+
+
+El Casal de Joves de Prosperitat (Avenida Río de Janeiro, 100) recoge alimentos en el horario:
+
 Lunes a viernes de 17h a 21h
+
 
 A partir del 29 de mayo, durante la semana de Festa Major, algunos de los comercios que colaboran habitualmente con las fiestas tendrán colocada una caja para la recogida de alimentos.
 
-Si conoces a alguien que necesite recursos, puedes llamar de forma gratuita al teléfono 900670217
+
+Si conoces a alguien que necesite recursos, puedes llamar de forma gratuita al teléfono 900670217.
 '
-    hint: 'Esta pequeña plaza en la que confluyen cuatro calles en un mismo punto ha sido punto de recogida de alimentos que la Xarxa de support de Prosperitat está distribuyendo a las personas con necesidad.'
+    hint: 'Esta pequeña plaza ha sido punto de recogida de alimentos que la Xarxa de support de Prosperitat está distribuyendo a las personas con necesidad.'
     image: 'img/qr/lola_anglada.jpg'
     image_footer: 'Foto: Tito Dobles'
     coordinates: '41.444702405504955, 2.184250188497672'
@@ -547,11 +576,12 @@ Si conoces a alguien que necesite recursos, puedes llamar de forma gratuita al t
     is_shop: false
     title: 'Sábado: Las orquestas'
     description: '
-Plaza de Angel Pestaña
+<b>Plaza de Angel Pestaña</b>
+
+<i>Prospe Beach</i>
 
 
 La plaza de Angel Pestaña congrega el mayor número de eventos durante las fiestas y durante todo el año. Uno de los principales eventos que se celebran en la plaza es el Prospe Beach.
-
 
 
 El Prospe Beach se celebra durante varios fines de semana en el mes de julio, y durante ese tiempo la plaza se llena de arena y nos traemos la playa al barrio. Se celebran torneos de tenis y voley playa, y entre semana se realizan actividades infantiles.
@@ -562,11 +592,13 @@ Igual que existe la Comisión de Festa Major, existe la Comisión de Prospe Beac
 
 <b>¿Cómo puedo participar en la Comisión de Prospe Beach?</b>
 
+
 La celebración de la fiesta depende de que haya suficientes personas voluntarias. Tu participación es siempre bienvenida.
+
 
 La Comisión de Prospe Beach se reúne los martes a las 19:30h en el Casal de Barri.
 '
-    hint: 'Detrás del mayor escenario de las fiestas'
+    hint: 'Detrás del mayor escenario de las fiestas.'
     image: 'img/qr/orquesta.jpg'
     image_footer: 'Foto: Juanfer Ortega'
     coordinates: '41.44119068307912, 2.1792062637458365'
@@ -580,8 +612,8 @@ La Comisión de Prospe Beach se reúne los martes a las 19:30h en el Casal de Ba
     is_shop: false
     title: 'Domingo: Balontiro'
     description: '
-Patio de la Escola Prosperitat
-Calle Tissó  66
+<b>Patio de la Escola Prosperitat</b>
+<i>Calle Tissó  66</i>
 
 
 Los colegios e institutos del barrio también participan durante las fiestas, programando actividades y/o cediendo el espacio para la realización de eventos.
@@ -603,25 +635,33 @@ En el patio de la Escola Prosperitat se celebra el balontiro, para quienes madru
     is_shop: false
     title: 'Domingo: Fiesta de la espuma'
     description: '
-Plaza de las Trabajadoras y los Trabajadores de la Harry Walker.
+<b>Plaza de las Trabajadoras y los Trabajadores de la Harry Walker</b>
+
 
 Junto al paseo de Valldaura, hace medio siglo, había grandes espacios vacíos y naves industriales, como la de la empresa Harry Walker, que Fabricaba accesorios para la automoción y trabajaban 470 personas. Para muchos, las condiciones laborales eran extremas y el ritmo de producción, cronometrado, angustiante.
 
+
 Una parte de los trabajadores comenzaron a hacer paros parciales, a los que la empresa respondió con sanciones. En diciembre de 1970 los paros y las asambleas diarias, forjaron la unidad. Estaban decididos a ir a la huelga total y ocupar la fábrica.
+
 
 A lo largo de 1970 y 1971 las protestas laborales se multiplicaron. Pero Franco todavía estaba vivo, se estaba haciendo el proceso de Burgos contra los acusados de pertenencia a ETA y se suspendieron derechos civiles en una especie de estado de excepción dentro de una dictadura militar. Como todo estaba prohibido, no había ningún derecho, no había derecho de huelga. Una lucha económica automáticamente se convertía también en lucha política.
 
-La huelga de la Harry Walker duró 62 días, de las más largas que se habían hecho hasta entonces en Barcelona.  Recibieron la solidaridad de decenas de empresas de toda España y también soportes desde Francia e Italia.
 
-Se celebró un juicio en Magistratura del Trabajo, que declaró improcedentes los despidos. La empresa no readmitió la mayoría de trabajadores y pagó indemnizaciones. El resto de la plantilla volvió al trabajo, con algunas mejoras salariales y laborales.
+La huelga duró 62 días, de las más largas que se habían hecho hasta entonces en Barcelona.  Recibieron la solidaridad de decenas de empresas de toda España y también soportes desde Francia e Italia.
+
+
+Magistratura del Trabajo declaró improcedentes los despidos, pero la empresa no readmitió la mayoría de trabajadores y pagó indemnizaciones. El resto de la plantilla volvió al trabajo, con algunas mejoras salariales y laborales.
+
 
 La lucha de la Harry Walker se convirtió en símbolo de la lucha obrera.
 
-En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de ''Plaza de Harry Walker'' por el actual.
 
-Más información en el libro ''Harry Walker: lucha obrera, victoria vecinal'', de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
+En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación vecinal de que se homenajeara no a la fábrica, sino a sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de <i>Plaza de Harry Walker</i> por el actual.
+
+
+Más información en el libro <i>Harry Walker: lucha obrera, victoria vecinal</i>, de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del Centenario del barrio de la Prosperidad.
 '
-    hint: 'Una fuente, en una plaza que cambió de nombre en 2019, coincidiendo con el centenario del barrio.'
+    hint: 'Una fuente, en una plaza que cambió de nombre en 2019, año del centenario de la Prosperitat.'
     image: 'img/qr/fiesta_espuma.jpg'
     image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.43948623189188, 2.181216691967491'
@@ -635,12 +675,15 @@ Más información en el libro ''Harry Walker: lucha obrera, victoria vecinal'', 
     is_shop: false
     title: 'Domingo: Habaneras y Ron Cremat'
     description: '
-Asociación de Vecinas y Vecinos de Prosperitat
+<b>Asociación de Vecinas y Vecinos de Prosperitat</b>
 
-Calle Baltasar Gracián, 24-26
+<i>Calle Baltasar Gracián, 24-26</i>
 
 
 La AVV de Prosperitat trabaja continuadamente para hacer oir la voz del vecindario en el Ayuntamiento. La voz de la gente que, a pie de calle, conoce de cerca los problemas y las necesidades del lugar en el que vive. La Asociación se fundó como tal el 12 de enero de 1987, aunque ya venía funcionado desde 1972 como sección de la AV del sector Vallbona-Torre Baró-Trinitat.
+
+
+<b>¿Cómo puedo participar?</b>
 
 
 Puedes acercarte para informarte y también participar activamente.
@@ -652,9 +695,9 @@ Puedes acercarte para informarte y también participar activamente.
 
 Más información:
 
-https://www.prosperitat.org/
+www.prosperitat.org
 '
-    hint: 'Junto al escenario donde se hacen las habaneras, una pequeña puerta conduce a la asociación desde la que se trabaja para resolver los problemas y las necesidades del barrio'
+    hint: 'Junto al escenario de las habaneras, una pequeña puerta conduce a la asociación que trabaja para resolver los problemas y necesidades del barrio.'
     image: 'img/qr/avv.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.441321718419594, 2.180538842350551'
@@ -666,11 +709,11 @@ https://www.prosperitat.org/
   fields:
     id: zQiv19BqSS9k5jgN80
     is_shop: false
-    title: '*Domingo: Correfoc'
+    title: '*Domingo: Correfoc (pendiente)'
     description: '
-Colegio Mercé Rodoreda
+Pendiente
 '
-    hint: 'Tamborrada/Correfoc'
+    hint: 'Tabalada/Correfoc'
     image: 'img/qr/diables.jpg'
     image_footer: ''
     coordinates: '41.445586851051544, 2.1857037898678233'
@@ -684,19 +727,21 @@ Colegio Mercé Rodoreda
     is_shop: false
     title: 'Domingo: Piromusical'
     description: '
-Plaza de las Trabajadoras y Trabajadores de la Harry Walker
+<b>Equipamientos públicos</b>
+
+<i>Plaza de las Trabajadoras y Trabajadores de la Harry Walker</i>
 
 
-En 1973, con el traslado de la Harry Walker, quedó la nave y un gran solar. Con la necesidad de equipamientos públicos, y ante la amenaza de los intereses inmobiliarios, comenzó una movilización vecinal, que obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977 y a construir equipamientos públicos.
-
- 
-Finalmente, después de 25 años de movilizaciones y acción vecinal , en 1999 se consiguió la plaza, uno de los espacios públicos más grandes del barrio de la Prosperidad, rodeado por cuatro equipamientos públicos, un hecho casi único en Barcelona.
-
-
-En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de ''Plaza de Harry Walker'' por el actual.
+Tras el traslado de la Harry Walker y la movilización vecinal, el Ayuntamiento compró los terrenos de la fábrica para construir equipamientos públicos.
 
  
-Más información en el libro ''Harry Walker: lucha obrera, victoria vecinal'', de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
+Tras 25 años de movilizaciones y acción vecinal, en 1999 se consiguió la plaza, uno de los espacios públicos más grandes del barrio de la Prosperidad, rodeado por cuatro equipamientos públicos, un hecho casi único en Barcelona: el instituto Nou Barris (antes instituto Sant Andreu), la escuela Santiago Rusiñol, el polideportivo Valldaura y el CAP de Río de Janeiro.
+
+
+En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de <i>Plaza de Harry Walker</i> por el actual.
+
+ 
+Más información en el libro <i>Harry Walker: lucha obrera, victoria vecinal</i>, de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
 '
     hint: 'Cuenta una leyenda que la valla que separa el material pirotécnico del público está electrificada, para evitar que la gente se aproxime peligrosamente.'
     image: 'img/qr/fuegos.jpg'
@@ -712,21 +757,24 @@ Más información en el libro ''Harry Walker: lucha obrera, victoria vecinal'', 
     is_shop: false
     title: '¿Y si llueve?'
     description: '
-Marquesina de la Via Júlia
+<b>Marquesina de la Via Júlia</b>
 
 
 Como casi todos los eventos de fiestas se realizan al aire libre, en caso de lluvia intentamos reubicar el máximo posible de eventos a zonas cubiertas. La capacidad del Casal de Joves y el Casal de Barri es muy limitada, especialmente el fin de semana, y la marquesina se convierte en el escenario ideal.
+
 
 El escenario de la marquesina también se utiliza durante la Festa Major de invierno, San Xibeco. Igual que existe la Comisión de Festa Major, existe la Comisión de San Xibeco, en la que participan el Casal de Barri, el Casal de Joves, y personas volutarias.
 
 
 <b>¿Cómo puedo participar en la Comisión de San Xibeco?</b>
 
+
 La celebración de la fiesta depende de que haya suficientes personas voluntarias. Tu participación es siempre bienvenida.
+
 
 La Comisión de San Xibeco se reúne los jueves en el Casal de Joves (Avenida Río de Janeiro 100) a las 20h.
 '
-    hint: 'Si llueve, reubicamos aquí'
+    hint: 'Si llueve, reubicamos aquí.'
     image: 'img/qr/marquesina.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.44421696272769, 2.1787662203229488'
