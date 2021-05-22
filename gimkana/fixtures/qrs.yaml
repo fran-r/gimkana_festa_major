@@ -6,7 +6,7 @@
     is_shop: false
     title: 'Aquí empieza todo'
     description: '
-La Comisión de Festa Major
+<b>La Comisión de Festa Major</b>
 
 
 La Festa Major de Prosperitad es un proyecto participativo, creado desde el vecindario y para el vecindario.
@@ -18,9 +18,14 @@ La Comisión de Festa Major está abierta a cualquiera que quiera participar. El
 De las entidades que participan en la Comisión, son de especial relevancia el Casal de Barri y el Casal de Joves, que ceden una gran parte de equipos de sonido e infraestructuras y abren sus espacios a disposición de las necesidades de las fiestas. 
 
 
-¿Cómo puedo participar?
+<b>¿Cómo puedo participar?</b>
 
-No importa que no pertenezcas a ninguna peña o entidad. Tu aportación será siempre bienvenida. Las reuniones son todos los jueves a las 20 horas, de enero a mayo, en el Casal de Barri de la Prosperitat.
+
+No importa que no pertenezcas a ninguna peña o entidad. Tu aportación será siempre bienvenida.
+
+
+Las reuniones son todos los jueves a las 20 horas, de enero a mayo, en el Casal de Barri de la Prosperitat.
+
 
 www.facebook.com/comissio.prosperitat
 
@@ -40,19 +45,25 @@ festamajorprospe@gmail.com
     is_shop: false
     title: 'El periódico de fiestas'
     description: '
-El periódico de la Festa Major, ''La Prosperitat'', tiene una tirada de 9000 ejemplares, que se guardan a buen recaudo en el búnker que hay debajo de las gradas de la plaza de Angel Pestaña hasta su presentación.
+El periódico de la Festa Major, <i>La Prosperitat</i>, tiene una tirada de 9000 ejemplares, que se guardan en el búnker que hay debajo de las gradas de la plaza de Angel Pestaña hasta su presentación.
 
 
-El periódico de fiestas es una herramienta para reivindicar las problemáticas e inquietudes del barrio. Además, es una de las vías de financiación más importantes de la Comisión de fiestas, a través de los anuncios que ponen los comercios del barrio. La distribución comienza en la fiesta de presentación, el sábado antes de fiestas, y a partir de ese momento en todos los comercios y entidades que colaboran poniendo un anuncio en el periódico.
+El periódico de fiestas es una herramienta para reivindicar las problemáticas e inquietudes del barrio, y una de las vías de financiación más importantes de la Comisión de fiestas, a través de los anuncios que ponen los comercios del barrio. La distribución comienza en la fiesta de presentación, el sábado antes de fiestas, y a partir de ese momento en todos los comercios y entidades que colaboran poniendo un anuncio en el periódico.
 
 
-¿Cómo puedo participar?
+<b>¿Cómo puedo participar?</b>
 
-Un mes antes de las fiestas (anunciado en las redes sociales) se organiza un vermut musical en el Casal de Barri durante el cual se asigna una calle a quienes se ofrecen para hacer el seguimiento y cobro de los anuncios de dicha calle. Aunque los principales colaboradores son las peñas y entidades, cualquier persona puede participar. Pásate a tomar el vermut y llévate una calle (las hay de todos los tamaños).
+
+Un mes antes de las fiestas (anunciado en las redes sociales) se organiza un vermut musical en el Casal de Barri durante el cual se asigna una calle a quienes se ofrecen para hacer el seguimiento y cobro de los anuncios de dicha calle. 
+
+
+Aunque los principales colaboradores son las peñas y entidades, cualquier persona puede participar.
+
+Pásate a tomar el vermut y llévate una calle (las hay de todos los tamaños).
 
 
 '
-    hint: 'En este el lugar se guardan los 9000 ejemplares del periódico de fiestas antes de la presentación.'
+    hint: 'El lugar donde se guardan los ejemplares del periódico de fiestas antes de la presentación.'
     image: 'img/qr/periodico.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.44160486494299, 2.179576127132858'
@@ -66,25 +77,31 @@ Un mes antes de las fiestas (anunciado en las redes sociales) se organiza un ver
     is_shop: false
     title: 'Las pancartas de las peñas'
     description: '
-El Casal de Barri
+<b>El Casal de Barri</b>
 
-Plaza de Angel Pestaña s/n
-
-
-Las peñas cuelgan sus pancartas en el terrado del Casal de Barri. Además, desde aquí se lanza uno de los tres txupinazos que con los que se anuncia el comienzo oficial de las fiestas.
+<i>Plaza de Angel Pestaña s/n</i>
 
 
-El Casal de Barri se gestiona de manera comunitaria. La Gestora está formada mayoritariamente por personas voluntarias del barrio, y decide de forma asamblearia las actividades o el funcionamiento del Casal. En el Casal se realizan talleres, conciertos, exposiciones,... También se cede el espacio a colectivos que no disponen de sede donde reunirse
+Las peñas cuelgan sus pancartas en el terrado del Casal de Barri. Desde aquí se lanza uno de los tres txupinazos que con los que se anuncia el comienzo oficial de las fiestas.
+
+
+El Casal de Barri se gestiona de manera comunitaria. La Gestora está formada mayoritariamente por personas voluntarias del barrio, y decide de forma asamblearia las actividades o el funcionamiento del Casal. En el Casal se realizan talleres, conciertos, exposiciones,... También se cede el espacio a colectivos que no disponen de sede donde reunirse.
 
 
 La Gestora y PK2 (Prosperitat Cultura en Acció 2) van de la mano. La Gestora aporta el ideario y toma las decisiones del día a día, mientras que PK2 es un órgano más jurídico-legal. Actualmente varias personas voluntarias participan en ambos organismos.
 
 
-¿Cómo puedo participar?
+<b>¿Cómo puedo participar?</b>
+
+
 La Gestora está abierta a vecin@s y entidades que quieran colaborar. 
+
 Se reúne los lunes a las 19:30h
+
+
+www.casalprospe.org
 '
-    hint: 'Las peñas cuelgan sus pancartas en una zona bien visible durante todas las fiestas'
+    hint: 'Las peñas cuelgan sus pancartas en una zona bien visible durante todas las fiestas.'
     image: 'img/qr/pancartas.jpg'
     image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.441725521502875, 2.179844603521839'
@@ -98,7 +115,7 @@ Se reúne los lunes a las 19:30h
     is_shop: false
     title: 'Viernes: Pregón de Festa Major'
     description: '
-La plaza de La Zona Verde
+</b>La plaza de La Zona Verde</b>
 
 
 Esta plaza antiguamente era un campo de fútbol. A finales de los 60, coincidiendo con la época de la especulación urbanística en la zona, el campo de fútbol se desmanteló para abrir la avenida de Río de Janeiro.
@@ -126,13 +143,16 @@ Las reclamaciones vecinales obligaron al Ayuntamiento a construir por fin una pl
     is_shop: false
     title: 'Sábado: Sardinada popular'
     description: '
-Calle Molí - Escola Prosperitat
+<b>Calle Molí - Escola Prosperitat</b>
 
 
-La sardinada comienza justo donde termina el Cercavila, frente a la Escola Properitat en la calle Molí. El Cercavila está amenizado por la Txaranga de la Prospe y La Perku, que es la sección del Grup de Foc de Nou Barris dedicada a la música de percusión. La Perku también tiene su versión infantil: ''La Nostra Perku''.
+La sardinada comienza justo donde termina el Cercavila, frente a la Escola Properitat en la calle Molí.
 
 
-¿Quieres formar parte de La Perku?
+El Cercavila está amenizado por la Txaranga de la Prospe y La Perku, que es la sección del Grup de Foc de Nou Barris dedicada a la música de percusión. La Perku también tiene su versión infantil: <i>La Nostra Perku</i>.
+
+
+<b>¿Quieres formar parte de La Perku?</b>
 
 email: grup.foc.9b@gmail.com
 
@@ -155,7 +175,7 @@ FB: La PerKu
     is_shop: false
     title: 'Sábado: Tarde de peñas'
     description: '
-Las Peñas
+<b>Las Peñas</b>
 
 
 La tarde del primer sábado, muchos eventos de peñas concurren simultáneamente en la plaza de Angel Pestaña.
@@ -164,13 +184,15 @@ La tarde del primer sábado, muchos eventos de peñas concurren simultáneamente
 Las peñas son la base de la Fiesta Mayor. La mayoría de las actividades de las fiestas se programan y financian desde las peñas, que son diferentes grupos de amig@s o vecin@s del barrio. Hay alrededor de 30 peñas.
 
 
-Cada peña tiene un nombre y un color que los caracteriza. Cada peña se reúne durante el año y se organiza para llevar a cabo una actividad abierta a la gente del barrio. Piensan y se responsabilizan de su evento, inviertendo su dinero para sacarlo adelante (no hay financiación económica de la Comisión a las peñas). La recaudación de las barras se destina a sufragar los gastos del evento, como l@s artistas. Por eso es importante tu colaboración haciendo el consumo en las barras de los eventos en los que participes.
+Cada peña tiene un nombre y un color que los caracteriza. Cada peña se reúne durante el año y se organiza para llevar a cabo una actividad abierta y gratuita para la gente del barrio. Piensan su evento y se responsabilizan de él, inviertendo su dinero para sacarlo adelante (no hay financiación económica a las peñas). La recaudación de las barras se destina a sufragar los gastos del evento, como l@s artistas. Por eso es importante tu colaboración haciendo el consumo en las barras de los eventos en los que participes.
 
 
-¿Aún no tienes una peña?
+<b>¿Aún no tienes una peña?</b>
+
+
 Júntate con tus amig@s, piensa en algún evento que os gustaría hacer, y proponedlo en las reuniones de Comisión. No importa si la idea es muy simple, muy loca... allí os echarán una mano a darle forma.
 '
-    hint: 'En esta plaza es donde mayor número de eventos de peñas concurren simultáneamente. El QR está donde empiezan los primeros eventos de la tarde del sábado.'
+    hint: 'El primer sábado concurren el mayor número de eventos de peñas simultáneamente. El QR está donde empiezan los primeros eventos.'
     image: 'img/qr/chewakas.jpg'
     image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.441535657990435, 2.1796471565132784'
@@ -184,12 +206,12 @@ Júntate con tus amig@s, piensa en algún evento que os gustaría hacer, y propo
     is_shop: false
     title: 'Lunes: Txistorra rock'
     description: '
-Instituto Nou Barris (antes, instituto Sant Andreu)
+<b>Instituto Nou Barris</b> (antes, instituto Sant Andreu)
 
-Calle Badosa, 10-14
+<i>Calle Badosa, 10-14</i>
 
 
-En 1973, con el traslado de la fábrica Harry Walker, quedó la nave y un gran solar. Con la necesidad de equipamientos públicos, y ante la amenaza de los intereses inmobiliarios, comenzó una movilización vecinal, que obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977.
+En 1973, con el traslado de la fábrica Harry Walker, quedó la nave y un gran solar. La movilización vecinal para reclamar equipamientos públicos, obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977.
 
  
 El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia con todo tipo de acciones lúdicas y de protesta alrededor del solar, nació con un espíritu netamente asambleario. Aún así, alumnos y profesores tuvieron que pasar años en barracones hasta que finalmente se logró la construcción del edificio actual.
@@ -206,19 +228,19 @@ El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia c
   fields:
     id: 3VN5EQ3pQmiCmpRRA0
     is_shop: false
-    title: 'Martes: Merienda y baile'
+    title: 'Martes: Baile para la Gent Gran'
     description: '
-Casal de Gent Gran
+<b>Casal de Gent Gran</b>
 
-Calle de Pablo Iglesas 8
+<i>Calle de Pablo Iglesas 8</i>
 
 
 Como otros equipamientos públicos del barrio, el Casal de la Gent Gran de la Prosperitat está autogestionado por la Asociación de la Gent Gran, a pesar de los intentos de la Generalitat de privatizar la gestión. Es el único Casal de Gent Gran que resiste a la gesitión privatizada.
 
 
-En el Casal se realizan cerca de 45 talleres, todos ellos gratuitos, y organiza o participa activamente en diversas actividades a lo largo del año: carnaval, nochevieja, cenas,... y, por supuesto, la Festa Major, donde organizan bailes o playback, con su correspondiente merienda, de martes a jueves.
+En el Casal se realizan cerca de 45 talleres, todos ellos gratuitos. Además, el Casal organiza o participa activamente en diversas actividades a lo largo del año: carnaval, nochevieja, cenas,... y, por supuesto, la Festa Major, donde organizan bailes y playback para la Gent Gran, con su correspondiente merienda, de martes a jueves.
 '
-    hint: 'Hay actos con merienda y baile para la Gent Gran de martes a jueves. El QR no está donde se celebran los actos, sino desde donde se organizan.'
+    hint: 'El QR no está donde se celebran los actos para la Gent Gran, sino desde donde se organizan.'
     image: 'img/qr/casal_gent_gran.jpg'
     image_footer: ''
     coordinates: '41.442019811302494, 2.1804990135460365'
@@ -232,34 +254,39 @@ En el Casal se realizan cerca de 45 talleres, todos ellos gratuitos, y organiza 
     is_shop: false
     title: 'Martes: Date una huerta'
     description: '
-Date una huerta - Espacio okupado/liberado y autogestionado.
+<b>Date una huerta</b>
 
-Calle Joaquim Valls, 79
-
-
-En 2007, la banca compró la casa del número 79 de la calle Joaquim Valls que derribó, y desde entonces el solar quedó abandonado con un nivel de insalubridad creciente y alarmante. El actual propietario es el BBVA, que ha mantenido el solar abandonado a la espera de oportunidades de negocio, mientras se llenaba de suciedad, ratas y mal olor.
+<i>Calle Joaquim Valls, 79</i>
 
 
-El 19 de noviembre de 2016, un grupo diverso de gente del barrio entró, lo limpió y lo convirtió en un huerto y un jardín para el vecindario. De manera voluntaria, autogestionada y asamblearia. Le pusieron de nombre Date una huerta. 
+En 2007, la banca compró la casa del número 79 de la calle Joaquim Valls que derribó, y desde entonces el solar quedó abandonado a la espera de oportunidades de negocio, mientras se llenaba de suciedad, ratas y mal olor.
 
 
-Multitud de vecinos y vecinas visitan habitualmente el huerto, de forma individual, en familia o en grupo (escolares, ancianos,...) También se realizan actividades culturales de todo tipo.
+En 2016, un grupo diverso de gente del barrio entró, lo limpió y lo convirtió en un huerto y un jardín para el vecindario. De manera voluntaria, autogestionada y asamblearia. Le pusieron de nombre Date una huerta. 
+
+
+Multitud de vecinos y vecinas visitan habitualmente el huerto, de forma individual, en familia o en grupo (escolares, ancianos,...). Aquí se realizan actividades culturales de todo tipo, incluyendo eventos familiares durante varios días durante las fiestas.
 
 
 Aunque el BBVA no tiene pensado hacer nada con el solar, ha intentado el desalojo en varias ocasiones, por lo que varias entidades de Prosperitat han solicitado la mediación del Distrito para que el huerto comunitario sea cedido a la gestión del barrio en tanto no hagan obras de construcción.
 
 
-¿Cómo participar?
+<b>¿Cómo participar?</b>
 
-Puedes trabajar y/o disfrutar del espacio, a tu ritmo, con el compromiso y la dedicación que consideres necesario, de manera comunitaria. También puedes venir a tomar el sol y disfrutar de buena conversación y compañía.
+
+Puedes trabajar y/o disfrutar del espacio, a tu ritmo, con el compromiso y la dedicación que consideres necesario, de manera comunitaria.
+
+
+También puedes venir a tomar el sol y disfrutar de buena conversación y compañía.
+
 
 Horario:
 
-De 11 a 15h y de 19 a 21h
-
 Todos los días de la semana
+
+De 11 a 15h y de 19 a 21h
 '
-    hint: 'Espacio okupado/liberado donde puedes disfrutar de actos familiares durante varios días durante las fiestas'
+    hint: 'Disfruta de actos familiares entre plantas y hortalizas'
     image: 'img/qr/huerto.jpg'
     image_footer: 'Foto: Date una huerta'
     coordinates: '41.44388091083004, 2.179881333958888'
@@ -273,22 +300,25 @@ Todos los días de la semana
     is_shop: false
     title: 'Martes: Concierto FreeStayl'
     description: '
-Casal de Joves
+<b>Casal de Joves</b>
 
-Avenida Río de Janeiro 100
+<i>Avenida Río de Janeiro 100</i>
 
 
 El Casal de Joves participa en la Comisión de Festa Major, cede una gran parte de equipos de sonido e infraestructuras, y el espacio está a disposición de las necesidades de las fiestas.
 
 
-En el Casal puedes encontrar talleres, colectivos como Ràcord (audiovisuales) o Plantitis (plantas) y, por supuesto, el punto de encuentro que es La Cuarta, donde se realizan actividades diarias, desde conciertos hasta exposiciones y mercadillos.
+En el Casal puedes encontrar talleres, colectivos como <i>Ràcord</i> (audiovisuales) o <i>Plantitis</i> (plantas) y, por supuesto, el punto de encuentro que es <i>La Cuarta</i>, donde se realizan actividades diarias, desde conciertos hasta exposiciones y mercadillos.
 
 
-¿Cómo puedo participar?
+<b>¿Cómo puedo participar?</b>
 
-La Gestora del Casal se reune los lunes a las 18h (horario pandémico), abierta para quien quiera participar, hacer propuestas,...
+
+Los lunes a las 18h (horario pandémico) la Gestora del Casal de Joves hace una reunión abierta para quien quiera participar, hacer propuestas,...
+
+www.cjprospe.net
 '
-    hint: 'Donde hacemos los conciertos la peña FreeStayl. Aquí nos sentimos como en casa, rodeados de personas que nos echan una (o dos) manos para que todo funcione perfectamente.'
+    hint: 'Donde hacemos los conciertos la peña FreeStayl.'
     image: 'img/qr/casal_joves.jpg'
     image_footer: 'Foto: Peña FreeStayl'
     coordinates: '41.439927989866284, 2.183199446283535'
@@ -495,7 +525,7 @@ Desde aquí se lanza uno de los tres txupinazos que anuncian el inicio de la fie
 Durante el último año ha sido uno en varias ocasiones de los puntos de recogida de alimentos y productos básicos que la Xarxa se Support de Prosperitat está distribuyendo entre las personas que más lo necesitan.
 
 
-¿Cómo puedo participar?
+<b>¿Cómo puedo participar?</b>
 El Casal de Joves de Prosperitat (Avenida Río de Janeiro 100) recoge alimentos el horario:
 Lunes a viernes de 17h a 21h
 
@@ -530,7 +560,7 @@ El Prospe Beach se celebra durante varios fines de semana en el mes de julio, y 
 Igual que existe la Comisión de Festa Major, existe la Comisión de Prospe Beach, en la que participan el Casal de Barri, el Casal de Joves, y personas volutarias.
 
 
-¿Cómo puedo participar en la Comisión de Prospe Beach?
+<b>¿Cómo puedo participar en la Comisión de Prospe Beach?</b>
 
 La celebración de la fiesta depende de que haya suficientes personas voluntarias. Tu participación es siempre bienvenida.
 
@@ -690,7 +720,7 @@ Como casi todos los eventos de fiestas se realizan al aire libre, en caso de llu
 El escenario de la marquesina también se utiliza durante la Festa Major de invierno, San Xibeco. Igual que existe la Comisión de Festa Major, existe la Comisión de San Xibeco, en la que participan el Casal de Barri, el Casal de Joves, y personas volutarias.
 
 
-¿Cómo puedo participar en la Comisión de San Xibeco?
+<b>¿Cómo puedo participar en la Comisión de San Xibeco?</b>
 
 La celebración de la fiesta depende de que haya suficientes personas voluntarias. Tu participación es siempre bienvenida.
 
