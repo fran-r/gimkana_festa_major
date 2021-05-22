@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'^rules/$',
         login_required(TemplateView.as_view(template_name='gimkana/rules.html'), login_url='signup'),
         name='rules'),
+    url(r'^thanks/$', TemplateView.as_view(template_name='gimkana/thanks.html'), name='thanks'),
     url(r'^notstarted/$', TemplateView.as_view(template_name='gimkana/not_started.html'), name='not-started'),
 
     # url(r'^users/$', views.UserListView.as_view(), name='users'),
