@@ -34,7 +34,7 @@ festamajorprospe@gmail.com
     hint: 'Es el lugar donde se reúne la Comisión de Festa Major para preparar las fiestas.'
     image: 'img/qr/vermut_musical.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.44172958530219, 2.1799327930775725'
+    coordinates: '41.441654, 2.179919'
     num_order: 1
     value: 5
 
@@ -133,7 +133,7 @@ Las reclamaciones vecinales obligaron al Ayuntamiento a construir por fin una pl
     hint: 'El pregón se realiza desde el escenario que hay sobre la entrada al parking que hay bajo esta plaza.'
     image: 'img/qr/zona_verde.jpg'
     image_footer: 'Foto: Peña Prospetaos'
-    coordinates: '41.44164031930643, 2.1832512729358116'
+    coordinates: '41.4417807,2.1833877'
     num_order: 4
     value: 5
 
@@ -154,6 +154,7 @@ El Cercavila está amenizado por la Txaranga de la Prospe y La Perku, que es la 
 
 
 <b>¿Quieres formar parte de La Perku?</b>
+
 
 email: grup.foc.9b@gmail.com
 
@@ -215,7 +216,7 @@ Júntate con tus amig@s, piensa en algún evento que os gustaría hacer, y propo
 En 1973, con el traslado de la fábrica Harry Walker, quedó la nave y un gran solar. La movilización vecinal para reclamar equipamientos públicos, obligó al Ayuntamiento a comprar los terrenos entre 1976 y 1977.
 
  
-El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia con todo tipo de acciones lúdicas y de protesta alrededor del solar, nació con un espíritu netamente asambleario. Aún así, alumnos y profesores tuvieron que pasar años en barracones hasta que finalmente se logró la construcción del edificio actual.
+El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia con todo tipo de acciones lúdicas y de protesta alrededor del solar, nació con un espíritu netamente asambleario. Aún así, alumnos y profesores tuvieron que pasar años en barracones, desde 1976 hasta que finalmente se logró la construcción del edificio actual, en 1983.
 '
     hint: 'Salir del instituto y quedarte de concierto.'
     image: 'img/qr/txistorra.jpg'
@@ -307,7 +308,6 @@ De 11 a 15h y de 19 a 21h
 
 
 El Casal de Joves participa en la Comisión de Festa Major, cede una gran parte de equipos de sonido e infraestructuras, y el espacio está a disposición de las necesidades de las fiestas.
-
 
 
 La primera vez que se formó el grupo de jóvenes en Prosperitat fue en 1981, y de aquí surgió lo que sería el Casal de Jóvenes de Prosperidad (CJP).
@@ -449,7 +449,7 @@ Desde esta plaza se lanza uno de los tres chupinazos, acompañado de las campana
 Durante el Bizarrock, se cuelgan las camisetas de las peñas en el medio de la plaza. A partir de ese momento, cualquier cosa puede ocurrir. El Bizarrock era un evento de la peña de Los Xarnecs hasta 2015. A partir de ese año, miembros de algunas peñas se juntaron para preservar el espíritu del evento y pasó a llamarse <i>Bizarrock Interpeñas</i>.
 
 
-Si perteneces a alguna peña y quieres participar en el Bizarrock Interpeñas, tu aportación será siempre bienvenida.
+Si perteneces a alguna peña y quieres colaborar en el Bizarrock Interpeñas, tu participación será bienvenida.
 
 
 Y si después del Quinto+Tapa y el Bizarrock no te habías pedido el viernes libre ¡mucho ánimo! y para la próxima vez recuerda el lema: <i>jueves de aberraciones, viernes de vacaciones</i>.
@@ -494,7 +494,7 @@ Por cierto, el nombre de la plaza no se debe a que hubiera 9 pinos plantados aqu
   fields:
     id: MHcrUEBP46dPdhKL60
     is_shop: false
-    title: 'Sábado: Día de asado y birras'
+    title: 'Sábado: Asado y conciertos'
     description: '
 <b>Plaza de la Prosperitat</b>
 
@@ -521,10 +521,10 @@ El proyecto se enmarcó dentro del plan de remodelación y singularización de p
 <b>Asociación de Comerciantes de la Rambleta</b>
 
 
-La Asociación de Comerciantes de La Rambleta (el tramo de la calle Pablo Iglesias entre el número 95 y la Vía Favencia) es una entidad que trabaja para el desarrollo económico de La Rambleta, para su mejora como espacio de convivencia y crecimiento de sus vecinos.
+Los eventos en La Rambleta (el tramo de la calle Pablo Iglesias entre el número 95 y la Vía Favencia) corren a cargo de la Asociación de Comerciantes, que trabaja para el desarrollo económico de La Rambleta y su mejora como espacio de convivencia y crecimiento de sus vecinos.
 
 
-En la Festa Major de 2016 hicieron un bocadillo de butifarra tan largo como la Rambleta: 120 metros.
+Debutaron en la Festa Major de 2016, con un bocadillo de butifarra tan largo como la propia Rambleta: 120 metros.
 '
     hint: 'Justo en la frontera norte del barrio, la fiesta la organizan los comerciantes.'
     image: 'img/qr/rambleta.jpg'
@@ -557,7 +557,7 @@ El Casal de Joves de Prosperitat (Avenida Río de Janeiro, 100) recoge alimentos
 Lunes a viernes de 17h a 21h
 
 
-A partir del 29 de mayo, durante la semana de Festa Major, algunos de los comercios que colaboran habitualmente con las fiestas tendrán colocada una caja para la recogida de alimentos.
+<b>A partir del 29 de mayo, durante la semana de Festa Major</b>, algunos de los comercios que colaboran habitualmente con las fiestas tendrán colocada una caja para la recogida de alimentos.
 
 
 Si conoces a alguien que necesite recursos, puedes llamar de forma gratuita al teléfono 900670217.
@@ -656,6 +656,9 @@ Magistratura del Trabajo declaró improcedentes los despidos, pero la empresa no
 La lucha de la Harry Walker se convirtió en símbolo de la lucha obrera.
 
 
+Tras 25 años de movilizaciones y acción vecinal, en 1999 se consiguió la plaza, uno de los espacios públicos más grandes del barrio de la Prosperidad, rodeado por cuatro equipamientos públicos, un hecho casi único en Barcelona: el instituto Nou Barris (antes instituto Sant Andreu), la escuela Santiago Rusiñol, el polideportivo Valldaura y el CAP de Río de Janeiro.
+
+
 En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación vecinal de que se homenajeara no a la fábrica, sino a sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de <i>Plaza de Harry Walker</i> por el actual.
 
 
@@ -680,7 +683,10 @@ Más información en el libro <i>Harry Walker: lucha obrera, victoria vecinal</i
 <i>Calle Baltasar Gracián, 24-26</i>
 
 
-La AVV de Prosperitat trabaja continuadamente para hacer oir la voz del vecindario en el Ayuntamiento. La voz de la gente que, a pie de calle, conoce de cerca los problemas y las necesidades del lugar en el que vive. La Asociación se fundó como tal el 12 de enero de 1987, aunque ya venía funcionado desde 1972 como sección de la AV del sector Vallbona-Torre Baró-Trinitat.
+La AVV de Prosperitat trabaja continuadamente para hacer oir la voz del vecindario en el Ayuntamiento. La voz de la gente que, a pie de calle, conoce de cerca los problemas y las necesidades del lugar en el que vive.
+
+
+La Asociación se fundó como tal el 12 de enero de 1987, aunque ya venía funcionado desde 1972 como sección de la AV del sector Vallbona-Torre Baró-Trinitat.
 
 
 <b>¿Cómo puedo participar?</b>
@@ -693,8 +699,6 @@ Puedes acercarte para informarte y también participar activamente.
 - Vocalía de Sanitat: Martes de 19 a 20h y miércoles de 18 a 19:30h.
 
 
-Más información:
-
 www.prosperitat.org
 '
     hint: 'Junto al escenario de las habaneras, una pequeña puerta conduce a la asociación que trabaja para resolver los problemas y necesidades del barrio.'
@@ -705,49 +709,42 @@ www.prosperitat.org
     value: 5
 
 - model: gimkana.qr
-  pk: zQiv19BqSS9k5jgN80
-  fields:
-    id: zQiv19BqSS9k5jgN80
-    is_shop: false
-    title: '*Domingo: Correfoc (pendiente)'
-    description: '
-Pendiente
-'
-    hint: 'Tabalada/Correfoc'
-    image: 'img/qr/diables.jpg'
-    image_footer: ''
-    coordinates: '41.445586851051544, 2.1857037898678233'
-    num_order: 23
-    value: 5
-
-- model: gimkana.qr
   pk: iFS7nvq2EiEuXZcA80
   fields:
     id: iFS7nvq2EiEuXZcA80
     is_shop: false
-    title: 'Domingo: Piromusical'
+    title: 'Domingo: Cercavila y piromusical'
     description: '
-<b>Equipamientos públicos</b>
-
-<i>Plaza de las Trabajadoras y Trabajadores de la Harry Walker</i>
+<b>Grup de foc de Nou Barris</b>
 
 
-Tras el traslado de la Harry Walker y la movilización vecinal, el Ayuntamiento compró los terrenos de la fábrica para construir equipamientos públicos.
-
- 
-Tras 25 años de movilizaciones y acción vecinal, en 1999 se consiguió la plaza, uno de los espacios públicos más grandes del barrio de la Prosperidad, rodeado por cuatro equipamientos públicos, un hecho casi único en Barcelona: el instituto Nou Barris (antes instituto Sant Andreu), la escuela Santiago Rusiñol, el polideportivo Valldaura y el CAP de Río de Janeiro.
+Los fuegos se lanzan desde el instituto Nou Barris (antes instituto Sant Andreu) una vez que llega la <i>Colla de diables</i> a la plaza de Las trababajadoras y trabajadores de la Harry Walker.
 
 
-En 2019, coincidiendo con el centenario del barrio y atendiendo a la reclamación de los vecinos de que se homenajeara no a la fábrica, sino a los sus trabajadores y trabajadoras, verdaderos protagonistas de la historia, se cambió el nombre de <i>Plaza de Harry Walker</i> por el actual.
+El Grup de Foc de Nou Barris es una entidad creada en 1981 con el nombre de <i>Colla de Diables de Nou Barris </i>, una formación dedicada a la promoción y difusión de las fiestas tradicionales de fuego. Está constituida en forma de asociación sin ánimo de lucro y tiene su sede social en el Ateneu Popular de Nou Barris.
 
- 
-Más información en el libro <i>Harry Walker: lucha obrera, victoria vecinal</i>, de Néstor Bogajo y otros autores, editado por el Ayuntamiento de Barcelona en el marco del centenario del barrio de la Prosperidad.
+
+<i>Els Banyuts de Nou Barris</i> es la sección infantil de la colla de diables . Hay otra sección, <i>La Perku</i>, dedicada a la música de percusión, que cuenta a su vez con una sección infantil <i>La nostra Perku</i>.
+
+
+El dragón <i>Baró</i> tiene una treintena de puntos por los que sale fuego, y se desplaza sobre ruedas empujado por dos personas. 
+
+
+El grupo participa muy intensamente en la vida festiva del distrito, y también en espectáculos de fuego de las fiestas de barrio de la ciudad y de muchas localidades de toda Cataluña.
+
+
+<b>¿Quieres formar parte del Grup de Foc?</b>
+
+
+email: grup.foc.9b@gmail.com
+
+Instagram: @grupfoc9b, @laperku4
 '
     hint: 'Cuenta una leyenda que la valla que separa el material pirotécnico del público está electrificada, para evitar que la gente se aproxime peligrosamente.'
     image: 'img/qr/fuegos.jpg'
     image_footer: 'Foto: Luis Espallargas'
     coordinates: '41.44022084824711, 2.180695416978632'
-    num_order: 24
+    num_order: 23
     value: 5
 
 - model: gimkana.qr
@@ -778,5 +775,5 @@ La Comisión de San Xibeco se reúne los jueves en el Casal de Joves (Avenida R�
     image: 'img/qr/marquesina.jpg'
     image_footer: 'Foto: 9Barris Imatge'
     coordinates: '41.44421696272769, 2.1787662203229488'
-    num_order: 25
+    num_order: 24
     value: 5
