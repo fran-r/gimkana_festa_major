@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from django.contrib.admin.views.decorators import staff_member_required
+from django.contrib.auth.models import User
 from django.db.models import F, Count, Sum, Case, When
 from django.shortcuts import redirect, render
 from django.views.generic import ListView, CreateView
@@ -84,9 +85,11 @@ class UserQrGetHintView(SignupRequiredMixin, CreateView):
 
 @staff_member_required(login_url='/')
 def active_user_list_view(request):
-    queryset = (
+    num_users = User.objects.filter(is_staff=False).count()
+
+    table_queryset = (
         UserQr.objects
-        .filter(user__is_superuser=False, scan_date__isnull=False)
+        .filter(user__is_staff=False, scan_date__isnull=False)
         .exclude(value=0)
         .values('user__username', 'user__email')
         .annotate(
@@ -97,5 +100,5 @@ def active_user_list_view(request):
         )
         .order_by('-score', '-num_qrs', '-num_shops', 'num_hints')
     )
-    table = UsersTable(queryset)
-    return render(request, 'auth/user_list.html', {'table': table})
+    table = UsersTable(table_queryset)
+    return render(request, 'auth/user_list.html', {'table': table, 'num_users': num_users})

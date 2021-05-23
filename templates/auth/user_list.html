@@ -2,7 +2,7 @@
 {% load django_tables2 %}
 
 {% block content %}
-    <h2>Usuarios: {{ table.rows|length }}</h2>
+    <h3>Usuarios activos: {{ table.rows|length }} / {{ num_users }}</h3>
     {% render_table table %}
 
     <form class="Center" action="{% url 'qrs' %}">
