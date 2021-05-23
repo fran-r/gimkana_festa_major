@@ -1,5 +1,6 @@
 from datetime import datetime
 
+from django.contrib.admin.views.decorators import staff_member_required
 from django.db.models import F, Count, Sum, Case, When
 from django.shortcuts import redirect, render
 from django.views.generic import ListView, CreateView
@@ -81,6 +82,7 @@ class UserQrGetHintView(SignupRequiredMixin, CreateView):
         return redirect('qr-detail', pk=qr_id)
 
 
+@staff_member_required(login_url='/')
 def active_user_list_view(request):
     queryset = (
         UserQr.objects
