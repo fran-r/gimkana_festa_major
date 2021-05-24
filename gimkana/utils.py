@@ -6,8 +6,6 @@ from .constants import START_DATETIME, END_DATETIME
 
 
 def is_started():
-    print(datetime.now())
-    print(START_DATETIME)
     return START_DATETIME < datetime.now()
 
 

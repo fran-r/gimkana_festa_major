@@ -21,12 +21,7 @@ def _clean_username(form):
     """
     ensure that username is always lower case.
     """
-    # TODO: restaurar que se pueda crear cualquier usuario
-    # return form.cleaned_data['username'].lower()
-    if form.cleaned_data['username'].startswith('00'):
-        return form.cleaned_data['username'].lower()
-    else:
-        return '%'
+    return form.cleaned_data['username'].lower()
 
 
 class SignUpForm(UserCreationForm):
@@ -36,24 +31,21 @@ class SignUpForm(UserCreationForm):
 
     username = forms.CharField(max_length=100, label='Usuario', help_text='*')
     email = forms.EmailField(max_length=100, help_text='*')
-    password1 = forms.CharField(
-        widget=forms.HiddenInput,
-        empty_value=DEFAULT_PASSWORD,
-    )
-    password2 = forms.CharField(
-        widget=forms.HiddenInput,
-        empty_value=DEFAULT_PASSWORD,
-    )
+    password1 = forms.CharField(widget=forms.HiddenInput, empty_value=DEFAULT_PASSWORD)
+    password2 = forms.CharField(widget=forms.HiddenInput, empty_value=DEFAULT_PASSWORD)
 
     class Meta:
         model = User
-        fields = ('username', 'email')
+        fields = ('username', 'email', 'is_staff')
 
     def clean_email(self):
         return _clean_email(self)
 
     def clean_username(self):
         return _clean_username(self)
+
+    def clean_is_staff(self):
+        return self.cleaned_data['username'].startswith('@0')
 
 
 class LoginForm(AuthenticationForm):

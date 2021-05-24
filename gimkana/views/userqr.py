@@ -7,6 +7,7 @@ from django.shortcuts import redirect, render
 from django.views.generic import ListView, CreateView
 
 from auth import SignupRequiredMixin
+from ..mixins import IsStartedMixin
 from ..models import UserQr, Qr
 from ..tables import UsersTable
 from .. import utils
@@ -25,7 +26,7 @@ class UserQrListView(SignupRequiredMixin, ListView):
         )
 
 
-class UserQrCreateView(SignupRequiredMixin, CreateView):
+class UserQrCreateView(SignupRequiredMixin, IsStartedMixin, CreateView):
     model = UserQr
 
     @staticmethod
@@ -46,9 +47,6 @@ class UserQrCreateView(SignupRequiredMixin, CreateView):
         return redirect('qr-detail', pk=qr.id)
 
     def get(self, request, *args, **kwargs):
-        if not utils.is_started():
-            return utils.redirect_not_started()
-
         qr = Qr.objects.get(pk=self.kwargs['pk'])
         username = self.request.user
         return self.create_user_qr(qr, username)
@@ -66,7 +64,7 @@ class UserQrTestCreateView(SignupRequiredMixin, CreateView):
         return UserQrCreateView.create_user_qr(qr_id, username, 5)
 
 
-class UserQrGetHintView(SignupRequiredMixin, CreateView):
+class UserQrGetHintView(SignupRequiredMixin, IsStartedMixin, CreateView):
     model = UserQr
 
     def get(self, request, *args, **kwargs):
