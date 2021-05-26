@@ -40,7 +40,7 @@
             </div>
         {% else %}
             {% if qr.hints > 1 %}
-                <a class="MapUrl" href="https://maps.google.com/?hl=es&amp;q={{ qr.coordinates }}&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near">Abre el mapa para navegar hasta el QR</a>
+                <a class="MapUrl" href="maps://www.google.com/maps?hl=es&amp;q={{ qr.coordinates }}&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near">Abre el mapa para navegar hasta el QR</a>
                 <div class="GoogleMapsContainer">
                     <iframe src="https://maps.google.com/maps?hl=es&amp;q={{qr.coordinates}}&amp;ie=UTF8&amp;t=&amp;z=17&amp;iwloc=near" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
