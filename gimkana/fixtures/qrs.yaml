@@ -34,7 +34,7 @@ festamajorprospe@gmail.com
     hint: 'Es el lugar donde se reúne la Comisión de Festa Major para preparar las fiestas.'
     image: 'img/qr/vermut_musical.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.441654, 2.179919'
+    coordinates: '41.441654,2.179919'
     num_order: 1
     value: 5
 
@@ -67,7 +67,7 @@ Pásate a tomar el vermut y llévate una calle (las hay de todos los tamaños).
     hint: 'El lugar donde se guardan los ejemplares del periódico de fiestas antes de la presentación.'
     image: 'img/qr/periodico.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.44160486494299, 2.179576127132858'
+    coordinates: '41.44160486494299,2.179576127132858'
     num_order: 2
     value: 5
 
@@ -105,7 +105,7 @@ www.casalprospe.org
     hint: 'Las peñas cuelgan sus pancartas en una zona bien visible durante todas las fiestas.'
     image: 'img/qr/pancartas.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.441725521502875, 2.179844603521839'
+    coordinates: '41.441725521502875,2.179844603521839'
     num_order: 3
     value: 5
 
@@ -166,7 +166,7 @@ FB: La PerKu
     hint: 'La sardinada comienza justo donde termina el Cercavila.'
     image: 'img/qr/sardinada.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.44499913112929, 2.181459634497478'
+    coordinates: '41.44499913112929,2.181459634497478'
     num_order: 5
     value: 5
 
@@ -194,7 +194,7 @@ Júntate con tus amig@s, piensa en algún evento que os gustaría hacer, y propo
     hint: 'El primer sábado concurren el mayor número de eventos de peñas simultáneamente. El QR está donde empiezan los primeros eventos.'
     image: 'img/qr/chewakas.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.441535657990435, 2.1796471565132784'
+    coordinates: '41.441535657990435,2.1796471565132784'
     num_order: 6
     value: 5
 
@@ -218,7 +218,7 @@ El Instituto San Andrés (hoy instituto Nou Barris), reclamado con insistencia c
     hint: 'Salir del instituto y quedarte de concierto.'
     image: 'img/qr/txistorra.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.44084658904464, 2.180600570230035'
+    coordinates: '41.44084658904464,2.180600570230035'
     num_order: 7
     value: 5
 
@@ -242,7 +242,7 @@ En el Casal se realizan cerca de 45 talleres, todos ellos gratuitos. Además, el
     hint: 'El QR no está donde se celebran los actos para la Gent Gran, sino desde donde se organizan.'
     image: 'img/qr/casal_gent_gran.jpg'
     image_footer: ''
-    coordinates: '41.442019811302494, 2.1804990135460365'
+    coordinates: '41.442019811302494,2.1804990135460365'
     num_order: 8
     value: 5
 
@@ -288,7 +288,7 @@ De 11 a 15h y de 19 a 21h
     hint: 'Disfruta de actos familiares entre plantas y hortalizas.'
     image: 'img/qr/huerto.jpg'
     image_footer: 'Foto: Date una huerta'
-    coordinates: '41.44388091083004, 2.179881333958888'
+    coordinates: '41.44388091083004,2.179881333958888'
     num_order: 9
     value: 5
 
@@ -336,7 +336,7 @@ www.cjprospe.net
     hint: 'Donde hacemos los conciertos la peña FreeStayl.'
     image: 'img/qr/casal_joves.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.439927989866284, 2.183199446283535'
+    coordinates: '41.439927989866284,2.183199446283535'
     num_order: 10
     value: 5
 
@@ -366,7 +366,7 @@ Fue la primera instalación deportiva cubierta con este modelo de gestión en la
     hint: 'Es el espacio principal para las actividades deportivas de las fiestas.'
     image: 'img/qr/poliesportiu.jpg'
     image_footer: 'Foto: Marc Javierre-Kohan'
-    coordinates: '41.44049561814321, 2.1813319447787243'
+    coordinates: '41.44049561814321,2.1813319447787243'
     num_order: 11
     value: 5
 
@@ -393,7 +393,7 @@ De hecho, los álbumes de <i>Pedro Pico y Pico Vena</i> publicados en la colecci
     hint: 'Aquí tocó La polla records la Festa Major de 1985.'
     image: 'img/qr/prospe_rock_1985.jpg'
     image_footer: ''
-    coordinates: '41.445308824929135, 2.1795211335798164'
+    coordinates: '41.445308824929135,2.1795211335798164'
     num_order: 12
     value: 5
 
@@ -423,7 +423,7 @@ En 2019 se convocó un concurso de ideas, que el Ayuntamiento debería resolver 
     hint: 'Toca ir a la feria, que el miércoles y el jueves son los días del niño y es más barato.'
     image: 'img/qr/feria.jpg'
     image_footer: 'Foto: Asociación de feriantes'
-    coordinates: '41.43934714007855, 2.1777924552224475'
+    coordinates: '41.43934714007855,2.1777924552224475'
     num_order: 13
     value: 5
 
@@ -451,7 +451,7 @@ Y si después del Quinto+Tapa y el Bizarrock no te habías pedido el viernes lib
     hint: 'Desde esta plaza se da el inicio oficial de las fiestas con campanadas y uno de los tres chupinazos de inicio de fiestas.'
     image: 'img/qr/bizarrock.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.44253889809428, 2.180348559880662'
+    coordinates: '41.44253889809428,2.180348559880662'
     num_order: 14
     value: 5
 
@@ -479,7 +479,7 @@ Por cierto, el nombre de la plaza no se debe a que hubiera 9 pinos plantados aqu
     hint: 'La plaza donde hacen evento las dos primeras peñas del barrio, Mil Duros y Zapatilla.'
     image: 'img/qr/puretas_paletas.jpg'
     image_footer: 'Foto: Peña Puretas'
-    coordinates: '41.44376743902189, 2.182550528939409'
+    coordinates: '41.44376743902189,2.182550528939409'
     num_order: 15
     value: 5
 
@@ -501,7 +501,7 @@ El proyecto se enmarcó dentro del plan de remodelación y singularización de p
     hint: 'En la plaza también conocida como <i>Plaza de Lxs de toda la birra</i> se encuentra una escultura que, a pesar de su tamaño, puede pasar desapercibida.'
     image: 'img/qr/asarrock.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.44026879429922, 2.1788101541162437'
+    coordinates: '41.44026879429922,2.1788101541162437'
     num_order: 16
     value: 5
 
@@ -523,7 +523,7 @@ Debutaron en la Festa Major de 2016, con un bocadillo de butifarra tan largo com
     hint: 'Justo en la frontera norte del barrio, la fiesta la organizan los comerciantes.'
     image: 'img/qr/rambleta.jpg'
     image_footer: 'Foto: Comerciantes de la Rambleta'
-    coordinates: '41.44636792418276, 2.1831487558215135'
+    coordinates: '41.44636792418276,2.1831487558215135'
     num_order: 17
     value: 5
 
@@ -559,7 +559,7 @@ Si conoces a alguien que necesite recursos, puedes llamar de forma gratuita al t
     hint: 'Esta pequeña plaza ha sido punto de recogida de alimentos que la Xarxa de support de Prosperitat está distribuyendo a las personas con necesidad.'
     image: 'img/qr/lola_anglada.jpg'
     image_footer: 'Foto: Tito Dobles'
-    coordinates: '41.444702405504955, 2.184250188497672'
+    coordinates: '41.444702405504955,2.184250188497672'
     num_order: 18
     value: 5
 
@@ -595,7 +595,7 @@ La Comisión de Prospe Beach se reúne los martes a las 19:30h en el Casal de Ba
     hint: 'Detrás del mayor escenario de las fiestas.'
     image: 'img/qr/orquesta.jpg'
     image_footer: 'Foto: Juanfer Ortega'
-    coordinates: '41.44119068307912, 2.1792062637458365'
+    coordinates: '41.44119068307912,2.1792062637458365'
     num_order: 19
     value: 5
 
@@ -619,7 +619,7 @@ En el patio de la Escola Prosperitat se celebra el balontiro, para quienes más 
     hint: 'Volvemos a jugar al balontiro en el patio del colegio. Busca el QR en la puerta del patio, no en la entrada principal.'
     image: 'img/qr/balontiro.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.444521139337894, 2.1807188905632233'
+    coordinates: '41.444521139337894,2.1807188905632233'
     num_order: 20
     value: 5
 
@@ -662,7 +662,7 @@ Más información en el libro <i>Harry Walker: lucha obrera, victoria vecinal</i
     hint: 'Una fuente, en una plaza que cambió de nombre en 2019, año del centenario de la Prosperitat.'
     image: 'img/qr/fiesta_espuma.jpg'
     image_footer: 'Foto: Peña FreeStayl'
-    coordinates: '41.43948623189188, 2.181216691967491'
+    coordinates: '41.43948623189188,2.181216691967491'
     num_order: 21
     value: 5
 
@@ -699,7 +699,7 @@ www.prosperitat.org
     hint: 'Junto al escenario de las habaneras, una pequeña puerta conduce a la asociación que trabaja para resolver los problemas y necesidades del barrio.'
     image: 'img/qr/avv.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.441321718419594, 2.180538842350551'
+    coordinates: '41.441321718419594,2.180538842350551'
     num_order: 22
     value: 5
 
@@ -738,7 +738,7 @@ Instagram: @grupfoc9b, @laperku4
     hint: 'Cuenta una leyenda que la valla que separa el material pirotécnico del público está electrificada, para evitar que la gente se aproxime peligrosamente.'
     image: 'img/qr/fuegos.jpg'
     image_footer: 'Foto: Luis Espallargas'
-    coordinates: '41.44022084824711, 2.180695416978632'
+    coordinates: '41.44022084824711,2.180695416978632'
     num_order: 23
     value: 5
 
@@ -771,6 +771,6 @@ La Comisión de San Xibeco se reúne los jueves en el Casal de Joves (Avenida R�
     hint: 'Si llueve, reubicamos aquí.'
     image: 'img/qr/marquesina.jpg'
     image_footer: 'Foto: 9Barris Imatge'
-    coordinates: '41.44421696272769, 2.1787662203229488'
+    coordinates: '41.44421696272769,2.1787662203229488'
     num_order: 24
     value: 5
