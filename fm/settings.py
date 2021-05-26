@@ -25,9 +25,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'l%%)zihdnt9#ron_^o+ft90$e^0%bf@3b$))51hnu&6)^#i3f%')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# TODO: set False
 # DEBUG = True
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
+DEBUG = bool(os.environ.get('DJANGO_DEBUG', False))
 
 # ALLOWED_HOSTS = ['https://immense-cliffs-09867.herokuapp.com/','127.0.0.1', 'localhost']
 ALLOWED_HOSTS = ['*']
