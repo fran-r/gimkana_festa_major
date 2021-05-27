@@ -40,7 +40,7 @@
             </div>
         {% else %}
             {% if qr.hints > 1 %}
-                Pulsa <a class="MapUrl" href="{{ qr.coordinates }}">aquí</a> para para ampliar el mapa
+                <a class="MapUrl" href="{{ qr.coordinates }}">Pulsa para abrir el mapa</a>
                 <div class="GoogleMapsContainer">
                     <a href="{{ qr.coordinates }}">
                         <img src="/static/img/maps/{{ qr.id }}.jpg" alt="{{ qr.title }}">
