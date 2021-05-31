@@ -7,8 +7,10 @@
         <div class="list-item
                 {% if qr.is_scanned %}
                     checked
+                {% elif qr.is_unavailable %}
+                    unavailable
                 {% else %}
-                    unchecked {% if qr.is_unavailable %} unavailable {% endif %}
+                    unchecked
                 {% endif %}"
         >
             <a href="{{ qr.get_absolute_url }}">{{ qr.title }}</a>
