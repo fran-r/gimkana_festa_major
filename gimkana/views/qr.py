@@ -7,7 +7,8 @@ from ..mixins import IsStartedMixin
 from ..models import Qr, UserQr
 
 
-class QrListView(SignupRequiredMixin, IsStartedMixin, ListView):
+# class QrListView(SignupRequiredMixin, IsStartedMixin, ListView):
+class QrListView(SignupRequiredMixin, ListView):
     model = Qr
 
     def get_queryset(self):
@@ -27,7 +28,8 @@ class QrListView(SignupRequiredMixin, IsStartedMixin, ListView):
         )
 
 
-class QrDetailView(SignupRequiredMixin, IsStartedMixin, DetailView):
+# class QrDetailView(SignupRequiredMixin, IsStartedMixin, DetailView):
+class QrDetailView(SignupRequiredMixin, DetailView):
     model = Qr
 
     def get_queryset(self):

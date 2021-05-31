@@ -26,7 +26,8 @@ class UserQrListView(SignupRequiredMixin, ListView):
         )
 
 
-class UserQrCreateView(SignupRequiredMixin, IsStartedMixin, CreateView):
+# class UserQrCreateView(SignupRequiredMixin, IsStartedMixin, CreateView):
+class UserQrCreateView(SignupRequiredMixin, CreateView):
     model = UserQr
 
     @staticmethod
@@ -64,7 +65,8 @@ class UserQrTestCreateView(SignupRequiredMixin, CreateView):
         return UserQrCreateView.create_user_qr(qr_id, username, 5)
 
 
-class UserQrGetHintView(SignupRequiredMixin, IsStartedMixin, CreateView):
+# class UserQrGetHintView(SignupRequiredMixin, IsStartedMixin, CreateView):
+class UserQrGetHintView(SignupRequiredMixin, CreateView):
     model = UserQr
 
     def get(self, request, *args, **kwargs):
