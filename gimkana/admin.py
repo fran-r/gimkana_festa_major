@@ -1,20 +1,38 @@
 from django.contrib import admin
 
+from django.contrib.auth.models import User
+from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
+
 from .models import Qr, UserQr
 
-admin.site.register(Qr)
+
+class UserAdmin(BaseUserAdmin):
+    list_display = ('username', 'email', 'date_joined', 'is_staff',)
+    list_filter = ('is_staff', 'is_superuser', 'is_active',)
+
+    ordering = ('-date_joined',)
 
 
-@admin.register(UserQr)
+class QrAdmin(admin.ModelAdmin):
+    list_display = ('num_order', 'title', 'is_shop', 'value',)
+    list_filter = ('is_shop', 'value',)
+
+
 class UserQrAdmin(admin.ModelAdmin):
-    list_display = ('qr', 'user', 'hints', 'scan_date')
-    list_filter = ('hints', 'scan_date')
+    list_display = ('qr', 'user', 'hints', 'scan_date',)
+    list_filter = ('hints', 'user', 'scan_date',)
 
     fieldsets = (
         (None, {
-            'fields': ('id', 'qr', 'user')
+            'fields': ('qr', 'user')
         }),
         ('Availability', {
             'fields': ('hints', 'scan_date')
         }),
     )
+
+
+admin.site.unregister(User)
+admin.site.register(User, UserAdmin)
+admin.site.register(Qr, QrAdmin)
+admin.site.register(UserQr, UserQrAdmin)
