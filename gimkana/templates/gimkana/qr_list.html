@@ -4,7 +4,13 @@
     {% include "gimkana/scoring.html" %}
 
     {% for qr in qr_list %}
-        <div class="list-item {% if qr.is_scanned %}checked{% else %}unchecked{% endif %}">
+        <div class="list-item
+                {% if qr.is_scanned %}
+                    checked
+                {% else %}
+                    unchecked {% if qr.is_unavailable %} unavailable {% endif %}
+                {% endif %}"
+        >
             <a href="{{ qr.get_absolute_url }}">{{ qr.title }}</a>
         </div>
     {% empty %}

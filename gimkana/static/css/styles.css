@@ -91,7 +91,12 @@ figcaption {
 }
 
 .unchecked::before {
-    content: "\26AA";  /* White circle */
+    content: "\26AA (No disponible)";  /* White circle */
+}
+
+.unavailable {
+    color: red;
+    font-weight: normal;
 }
 
 .list-item a {
