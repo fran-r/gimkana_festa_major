@@ -27,7 +27,7 @@ class UserQrAdmin(admin.ModelAdmin):
             'fields': ('qr', 'user')
         }),
         ('Status', {
-            'fields': ('hints', 'value', 'scan_date')
+            'fields': ('is_shop', 'hints', 'value', 'scan_date')
         }),
     )
 
