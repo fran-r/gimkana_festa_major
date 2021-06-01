@@ -19,15 +19,15 @@ class QrAdmin(admin.ModelAdmin):
 
 
 class UserQrAdmin(admin.ModelAdmin):
-    list_display = ('qr', 'user', 'scan_date', 'hints', 'value')
-    list_filter = ('qr', 'user', 'scan_date', 'hints',)
+    list_display = ('qr', 'user', 'scan_date', 'hints', 'value',)
+    list_filter = ('user', 'scan_date', 'hints', 'value',)
 
     fieldsets = (
         (None, {
             'fields': ('qr', 'user')
         }),
-        ('Availability', {
-            'fields': ('hints', 'scan_date')
+        ('Status', {
+            'fields': ('hints', 'value', 'scan_date')
         }),
     )
 
