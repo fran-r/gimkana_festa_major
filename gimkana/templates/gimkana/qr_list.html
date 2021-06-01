@@ -7,7 +7,7 @@
         <div class="list-item
                 {% if qr.is_scanned %}
                     checked
-                {% elif qr.is_unavailable %}
+                {% elif not qr.is_available %}
                     unavailable
                 {% else %}
                     unchecked

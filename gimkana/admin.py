@@ -14,13 +14,13 @@ class UserAdmin(BaseUserAdmin):
 
 
 class QrAdmin(admin.ModelAdmin):
-    list_display = ('num_order', 'title', 'is_shop', 'value',)
-    list_filter = ('is_shop', 'value',)
+    list_display = ('num_order', 'title', 'is_shop', 'value', 'is_available',)
+    list_filter = ('is_shop', 'value', 'is_available',)
 
 
 class UserQrAdmin(admin.ModelAdmin):
-    list_display = ('qr', 'user', 'hints', 'scan_date',)
-    list_filter = ('hints', 'user', 'scan_date',)
+    list_display = ('qr', 'user', 'scan_date', 'hints', 'value')
+    list_filter = ('qr', 'user', 'scan_date', 'hints',)
 
     fieldsets = (
         (None, {

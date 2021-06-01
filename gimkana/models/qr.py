@@ -13,12 +13,7 @@ class Qr(models.Model):
     coordinates = models.TextField(null=True, blank=True)
     num_order = models.IntegerField(null=True, blank=True)
     value = models.IntegerField(null=True, blank=True)
-
-    # Hotfix: This should be a field, but application is running and I don't want to make DB changes.
-    # To temporarily disable a QR, set its value to 0 in the admin pages and restore it when available.
-    @property
-    def is_unavailable(self):
-        return bool(self.value == 0)
+    is_available = models.BooleanField(null=False, default=True)
 
     class Meta:
         ordering = ['num_order']
