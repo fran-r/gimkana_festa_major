@@ -20,7 +20,7 @@ class QrAdmin(admin.ModelAdmin):
 
 class UserQrAdmin(admin.ModelAdmin):
     list_display = ('qr', 'user', 'scan_date', 'hints', 'value',)
-    list_filter = ('user', 'scan_date', 'hints', 'value',)
+    list_filter = ('is_shop', 'hints', 'value', 'scan_date', 'user',)
 
     fieldsets = (
         (None, {
